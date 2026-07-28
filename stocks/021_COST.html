@@ -3,37 +3,222 @@
 
 <div style="padding:1rem 0;" class="box">
 
-<div class="dummy-banner">⚠ 더미(예시) 데이터 페이지입니다 — 아래 수치·차트는 전부 가상의 예시이며 Costco Wholesale Corp.의 실제 실적이 아닙니다. 실 데이터는 SEC EDGAR / Yahoo Finance 연동 후 교체됩니다.</div>
+<div class="hl" style="margin-bottom:14px;">
+  <div style="font-size:12px;font-weight:700;color:var(--color-text-success);">&#9989; 실 데이터 — SEC EDGAR 10-K/10-Q + Yahoo Finance 시세 기준 (2026-07-27 종가)</div>
+</div>
 
 <div style="margin-bottom:4px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
   <h2>Costco Wholesale Corp. (COST)</h2>
-  <span class="badge b-se">US · 소비재·유통</span>
-  <span class="src">📄 <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=COST&type=10-K&dateb=&owner=include&count=40" target="_blank" rel="noopener">SEC EDGAR 10-K/10-Q 원문</a> + 📊 <a href="https://finance.yahoo.com/quote/COST" target="_blank" rel="noopener">Yahoo Finance 시세</a></span>
+  <span class="badge b-se">US &middot; 소비재·유통</span>
+  <span class="badge b-gray">중기 조정추세</span>
+  <span class="src">&#128196; <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=COST&type=10-K&dateb=&owner=include&count=40" target="_blank" rel="noopener">SEC EDGAR 10-K/10-Q 원문</a> + &#128202; <a href="https://finance.yahoo.com/quote/COST" target="_blank" rel="noopener">Yahoo Finance 시세</a></span>
 </div>
-<p class="sub">(예시) 최근 종가 $193 · 52주 최고 $227.74 · 52주 최저 $138.96 · 더미 순위 21위</p>
+<p class="sub">최근 종가 $951.58 (2026-07-27, 전일대비 +1.77%) &middot; 52주 최고 $1096.5 (26-05-19) &middot; 52주 최저 $844.06 (25-12-16) &middot; 시총 약 $422.01B</p>
+
+<div style="background:var(--color-background-info);border-left:3px solid var(--color-navy);border-radius:var(--border-radius-md);padding:10px 14px;margin-bottom:14px;">
+  <div style="font-size:12px;color:var(--color-navy);line-height:1.6;"><strong>&#128273; 투자 요약:</strong> 최근 회계연도 순이익이 전년比 +9.9%로 소폭 성장. 최근 분기 순이익은 전년동기比 +15.2%로 가속.</div>
+</div>
 
 <div class="g4">
-  <div class="met"><div class="ml">최근 종가</div><div class="mv">$193</div><div class="ms">(예시)</div></div>
-  <div class="met"><div class="ml">매출액 (연간, 예시)</div><div class="mv">$186.7B</div><div class="ms">(예시)</div></div>
-  <div class="met"><div class="ml">영업이익 (연간, 예시)</div><div class="mv up">$52.3B</div><div class="ms">(예시)</div></div>
-  <div class="met"><div class="ml">EPS (연간, 예시)</div><div class="mv up">$7.72</div><div class="ms">(예시)</div></div>
+<div class="met"><div class="ml">최근 종가 (07-27)</div><div class="mv">$951.58</div><div class="ms up">+1.77% &middot; 중기 조정추세</div></div>
+<div class="met"><div class="ml">2025年 영업이익</div><div class="mv up">$10B</div><div class="ms">+11.8%</div></div>
+<div class="met"><div class="ml">2025年 순이익</div><div class="mv up">$8B</div><div class="ms">+9.9%</div></div>
+<div class="met"><div class="ml">최근 분기 EPS</div><div class="mv up">$4.93</div><div class="ms">+15.2% YoY</div></div>
 </div>
 
 <div class="card">
-  <div class="sec">기술적 분석 — 일봉 (더미 데이터, 무작위 생성)</div>
-  <div id="cCOSTControls" class="kc-controls"></div>
-  <svg id="cCOSTSvg" viewBox="0 0 720 240" width="100%" style="display:block;background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:4px;"></svg>
+  <div class="sec">1. 기술적 분석 — 일봉 기준 (최근 1년)</div>
+  <div id="cCOSTChartControls" class="kc-controls"></div>
+  <svg id="cCOSTSvg" viewBox="0 0 720 240" width="100%" style="display:block;margin-bottom:12px;background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:4px;"></svg>
+
+  <div style="font-size:13px;font-weight:600;margin-bottom:8px;">&#128202; 구간별 분석 <span class="src">&#128202; Yahoo Finance 일봉</span></div>
+  <div class="g4" style="font-size:11px;margin-bottom:12px;">
+<div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:9px 11px;"><div style="color:var(--color-text-secondary);font-weight:600;margin-bottom:3px;">구간 1 (25.07.28~25.10.23)</div><div style="color:var(--color-text-secondary);line-height:1.6;">$933.99&rarr;$942.05 (+0.86%)<br>구간 범위 $903.29~$999.3</div></div>
+<div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:9px 11px;"><div style="color:var(--color-text-secondary);font-weight:600;margin-bottom:3px;">구간 2 (25.10.24~26.01.26)</div><div style="color:var(--color-text-secondary);line-height:1.6;">$932.14&rarr;$977.67 (+4.88%)<br>구간 범위 $844.06~$993</div></div>
+<div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:9px 11px;"><div style="color:var(--color-text-secondary);font-weight:600;margin-bottom:3px;">구간 3 (26.01.27~26.04.27)</div><div style="color:var(--color-text-secondary);line-height:1.6;">$970.28&rarr;$998.01 (+2.86%)<br>구간 범위 $930.3~$1035.82</div></div>
+<div style="background:var(--color-background-warning);border-radius:var(--border-radius-md);padding:9px 11px;"><div style="color:var(--color-text-warning);font-weight:600;margin-bottom:3px;">구간 4 (26.04.28~26.07.27)</div><div style="color:var(--color-text-warning);line-height:1.6;">$994.0&rarr;$951.58 (-4.27%)<br>구간 범위 $907.21~$1096.5</div></div>
+
+  </div>
+
+  <div class="g2" style="margin-bottom:12px;">
+    <div>
+      <div style="font-size:13px;font-weight:600;margin-bottom:7px;">이동평균선 현황</div>
+      <div class="ir"><span class="il">5일선 ($933.84)</span><span class="badge b-green">가격 상회</span></div><div class="ir"><span class="il">20일선 ($934.74)</span><span class="badge b-green">가격 상회</span></div><div class="ir"><span class="il">60일선 ($975.54)</span><span class="badge b-red">가격 하회</span></div><div class="ir"><span class="il">120일선 ($985.47)</span><span class="badge b-red">가격 하회</span></div>
+    </div>
+    <div>
+      <div style="font-size:13px;font-weight:600;margin-bottom:7px;">핵심 가격대</div>
+      <div class="ir"><span class="il">52주 최고</span><span style="font-weight:600;color:var(--color-navy);">$1096.5 (26-05-19)</span></div>
+      <div class="ir"><span class="il">최근 종가</span><span style="font-weight:600;color:var(--color-text-primary);">$951.58</span></div>
+      <div class="ir"><span class="il">52주 최저</span><span style="font-weight:600;">$844.06 (25-12-16)</span></div>
+      <div class="ir"><span class="il">LC(저점比) / HC(고점比)</span><span style="font-weight:600;">+12.7% / -13.2%</span></div>
+    </div>
+  </div>
+
+  <div class="sig">
+    <span class="badge b-amber">52주 고점 대비 -13.2%</span>
+    <span class="badge b-blue">52주 저점 대비 +12.7%</span>
+    <span class="badge b-red">중기 이동평균선 하회</span>
+  </div>
 </div>
 
 <div class="card">
-  <div class="sec">상세 재무 분석 (준비 중)</div>
-  <div class="ib">이 종목의 상세 재무제표·밸류에이션·투자 포인트 분석은 SEC EDGAR(10-K/10-Q) 및 Yahoo Finance 실 데이터 연동 후 <strong>AAPL(001)·MSFT(002)</strong> 페이지와 동일한 상세 템플릿으로 확장될 예정입니다.</div>
-  <div style="margin-top:10px;font-size:11px;color:var(--color-text-tertiary);text-align:center;">⚠ 이 페이지의 모든 수치는 프레임 시연용 더미 데이터입니다 · 투자 권고가 아닙니다</div>
+  <div class="sec">2. 기본적 분석 — 공시 원문 <span class="src">&#128196; 10-K(2025) + 10-Q(최근 분기)</span></div>
+
+  <div style="display:flex;gap:8px;margin-bottom:14px;">
+    <button id="btnAnnual" onclick="switchTab('annual')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:7px;padding:10px 0;border-radius:3px;border:1.5px solid var(--color-navy);background:var(--color-navy);color:#fff;font-size:13px;font-weight:600;cursor:pointer;">
+      &#128196; 연간(10-K) <span style="font-size:11px;opacity:.85;font-weight:400;">2025</span>
+    </button>
+    <button id="btnQuarter" onclick="switchTab('quarter')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:7px;padding:10px 0;border-radius:3px;border:1.5px solid var(--color-border-tertiary);background:var(--color-background-secondary);color:var(--color-text-secondary);font-size:13px;font-weight:500;cursor:pointer;">
+      &#128203; 분기(10-Q) <span style="font-size:11px;opacity:.85;font-weight:400;">최근 분기</span>
+    </button>
+  </div>
+
+  <div id="tabAnnual">
+    <svg id="cCOSTAnnualChart" viewBox="0 0 680 190" width="100%" style="display:block;margin-bottom:12px;"></svg>
+    <div style="font-size:12px;font-weight:600;color:var(--color-text-secondary);margin-bottom:6px;">&#128202; 손익 요약 (단위: $B &middot; 2025年)</div>
+    <div class="g2" style="margin-bottom:12px;">
+      <div><div class="ir"><span class="il">매출액</span><span class="iv">$275B (<span class="up">&#9650;8.2%</span>) <span class="ev ev-4">높음</span></span></div>
+<div class="ir"><span class="il">영업이익</span><span class="iv">$10B (<span class="up">&#9650;11.8%</span>) <span class="ev ev-4">높음</span></span></div>
+<div class="ir"><span class="il">순이익</span><span class="iv">$8B (<span class="up">&#9650;9.9%</span>) <span class="ev ev-4">높음</span></span></div>
+<div class="ir"><span class="il">희석주당순이익</span><span class="iv">$18.21 (<span class="up">&#9650;10%</span>) <span class="ev ev-4">높음</span></span></div>
+</div>
+      <div><div class="ir"><span class="il">총자산</span><span class="iv">$77B</span></div>
+<div class="ir"><span class="il">총부채</span><span class="iv">$48B</span></div>
+<div class="ir"><span class="il">총자본</span><span class="iv">$29B</span></div>
+<div class="ir"><span class="il">주당배당금</span><span class="iv">DPS $4.92 (배당성향 27%)</span></div>
+</div>
+    </div>
+  </div>
+
+  <div id="tabQuarter" style="display:none;">
+    <svg id="cCOSTQtrChart" viewBox="0 0 680 190" width="100%" style="display:block;margin-bottom:12px;"></svg>
+    <div style="font-size:12px;font-weight:600;color:var(--color-text-secondary);margin-bottom:6px;">&#128202; 최근 분기 손익 요약 (단위: $B)</div>
+    <div class="g2" style="margin-bottom:12px;">
+      <div><div class="ir"><span class="il">분기 매출액</span><span class="iv">$71B (<span class="up">&#9650;11.6%</span> YoY)</span></div>
+<div class="ir"><span class="il">분기 영업이익</span><span class="iv">$3B (<span class="up">&#9650;11.3%</span> YoY)</span></div>
+<div class="ir"><span class="il">분기순이익</span><span class="iv">$2B (<span class="up">&#9650;15.2%</span> YoY) <span class="ev ev-5">매우높음</span></span></div>
+<div class="ir"><span class="il">분기 EPS (희석)</span><span class="iv">$4.93 (<span class="up">&#9650;15.2%</span> YoY) <span class="ev ev-5">매우높음</span></span></div>
+</div>
+      <div><div class="ir"><span class="il">총자산</span><span class="iv">$86B</span></div>
+<div class="ir"><span class="il">총자본</span><span class="iv">$34B</span></div>
+<div class="ir"><span class="il">분기 배당금</span><span class="iv">DPS $1.47</span></div>
+</div>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="sec">3. 상대 투자지표 — 최근 종가 $951.58 기준</div>
+  <div class="ind-row"><div class="ind-nm">PER (최근 회계연도 EPS)</div><div class="ind-note">$951.58&divide;$18.21</div><div class="ind-val">52.26x</div><span class="ev ev-5" style="min-width:58px;text-align:center;">5단계</span></div>
+<div class="ind-row"><div class="ind-nm">Forward PER</div><div class="ind-note">최근분기 EPS&times;4 연환산</div><div class="ind-val">48.25x</div><span class="ev ev-5" style="min-width:58px;text-align:center;">5단계</span></div>
+<div class="ind-row"><div class="ind-nm">PBR</div><div class="ind-note">$951.58&divide;$75.56 (BPS)</div><div class="ind-val">12.59x</div><span class="ev ev-5" style="min-width:58px;text-align:center;">5단계</span></div>
+<div class="ind-row"><div class="ind-nm">배당수익률</div><div class="ind-note">분기배당&times;4 연환산 기준</div><div class="ind-val">0.62%</div><span class="ev ev-2" style="min-width:58px;text-align:center;">2단계</span></div>
+
+</div>
+
+<div class="card">
+  <div class="sec">4. 시계열 주요 이벤트 <span class="src">&#128196; SEC EDGAR + &#128202; Yahoo Finance</span></div>
+  <div class="tl">
+<div class="tl-item"><div class="tl-dot dot-neu"></div><div class="tl-date">2025.08.31</div><div class="tl-title">2025年 연간 실적 회계연도 종료 — 순이익 +9.9%</div><span class="tag tag-neu">연간 실적</span></div>
+<div class="tl-item"><div class="tl-dot dot-neg"></div><div class="tl-date">25-12-16</div><div class="tl-title">주가 $844.06 — 52주 최저</div><span class="tag tag-neg">52주 최저</span></div>
+<div class="tl-item"><div class="tl-dot dot-big"></div><div class="tl-date">2026.05.10</div><div class="tl-title">최근 분기 실적 — 순이익 +15.2% YoY</div><span class="tag tag-big">분기 실적</span></div>
+<div class="tl-item"><div class="tl-dot dot-pos"></div><div class="tl-date">26-05-19</div><div class="tl-title">주가 $1096.5 — 52주 최고</div><span class="tag tag-pos">52주 최고</span></div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="sec">5. 핵심 투자 포인트</div>
+  <div class="g2">
+    <div>
+      <div style="font-size:13px;font-weight:600;margin-bottom:7px;color:var(--color-text-success);">긍정 요인 (Bull)</div>
+      <div class="ir"><span class="il">최근 분기 순이익 전년동기比 +15.2%</span><span class="badge b-green">이익 가속</span></div>
+    </div>
+    <div>
+      <div style="font-size:13px;font-weight:600;margin-bottom:7px;color:var(--color-text-danger);">리스크 (Bear)</div>
+      <div class="ir"><span class="il">트레일링 PER 52.26x — 높은 밸류에이션 부담</span><span class="badge b-red">밸류 부담</span></div>
+<div class="ir"><span class="il">PBR 12.59x — 자산가치 대비 높은 프리미엄</span><span class="badge b-red">밸류 부담</span></div>
+<div class="ir"><span class="il">60·120일 이동평균선 하회 — 중기 추세 약세</span><span class="badge b-red">기술적 약세</span></div>
+    </div>
+  </div>
+  <div style="margin-top:10px;font-size:11px;color:var(--color-text-tertiary);text-align:center;">&#9888; 10-K/10-Q SEC EDGAR 원문 + Yahoo Finance 일봉(2026-07-27 종가) 기준 &middot; 서술은 실 수치 기반 규칙으로 자동 생성 &middot; 투자 권고가 아닙니다</div>
 </div>
 
 </div>
 
 <script>
-const data = genDummyOHLC('COST', 193, 252);
-renderCandleChart({svgId:'cCOSTSvg', controlsId:'cCOSTControls', data: data});
+function switchTab(tab) {
+  const isA=tab==='annual';
+  document.getElementById('tabAnnual').style.display=isA?'':'none';
+  document.getElementById('tabQuarter').style.display=isA?'none':'';
+  const aS='flex:1;display:flex;align-items:center;justify-content:center;gap:7px;padding:10px 0;border-radius:3px;font-size:13px;cursor:pointer;background:#0B2545;border:1.5px solid #0B2545;color:#fff;font-weight:600;';
+  const iS='flex:1;display:flex;align-items:center;justify-content:center;gap:7px;padding:10px 0;border-radius:3px;font-size:13px;cursor:pointer;background:var(--color-background-secondary);border:1.5px solid var(--color-border-tertiary);color:var(--color-text-secondary);font-weight:500;';
+  document.getElementById('btnAnnual').style.cssText=isA?aS:iS;
+  document.getElementById('btnQuarter').style.cssText=isA?iS:aS;
+  if(!isA && !window._qDrawn){ window._qDrawn=true; drawQtrChart(); }
+}
+function cssVar(name){ return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+function svgEl(tag,attrs){ const e=document.createElementNS('http://www.w3.org/2000/svg',tag); for(const k in attrs) e.setAttribute(k,attrs[k]); return e; }
+
+function drawAnnualChart(){
+  const svg=document.getElementById('cCOSTAnnualChart');
+  const W=680,H=190,pL=44,pR=44,pT=16,pB=26;
+  const cW=W-pL-pR,cH=H-pT-pB;
+  const cats=['2023','2024','2025'];
+  const rev=[242.29,254.45,275.24];
+  const oi=[8.11,9.28,10.38];
+  const ni=[6.29,7.37,8.1];
+  if(cats.length===0 || rev.length===0){ return; }
+  const maxV=Math.max(...rev,...oi,...ni)*1.15;
+  const groupW=cW/cats.length;
+  const barW=groupW*0.26;
+  function py(v){ return pT+cH*(1-v/maxV); }
+  [0,0.25,0.5,0.75,1].forEach(f=>{ const y=py(maxV*f); svg.appendChild(svgEl('line',{x1:pL,x2:W-pR,y1:y,y2:y,stroke:cssVar('--color-border-tertiary'),'stroke-width':1})); });
+  const revCol='#8C97A5', oiCol='#0B2545', niCol='#A6811A';
+  const pts=[];
+  cats.forEach((cat,i)=>{
+    const gx=pL+i*groupW+groupW/2;
+    const rx=gx-barW-2, ox=gx+2;
+    if (rev[i] !== undefined) {
+      const rTop=py(rev[i]);
+      svg.appendChild(svgEl('rect',{x:rx,y:rTop,width:barW,height:py(0)-rTop,fill:revCol,rx:2,opacity:0.55}));
+      const t1=svgEl('text',{x:rx+barW/2,y:rTop-4,'text-anchor':'middle','font-size':9,fill:revCol}); t1.textContent='$'+rev[i].toFixed(0)+'B'; svg.appendChild(t1);
+    }
+    if (oi[i] !== undefined) {
+      const oTop=py(oi[i]);
+      svg.appendChild(svgEl('rect',{x:ox,y:oTop,width:barW,height:py(0)-oTop,fill:oiCol,rx:2}));
+      const t2=svgEl('text',{x:ox+barW/2,y:oTop-4,'text-anchor':'middle','font-size':9,fill:oiCol,'font-weight':600}); t2.textContent='$'+oi[i].toFixed(0)+'B'; svg.appendChild(t2);
+    }
+    const t3=svgEl('text',{x:gx,y:H-6,'text-anchor':'middle','font-size':10,fill:cssVar('--color-text-secondary')}); t3.textContent=cat; svg.appendChild(t3);
+    if (ni[i] !== undefined) pts.push([gx, py(ni[i])]);
+  });
+  if(pts.length>1){ svg.appendChild(svgEl('polyline',{points:pts.map(p=>p.join(',')).join(' '),fill:'none',stroke:niCol,'stroke-width':2.5})); }
+  pts.forEach((p,i)=>{ svg.appendChild(svgEl('circle',{cx:p[0],cy:p[1],r:4,fill:niCol})); const t=svgEl('text',{x:p[0],y:p[1]-9,'text-anchor':'middle','font-size':9,fill:niCol,'font-weight':600}); t.textContent='$'+ni[i].toFixed(0)+'B'; svg.appendChild(t); });
+  const legend=[[revCol,'매출액'],[oiCol,'영업이익'],[niCol,'순이익']];
+  legend.forEach((l,i)=>{ const lx=pL+i*90; svg.appendChild(svgEl('rect',{x:lx,y:2,width:9,height:9,fill:l[0],rx:2})); const t=svgEl('text',{x:lx+12,y:10,'font-size':9,fill:cssVar('--color-text-secondary')}); t.textContent=l[1]; svg.appendChild(t); });
+}
+
+function drawQtrChart(){
+  const svg=document.getElementById('cCOSTQtrChart');
+  const W=680,H=190,pL=44,pR=20,pT=20,pB=30;
+  const cW=W-pL-pR,cH=H-pT-pB;
+  const labels=['매출액','영업이익','순이익'];
+  const vals=[70.53,2.82,2.19];
+  const cols=['#8C97A5','#0B2545','#A6811A'];
+  const maxV=Math.max(...vals,1)*1.15;
+  const groupW=cW/labels.length;
+  const barW=groupW*0.5;
+  function py(v){ return pT+cH*(1-v/maxV); }
+  [0,25,50,75,100].forEach(v=>{ const val=v/100*maxV; const y=py(val); svg.appendChild(svgEl('line',{x1:pL,x2:W-pR,y1:y,y2:y,stroke:cssVar('--color-border-tertiary'),'stroke-width':1})); });
+  labels.forEach((lab,i)=>{
+    const gx=pL+i*groupW+groupW/2;
+    const top=py(vals[i]);
+    svg.appendChild(svgEl('rect',{x:gx-barW/2,y:top,width:barW,height:py(0)-top,fill:cols[i],rx:3}));
+    const t1=svgEl('text',{x:gx,y:top-6,'text-anchor':'middle','font-size':10,fill:cssVar('--color-text-primary'),'font-weight':600}); t1.textContent='$'+vals[i].toFixed(1)+'B'; svg.appendChild(t1);
+    const t2=svgEl('text',{x:gx,y:H-8,'text-anchor':'middle','font-size':9,fill:cssVar('--color-text-secondary')}); t2.textContent=lab; svg.appendChild(t2);
+  });
+}
+drawAnnualChart();
+
+const data = [{d:'2025-07-28',o:935.5,h:940.24,l:930.89,c:933.99},{d:'2025-07-29',o:933.99,h:941.79,l:927.38,c:934.57},{d:'2025-07-30',o:935.0,h:937.75,l:925.14,c:927.51},{d:'2025-07-31',o:925.36,h:945.95,l:925.0,c:939.64},{d:'2025-08-01',o:939.5,h:956.72,l:939.5,c:952.52},{d:'2025-08-04',o:952.60,h:960.18,l:948.66,c:955.37},{d:'2025-08-05',o:951.33,h:951.5,l:935.68,c:943.63},{d:'2025-08-06',o:943.63,h:970.55,l:942.66,c:968.56},{d:'2025-08-07',o:974.68,h:982.0,l:970.96,c:977.45},{d:'2025-08-08',o:977.15,h:988.20,l:977.0,c:980.98},{d:'2025-08-11',o:983.16,h:989.58,l:976.32,c:988.74},{d:'2025-08-12',o:988.5,h:991.75,l:980.05,c:991.25},{d:'2025-08-13',o:983.96,h:986.40,l:970.10,c:978.85},{d:'2025-08-14',o:980.60,h:988.29,l:975.18,c:975.39},{d:'2025-08-15',o:979.14,h:980.0,l:967.22,c:972.04},{d:'2025-08-18',o:973.30,h:981.28,l:970.0,c:979.35},{d:'2025-08-19',o:978.62,h:988.53,l:976.79,c:980.85},{d:'2025-08-20',o:979.0,h:999.30,l:979.0,c:994.57},{d:'2025-08-21',o:988.90,h:989.32,l:967.52,c:969.68},{d:'2025-08-22',o:971.54,h:973.5,l:953.11,c:958.54},{d:'2025-08-25',o:954.96,h:958.30,l:940.56,c:941.58},{d:'2025-08-26',o:941.34,h:944.05,l:933.25,c:941.34},{d:'2025-08-27',o:940.49,h:952.0,l:937.22,c:949.52},{d:'2025-08-28',o:950.29,h:951.0,l:944.13,c:944.96},{d:'2025-08-29',o:945.0,h:948.61,l:940.46,c:943.32},{d:'2025-09-02',o:938.66,h:944.51,l:936.58,c:938.82},{d:'2025-09-03',o:939.0,h:950.09,l:936.5,c:949.78},{d:'2025-09-04',o:953.40,h:959.5,l:951.11,c:955.90},{d:'2025-09-05',o:958.71,h:969.55,l:956.22,c:963.48},{d:'2025-09-08',o:963.73,h:972.34,l:958.59,c:971.85},{d:'2025-09-09',o:970.0,h:979.87,l:963.11,c:979.25},{d:'2025-09-10',o:976.39,h:981.0,l:953.96,c:956.29},{d:'2025-09-11',o:957.80,h:965.16,l:954.28,c:964.32},{d:'2025-09-12',o:960.29,h:969.57,l:960.0,c:967.90},{d:'2025-09-15',o:967.82,h:969.74,l:959.71,c:960.10},{d:'2025-09-16',o:959.10,h:959.58,l:950.80,c:952.07},{d:'2025-09-17',o:953.49,h:963.98,l:953.49,c:963.03},{d:'2025-09-18',o:957.37,h:962.54,l:950.67,c:952.36},{d:'2025-09-19',o:955.0,h:957.44,l:943.79,c:951.16},{d:'2025-09-22',o:947.38,h:950.0,l:939.61,c:943.26},{d:'2025-09-23',o:942.76,h:944.99,l:933.5,c:943.60},{d:'2025-09-24',o:944.28,h:953.66,l:943.11,c:945.27},{d:'2025-09-25',o:952.45,h:953.0,l:935.62,c:943.31},{d:'2025-09-26',o:925.55,h:927.63,l:905.05,c:915.95},{d:'2025-09-29',o:916.34,h:917.22,l:903.29,c:916.87},{d:'2025-09-30',o:916.25,h:930.51,l:913.37,c:925.63},{d:'2025-10-01',o:923.0,h:924.0,l:911.17,c:917.34},{d:'2025-10-02',o:912.56,h:918.51,l:910.01,c:916.77},{d:'2025-10-03',o:915.59,h:918.10,l:911.20,c:915.38},{d:'2025-10-06',o:915.5,h:915.78,l:904.25,c:910.94},{d:'2025-10-07',o:908.73,h:917.64,l:903.88,c:914.80},{d:'2025-10-08',o:912.54,h:916.38,l:910.96,c:914.80},{d:'2025-10-09',o:932.31,h:943.77,l:927.28,c:942.89},{d:'2025-10-10',o:944.42,h:945.45,l:929.0,c:930.01},{d:'2025-10-13',o:929.0,h:935.98,l:923.0,c:935.56},{d:'2025-10-14',o:940.26,h:947.42,l:935.95,c:946.51},{d:'2025-10-15',o:946.0,h:964.0,l:945.26,c:954.99},{d:'2025-10-16',o:955.54,h:957.90,l:921.16,c:925.62},{d:'2025-10-17',o:929.58,h:938.82,l:928.15,c:936.33},{d:'2025-10-20',o:936.19,h:939.80,l:931.5,c:936.11},{d:'2025-10-21',o:936.11,h:943.37,l:935.0,c:937.5},{d:'2025-10-22',o:940.0,h:953.0,l:932.5,c:944.68},{d:'2025-10-23',o:945.47,h:945.47,l:934.49,c:942.05},{d:'2025-10-24',o:940.0,h:943.0,l:930.15,c:932.14},{d:'2025-10-27',o:930.21,h:933.20,l:925.12,c:929.85},{d:'2025-10-28',o:926.87,h:930.72,l:920.20,c:924.16},{d:'2025-10-29',o:919.0,h:919.88,l:909.30,c:912.42},{d:'2025-10-30',o:912.69,h:923.0,l:910.37,c:920.18},{d:'2025-10-31',o:916.21,h:920.0,l:909.68,c:911.45},{d:'2025-11-03',o:912.40,h:929.19,l:908.38,c:928.04},{d:'2025-11-04',o:933.21,h:941.17,l:928.97,c:940.74},{d:'2025-11-05',o:940.0,h:945.28,l:927.44,c:935.03},{d:'2025-11-06',o:924.36,h:925.0,l:908.30,c:923.58},{d:'2025-11-07',o:929.53,h:937.0,l:920.79,c:922.74},{d:'2025-11-10',o:919.0,h:922.0,l:909.07,c:915.56},{d:'2025-11-11',o:916.5,h:918.89,l:913.0,c:913.86},{d:'2025-11-12',o:915.47,h:918.10,l:911.67,c:914.0},{d:'2025-11-13',o:916.35,h:926.75,l:911.72,c:925.08},{d:'2025-11-14',o:927.13,h:928.89,l:915.10,c:922.98},{d:'2025-11-17',o:922.02,h:924.90,l:908.81,c:912.59},{d:'2025-11-18',o:912.59,h:918.91,l:894.17,c:895.08},{d:'2025-11-19',o:895.0,h:895.0,l:873.97,c:890.60},{d:'2025-11-20',o:893.5,h:904.57,l:891.0,c:893.29},{d:'2025-11-21',o:894.52,h:905.32,l:892.13,c:899.01},{d:'2025-11-24',o:899.0,h:901.36,l:881.32,c:886.12},{d:'2025-11-25',o:886.66,h:895.72,l:885.13,c:894.33},{d:'2025-11-26',o:896.02,h:912.0,l:895.62,c:908.26},{d:'2025-11-28',o:905.02,h:914.20,l:903.0,c:913.59},{d:'2025-12-01',o:913.20,h:918.58,l:906.21,c:911.96},{d:'2025-12-02',o:911.96,h:923.0,l:905.0,c:922.03},{d:'2025-12-03',o:920.81,h:926.32,l:916.02,c:922.26},{d:'2025-12-04',o:907.03,h:907.96,l:888.08,c:895.86},{d:'2025-12-05',o:897.25,h:905.89,l:893.0,c:894.68},{d:'2025-12-08',o:893.5,h:894.0,l:882.90,c:887.52},{d:'2025-12-09',o:886.85,h:889.02,l:881.51,c:888.44},{d:'2025-12-10',o:887.82,h:889.58,l:871.09,c:874.41},{d:'2025-12-11',o:875.86,h:886.0,l:872.55,c:884.48},{d:'2025-12-12',o:883.30,h:888.62,l:867.12,c:884.47},{d:'2025-12-15',o:882.11,h:887.49,l:851.40,c:860.56},{d:'2025-12-16',o:857.44,h:863.59,l:844.06,c:860.39},{d:'2025-12-17',o:858.5,h:868.58,l:858.23,c:862.65},{d:'2025-12-18',o:860.30,h:863.15,l:852.51,c:857.59},{d:'2025-12-19',o:856.57,h:858.45,l:849.32,c:855.62},{d:'2025-12-22',o:854.0,h:855.5,l:847.31,c:850.0},{d:'2025-12-23',o:849.10,h:854.98,l:846.80,c:854.79},{d:'2025-12-24',o:858.60,h:876.0,l:858.35,c:871.86},{d:'2025-12-26',o:870.64,h:877.59,l:869.0,c:873.35},{d:'2025-12-29',o:873.29,h:874.5,l:865.69,c:867.84},{d:'2025-12-30',o:864.0,h:867.82,l:861.43,c:865.65},{d:'2025-12-31',o:864.58,h:868.0,l:861.34,c:862.34},{d:'2026-01-02',o:861.14,h:863.10,l:852.5,c:854.5},{d:'2026-01-05',o:863.95,h:878.77,l:860.85,c:875.74},{d:'2026-01-06',o:875.95,h:894.08,l:871.30,c:889.10},{d:'2026-01-07',o:892.0,h:893.60,l:879.62,c:882.58},{d:'2026-01-08',o:901.13,h:931.67,l:896.0,c:915.31},{d:'2026-01-09',o:915.97,h:929.85,l:911.33,c:924.88},{d:'2026-01-12',o:920.40,h:944.83,l:917.0,c:943.08},{d:'2026-01-13',o:938.02,h:942.90,l:929.60,c:941.93},{d:'2026-01-14',o:938.33,h:955.61,l:938.29,c:950.98},{d:'2026-01-15',o:954.54,h:958.28,l:950.0,c:956.75},{d:'2026-01-16',o:962.0,h:964.98,l:951.0,c:963.61},{d:'2026-01-20',o:958.38,h:969.90,l:954.13,c:964.26},{d:'2026-01-21',o:959.60,h:989.64,l:959.60,c:982.86},{d:'2026-01-22',o:977.89,h:984.0,l:971.56,c:976.17},{d:'2026-01-23',o:971.44,h:984.85,l:971.01,c:983.25},{d:'2026-01-26',o:986.43,h:993.0,l:976.35,c:977.67},{d:'2026-01-27',o:977.68,h:978.0,l:961.71,c:970.28},{d:'2026-01-28',o:969.51,h:970.10,l:955.61,c:960.78},{d:'2026-01-29',o:957.99,h:960.30,l:948.51,c:952.89},{d:'2026-01-30',o:948.83,h:951.12,l:930.30,c:940.25},{d:'2026-02-02',o:944.23,h:970.32,l:931.27,c:968.36},{d:'2026-02-03',o:964.35,h:990.65,l:964.28,c:977.92},{d:'2026-02-04',o:983.31,h:994.60,l:975.19,c:978.35},{d:'2026-02-05',o:995.5,h:1000.95,l:987.33,c:989.29},{d:'2026-02-06',o:988.15,h:1001.37,l:983.5,c:1001.16},{d:'2026-02-09',o:1001.32,h:1009.62,l:992.68,c:997.59},{d:'2026-02-10',o:996.01,h:997.45,l:969.0,c:971.23},{d:'2026-02-11',o:973.29,h:989.57,l:967.12,c:978.14},{d:'2026-02-12',o:978.75,h:1009.21,l:978.14,c:998.86},{d:'2026-02-13',o:1000.0,h:1022.88,l:993.76,c:1018.48},{d:'2026-02-17',o:1022.34,h:1028.44,l:1010.48,c:1012.05},{d:'2026-02-18',o:1010.0,h:1016.0,l:993.5,c:996.08},{d:'2026-02-19',o:992.31,h:1007.86,l:984.11,c:987.82},{d:'2026-02-20',o:983.13,h:987.37,l:977.81,c:985.27},{d:'2026-02-23',o:981.80,h:991.31,l:978.06,c:986.02},{d:'2026-02-24',o:986.38,h:998.88,l:985.04,c:998.43},{d:'2026-02-25',o:997.68,h:1002.5,l:991.44,c:994.76},{d:'2026-02-26',o:996.92,h:1005.52,l:983.53,c:986.74},{d:'2026-02-27',o:990.53,h:1014.19,l:989.58,c:1010.79},{d:'2026-03-02',o:1010.91,h:1020.82,l:1002.49,c:1002.77},{d:'2026-03-03',o:1002.54,h:1015.75,l:1000.63,c:1007.77},{d:'2026-03-04',o:1005.0,h:1014.0,l:997.0,c:1006.74},{d:'2026-03-05',o:996.5,h:999.25,l:978.81,c:982.57},{d:'2026-03-06',o:967.01,h:1002.5,l:960.46,c:998.10},{d:'2026-03-09',o:999.63,h:1007.41,l:987.99,c:1005.30},{d:'2026-03-10',o:1000.5,h:1010.10,l:996.0,c:997.36},{d:'2026-03-11',o:996.32,h:997.39,l:987.89,c:992.23},{d:'2026-03-12',o:988.61,h:1006.21,l:984.0,c:1003.32},{d:'2026-03-13',o:1005.90,h:1012.83,l:1002.0,c:1008.43},{d:'2026-03-16',o:1010.5,h:1012.65,l:995.43,c:1001.74},{d:'2026-03-17',o:1006.49,h:1008.10,l:994.75,c:996.16},{d:'2026-03-18',o:990.37,h:993.98,l:978.14,c:979.92},{d:'2026-03-19',o:985.84,h:988.79,l:970.41,c:974.78},{d:'2026-03-20',o:975.08,h:980.76,l:970.54,c:972.33},{d:'2026-03-23',o:985.67,h:986.64,l:964.53,c:965.73},{d:'2026-03-24',o:962.06,h:981.28,l:961.0,c:973.82},{d:'2026-03-25',o:978.0,h:980.81,l:968.05,c:974.86},{d:'2026-03-26',o:975.69,h:987.19,l:972.72,c:979.65},{d:'2026-03-27',o:982.02,h:987.11,l:978.11,c:983.86},{d:'2026-03-30',o:987.65,h:1005.54,l:985.01,c:996.58},{d:'2026-03-31',o:997.0,h:1008.60,l:985.85,c:996.43},{d:'2026-04-01',o:995.03,h:1003.13,l:990.59,c:996.56},{d:'2026-04-02',o:1008.0,h:1016.0,l:999.21,c:1014.96},{d:'2026-04-06',o:1014.96,h:1020.69,l:1004.01,c:1018.55},{d:'2026-04-07',o:1020.26,h:1020.86,l:1004.85,c:1013.21},{d:'2026-04-08',o:1004.44,h:1030.46,l:1000.0,c:1030.27},{d:'2026-04-09',o:1029.49,h:1035.82,l:1025.06,c:1032.03},{d:'2026-04-10',o:1026.51,h:1029.0,l:995.5,c:998.47},{d:'2026-04-13',o:998.47,h:1000.05,l:979.36,c:980.85},{d:'2026-04-14',o:973.68,h:977.61,l:966.0,c:974.80},{d:'2026-04-15',o:970.31,h:985.38,l:968.30,c:984.75},{d:'2026-04-16',o:985.0,h:995.75,l:981.61,c:987.21},{d:'2026-04-17',o:985.0,h:1000.67,l:977.0,c:999.89},{d:'2026-04-20',o:1003.85,h:1011.30,l:994.14,c:997.84},{d:'2026-04-21',o:994.37,h:1006.5,l:986.70,c:1005.81},{d:'2026-04-22',o:1004.98,h:1008.11,l:998.29,c:1003.70},{d:'2026-04-23',o:1007.58,h:1016.60,l:1007.03,c:1014.38},{d:'2026-04-24',o:1012.0,h:1013.45,l:1002.5,c:1011.15},{d:'2026-04-27',o:1008.63,h:1014.41,l:996.63,c:998.01},{d:'2026-04-28',o:1010.48,h:1012.65,l:986.0,c:994.0},{d:'2026-04-29',o:988.37,h:998.97,l:985.12,c:998.67},{d:'2026-04-30',o:996.45,h:1017.69,l:996.32,c:1014.53},{d:'2026-05-01',o:1015.38,h:1031.27,l:1006.32,c:1011.70},{d:'2026-05-04',o:1007.02,h:1024.72,l:1002.21,c:1012.79},{d:'2026-05-05',o:1010.51,h:1020.78,l:1009.07,c:1016.42},{d:'2026-05-06',o:1011.31,h:1012.23,l:992.42,c:995.75},{d:'2026-05-07',o:993.5,h:1012.66,l:990.66,c:1012.06},{d:'2026-05-08',o:1011.74,h:1016.0,l:1005.11,c:1008.79},{d:'2026-05-11',o:1005.82,h:1007.0,l:985.15,c:999.47},{d:'2026-05-12',o:1002.54,h:1026.0,l:1001.14,c:1021.88},{d:'2026-05-13',o:1017.94,h:1042.52,l:1017.94,c:1033.08},{d:'2026-05-14',o:1034.95,h:1041.79,l:1026.10,c:1041.25},{d:'2026-05-15',o:1049.36,h:1057.5,l:1039.22,c:1048.95},{d:'2026-05-18',o:1050.0,h:1079.83,l:1045.0,c:1076.47},{d:'2026-05-19',o:1077.0,h:1096.5,l:1072.10,c:1094.32},{d:'2026-05-20',o:1089.37,h:1089.74,l:1072.0,c:1074.01},{d:'2026-05-21',o:1063.41,h:1064.73,l:1039.01,c:1050.45},{d:'2026-05-22',o:1039.99,h:1045.64,l:1025.19,c:1028.24},{d:'2026-05-26',o:1026.13,h:1027.5,l:996.16,c:1002.93},{d:'2026-05-27',o:1003.86,h:1013.51,l:999.69,c:1003.69},{d:'2026-05-28',o:1011.61,h:1012.0,l:994.27,c:995.20},{d:'2026-05-29',o:986.57,h:998.82,l:945.45,c:956.32},{d:'2026-06-01',o:955.0,h:959.21,l:936.51,c:946.11},{d:'2026-06-02',o:942.29,h:955.39,l:939.45,c:954.27},{d:'2026-06-03',o:952.88,h:969.18,l:951.98,c:961.83},{d:'2026-06-04',o:986.96,h:990.01,l:968.21,c:972.35},{d:'2026-06-05',o:977.5,h:997.41,l:971.60,c:971.87},{d:'2026-06-08',o:963.46,h:978.98,l:961.0,c:974.75},{d:'2026-06-09',o:974.21,h:981.97,l:964.94,c:968.59},{d:'2026-06-10',o:977.44,h:985.26,l:964.31,c:983.37},{d:'2026-06-11',o:986.91,h:989.12,l:974.0,c:975.69},{d:'2026-06-12',o:975.52,h:984.78,l:970.0,c:982.35},{d:'2026-06-15',o:974.19,h:987.0,l:968.0,c:979.45},{d:'2026-06-16',o:980.39,h:995.38,l:973.16,c:986.68},{d:'2026-06-17',o:980.0,h:983.71,l:961.16,c:965.59},{d:'2026-06-18',o:962.70,h:964.0,l:948.31,c:951.45},{d:'2026-06-22',o:948.57,h:956.23,l:942.53,c:951.35},{d:'2026-06-23',o:964.5,h:966.38,l:953.49,c:957.68},{d:'2026-06-24',o:962.03,h:967.94,l:957.0,c:961.09},{d:'2026-06-25',o:949.57,h:955.75,l:938.60,c:942.24},{d:'2026-06-26',o:953.25,h:961.64,l:943.0,c:952.54},{d:'2026-06-29',o:958.55,h:969.86,l:942.38,c:946.68},{d:'2026-06-30',o:942.0,h:946.0,l:932.41,c:935.47},{d:'2026-07-01',o:940.43,h:940.43,l:920.55,c:924.67},{d:'2026-07-02',o:927.0,h:952.64,l:924.84,c:951.67},{d:'2026-07-06',o:949.10,h:955.5,l:941.40,c:950.25},{d:'2026-07-07',o:967.52,h:969.0,l:945.33,c:947.5},{d:'2026-07-08',o:959.0,h:966.51,l:948.0,c:953.13},{d:'2026-07-09',o:934.94,h:935.0,l:907.68,c:912.97},{d:'2026-07-10',o:913.74,h:916.73,l:907.21,c:916.25},{d:'2026-07-13',o:918.43,h:930.98,l:916.88,c:926.43},{d:'2026-07-14',o:921.38,h:929.42,l:918.56,c:921.75},{d:'2026-07-15',o:917.75,h:927.58,l:910.5,c:916.54},{d:'2026-07-16',o:924.0,h:945.76,l:921.5,c:945.57},{d:'2026-07-17',o:961.52,h:964.33,l:933.76,c:940.87},{d:'2026-07-20',o:938.75,h:946.98,l:932.01,c:935.80},{d:'2026-07-21',o:930.25,h:931.99,l:924.44,c:929.22},{d:'2026-07-22',o:930.88,h:933.60,l:920.97,c:927.31},{d:'2026-07-23',o:920.51,h:926.53,l:916.76,c:926.06},{d:'2026-07-24',o:925.01,h:936.66,l:921.28,c:935.03},{d:'2026-07-27',o:938.11,h:956.61,l:936.66,c:951.58}];
+renderCandleChart({svgId:'cCOSTSvg', controlsId:'cCOSTChartControls', data: data});
 </script>

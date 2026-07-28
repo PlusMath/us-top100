@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>주식을말하다의 US Top 100 분석 (틀 - 더미 데이터)</title>
+  <title>주식을말하다의 US Top 100 분석</title>
 
   <style>
     * {
@@ -274,18 +274,18 @@
   <header>
     <p class="eyebrow">Est. 2026 · Equity Research (Demo)</p>
     <h1>주식을말하다의 US Top 100 분석 홈페이지</h1>
-    <p>미국 Top 100 기업 분석 페이지 (프레임 시연용 · 더미 데이터)</p>
+    <p>미국 Top 100 기업 분석 페이지 (SEC EDGAR + Yahoo Finance 실 데이터)</p>
   </header>
 
   <main class="page-wrap">
     <div class="top-dummy-banner">
-      ⚠ 이 사이트는 <a href="https://github.com/PlusMath/kospi10000" target="_blank" rel="noopener" style="color:inherit;">kospi10000</a> 사이트 구조를 참고해 만든 프레임(더미 데이터) 버전입니다. 모든 가격·재무 수치는 예시이며 실제 데이터가 아닙니다. 실 데이터는 한국의 DART에 대응하는 미국 SEC EDGAR(data.sec.gov XBRL API, 10-K/10-Q)와 Yahoo Finance 연동 후 반영될 예정입니다.
+      ✅ 이 사이트는 <a href="https://github.com/PlusMath/kospi10000" target="_blank" rel="noopener" style="color:inherit;">kospi10000</a> 사이트 구조를 참고해 만들었으며, 전 종목의 가격·재무 수치는 SEC EDGAR(10-K/10-Q XBRL) + Yahoo Finance 실 데이터입니다. 순위는 실시간 시가총액 기준이 아닌 예시 목록이며, AAPL·MSFT를 제외한 서술(강세/약세 코멘트 등)은 실 수치 기반 규칙으로 자동 생성됩니다.
     </div>
 
     <h2 class="section-title" id="mainTitle">US Top 100</h2>
 
     <p class="data-note">
-      기준: 더미 순위 (시가총액 기준 예시 목록, 실제 최신 순위 아님). AAPL·MSFT는 상세 분석 템플릿(더미 데이터)이 적용되어 있고, 나머지 종목은 간단한 프레임 페이지로 제공됩니다.
+      기준: 순위는 예시 목록(실시간 시가총액 순위 아님)이며, 종목별 가격·재무 데이터는 SEC EDGAR 10-K/10-Q + Yahoo Finance 실 데이터입니다. AAPL·MSFT는 사람이 직접 분석한 상세 서술이 포함된 완전판이고, 나머지 종목은 동일한 실 데이터를 규칙 기반 서술로 자동 정리한 경량판입니다.
     </p>
 
     <div class="view-toggle" aria-label="보기 방식 선택">
@@ -299,7 +299,7 @@
   </main>
 
   <footer>
-    © 2026 talking about stock. All rights reserved. (프레임 시연용 사이트 · 더미 데이터)
+    © 2026 talking about stock. All rights reserved. (SEC EDGAR + Yahoo Finance 실 데이터 기반 · 투자 권고가 아닙니다)
   </footer>
 
   <script>
@@ -380,7 +380,7 @@
       { rank: 74, name: "Chubb Limited", ticker: "CB", industry: "보험", page: "stocks/074_CB.html" },
       { rank: 75, name: "TJX Companies, Inc.", ticker: "TJX", industry: "소비재·유통", page: "stocks/075_TJX.html" },
       { rank: 76, name: "Mondelez International", ticker: "MDLZ", industry: "생활·음료소비재", page: "stocks/076_MDLZ.html" },
-      { rank: 77, name: "Marsh & McLennan Cos.", ticker: "MMC", industry: "보험", page: "stocks/077_MMC.html" },
+      { rank: 77, name: "Marsh & McLennan Cos.", ticker: "MRSH", industry: "보험", page: "stocks/077_MRSH.html" },
       { rank: 78, name: "Regeneron Pharmaceuticals", ticker: "REGN", industry: "제약·바이오", page: "stocks/078_REGN.html" },
       { rank: 79, name: "Vertex Pharmaceuticals", ticker: "VRTX", industry: "제약·바이오", page: "stocks/079_VRTX.html" },
       { rank: 80, name: "Stryker Corporation", ticker: "SYK", industry: "헬스케어·의료기기", page: "stocks/080_SYK.html" },
@@ -391,7 +391,7 @@
       { rank: 85, name: "Micron Technology, Inc.", ticker: "MU", industry: "반도체", page: "stocks/085_MU.html" },
       { rank: 86, name: "Analog Devices, Inc.", ticker: "ADI", industry: "반도체", page: "stocks/086_ADI.html" },
       { rank: 87, name: "Colgate-Palmolive Co.", ticker: "CL", industry: "생활·음료소비재", page: "stocks/087_CL.html" },
-      { rank: 88, name: "Fiserv, Inc.", ticker: "FI", industry: "결제·핀테크", page: "stocks/088_FI.html" },
+      { rank: 88, name: "Fiserv, Inc.", ticker: "FISV", industry: "결제·핀테크", page: "stocks/088_FISV.html" },
       { rank: 89, name: "KLA Corporation", ticker: "KLAC", industry: "반도체장비", page: "stocks/089_KLAC.html" },
       { rank: 90, name: "Lam Research Corp.", ticker: "LRCX", industry: "반도체장비", page: "stocks/090_LRCX.html" },
       { rank: 91, name: "Eaton Corporation plc", ticker: "ETN", industry: "산업재·기계", page: "stocks/091_ETN.html" },
@@ -436,7 +436,7 @@
         <a href="${stock.page}">
           <div class="stock-logo" style="background-color:${tickerColor(stock.ticker)};">${stock.ticker}</div>
           <div class="stock-info">
-            <div class="stock-rank">US ${stock.rank}위 (더미)</div>
+            <div class="stock-rank">US ${stock.rank}위 (예시 순위)</div>
             <h3 class="stock-name">${stock.name}</h3>
             <div class="stock-code">티커: ${stock.ticker}</div>
             <div class="stock-industry">업종: ${stock.industry}</div>

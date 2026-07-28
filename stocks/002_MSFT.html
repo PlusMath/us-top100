@@ -3,75 +3,96 @@
 
 <div style="padding:1rem 0;" class="box">
 
-<div class="dummy-banner">⚠ 더미(예시) 데이터 페이지입니다 — 아래 수치·차트는 전부 가상의 예시이며 Microsoft의 실제 실적이 아닙니다. 실 데이터는 SEC EDGAR / Yahoo Finance 연동 후 교체됩니다.</div>
+<div class="hl" style="margin-bottom:14px;">
+  <div style="font-size:12px;font-weight:700;color:var(--color-text-success);">✅ 실 데이터 — SEC EDGAR 10-K/10-Q + Yahoo Finance 시세 기준 (2026-07-27 종가)</div>
+</div>
 
 <!-- 헤더 -->
 <div style="margin-bottom:4px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
   <h2>Microsoft Corporation (MSFT)</h2>
   <span class="badge b-se">NASDAQ · 소프트웨어·클라우드</span>
-  <span class="badge b-gray">Azure 클라우드 성장 지속 (예시)</span>
+  <span class="badge b-gray">실적 가속 vs 주가 조정 — 밸류 갭 구간</span>
   <span class="src">📄 <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSFT&type=10-K&dateb=&owner=include&count=40" target="_blank" rel="noopener">SEC EDGAR 10-K/10-Q 원문</a> + 📊 <a href="https://finance.yahoo.com/quote/MSFT" target="_blank" rel="noopener">Yahoo Finance 시세</a></span>
 </div>
-<p class="sub">(예시) 최근 종가 $498.20 (2026-07-27, 전일대비 +0.85%) · 52주 최고 $560.10 (26/05/22) · 52주 최저 $385.40 (25/08/12) · 시총 약 $3.70T (예시)</p>
+<p class="sub">최근 종가 $389.10 (2026-07-27, 전일대비 +1.94%) · 52주 최고 $555.45 (25/07/31) · 52주 최저 $349.20 (26/06/25) · 시총 약 $2.89T (발행주식 74.28억주 기준)</p>
 
 <!-- 핵심 지표 배너 -->
 <div style="background:var(--color-background-info);border-left:3px solid var(--color-navy);border-radius:var(--border-radius-md);padding:10px 14px;margin-bottom:14px;">
-  <div style="font-size:12px;color:var(--color-navy);line-height:1.6;"><strong>🔑 (예시) Microsoft 투자 포인트 요약:</strong> Azure 클라우드·AI 인프라 수요 확대가 Intelligent Cloud 부문 성장을 견인하는 구조를 가정한 예시입니다. <strong>FY2025 EPS $13.68 → 최근 분기 연환산 EPS $16.08</strong>로 이익 가속 흐름을 가정했습니다. 실제 수치는 SEC EDGAR 10-K/10-Q 연동 후 반영됩니다.</div>
+  <div style="font-size:12px;color:var(--color-navy);line-height:1.6;"><strong>🔑 Microsoft 투자의 핵심:</strong> 실적은 매 분기 가속되는데(최근 분기 매출 +18.3%·영업이익 +20.0%·순이익 +23.1%·EPS +23.4% YoY) <strong>주가는 2025년 7월 고점($555.45) 대비 -30% 조정</strong>되며 지난 6월 25일 52주 저점($349.20)을 새로 썼다. 실적과 주가의 괴리가 커지며 트레일링 PER은 28.5배, 최근분기 연환산 기준 Forward PER은 22.8배까지 낮아진 상태 — 다만 기술적으로는 아직 중장기 이동평균선을 하회하는 조정 국면이 이어지고 있다.</div>
 </div>
 
 <div class="g4">
-  <div class="met"><div class="ml">최근 종가 (07/27)</div><div class="mv">$498.20</div><div class="ms up">+0.85% · 고점 대비 -11.0%</div></div>
-  <div class="met"><div class="ml">FY2025 영업이익</div><div class="mv up">$128.8B</div><div class="ms">전년比 +16.4% (예시)</div></div>
-  <div class="met"><div class="ml">FY2025 순이익</div><div class="mv up">$102.3B</div><div class="ms">전년比 +15.1% (예시)</div></div>
-  <div class="met"><div class="ml">최근 분기 EPS</div><div class="mv up">$4.02</div><div class="ms">연환산 ~$16.08 (예시)</div></div>
+  <div class="met"><div class="ml">최근 종가 (07/27)</div><div class="mv">$389.10</div><div class="ms up">+1.94% · 저점 대비 +11.4%</div></div>
+  <div class="met"><div class="ml">FY2025 영업이익</div><div class="mv up">$128.53B</div><div class="ms">전년比 +17.4%</div></div>
+  <div class="met"><div class="ml">FY2025 순이익</div><div class="mv up">$101.83B</div><div class="ms">전년比 +15.5%</div></div>
+  <div class="met"><div class="ml">최근 분기 EPS</div><div class="mv up">$4.27</div><div class="ms">전년동기比 +23.4%</div></div>
 </div>
 
 <!-- 1. 기술적 분석 -->
 <div class="card">
-  <div class="sec">1. 기술적 분석 — 일봉 기준 (더미 데이터, 무작위 생성)</div>
+  <div class="sec">1. 기술적 분석 — 일봉 기준 (2025.07.28 ~ 2026.07.27, 251거래일)</div>
   <div style="font-size:11px;color:var(--color-text-secondary);margin-bottom:8px;">
-    아래 캔들차트는 실 시세가 아닌 프레임 시연용 무작위(random walk) 더미 데이터입니다. 실 데이터 연동 시 Yahoo Finance 일봉으로 교체됩니다.
+    최고 $555.45 (25/07/31) → 최저 $349.20 (26/06/25) → 최근 종가 $389.10 (26/07/27) · 52주 고점 대비 -29.9%
   </div>
   <div id="msftChartControls" class="kc-controls"></div>
   <svg id="msftSvg" viewBox="0 0 720 240" width="100%" style="display:block;margin-bottom:12px;background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:4px;"></svg>
 
-  <div style="font-size:13px;font-weight:600;margin-bottom:8px;">📊 구간별 분석 (예시 서식) <span class="src">📊 Yahoo Finance 일봉 연동 예정</span></div>
+  <div style="font-size:13px;font-weight:600;margin-bottom:8px;">📊 구간별 분석 <span class="src">📊 Yahoo Finance 일봉</span></div>
   <div class="g4" style="font-size:11px;margin-bottom:12px;">
     <div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:9px 11px;">
-      <div style="color:var(--color-text-secondary);font-weight:600;margin-bottom:3px;">구간 1 — 저점권 형성 (예시)</div>
-      <div style="color:var(--color-text-secondary);line-height:1.6;">실 데이터 연동 후<br>자동 채움 예정</div>
+      <div style="color:var(--color-text-secondary);font-weight:600;margin-bottom:3px;">25.07~10 — 고점권 횡보</div>
+      <div style="color:var(--color-text-secondary);line-height:1.6;">$512.50→$520.56 (+1.6%)<br>구간 고점 $555.45<br>52주 최고 형성</div>
     </div>
-    <div style="background:var(--color-background-info);border-radius:var(--border-radius-md);padding:9px 11px;">
-      <div style="color:var(--color-navy);font-weight:600;margin-bottom:3px;">구간 2 — 반등 (예시)</div>
-      <div style="color:var(--color-navy);line-height:1.6;">실 데이터 연동 후<br>자동 채움 예정</div>
-    </div>
-    <div style="background:var(--color-background-success);border-radius:var(--border-radius-md);padding:9px 11px;">
-      <div style="color:var(--color-text-success);font-weight:600;margin-bottom:3px;">구간 3 — 상승 지속 (예시)</div>
-      <div style="color:var(--color-text-success);line-height:1.6;">실 데이터 연동 후<br>자동 채움 예정</div>
+    <div style="background:var(--color-background-warning);border-radius:var(--border-radius-md);padding:9px 11px;">
+      <div style="color:var(--color-text-warning);font-weight:600;margin-bottom:3px;">25.10~26.01 — 조정 시작</div>
+      <div style="color:var(--color-text-warning);line-height:1.6;">$523.61→$470.28 (-10.2%)<br>구간 저점 $438.68<br>하락 전환</div>
     </div>
     <div style="background:var(--color-background-danger);border-radius:var(--border-radius-md);padding:9px 11px;">
-      <div style="color:var(--color-text-danger);font-weight:600;margin-bottom:3px;">구간 4 — 조정 (예시)</div>
-      <div style="color:var(--color-text-danger);line-height:1.6;">실 데이터 연동 후<br>자동 채움 예정</div>
+      <div style="color:var(--color-text-danger);font-weight:600;margin-bottom:3px;">26.01~04 — 조정 심화</div>
+      <div style="color:var(--color-text-danger);line-height:1.6;">$480.58→$424.82 (-11.6%)<br>구간 저점 $356.28<br>낙폭 확대</div>
+    </div>
+    <div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:9px 11px;">
+      <div style="color:var(--color-text-secondary);font-weight:600;margin-bottom:3px;">26.04~07 — 저점 확인 후 반등</div>
+      <div style="color:var(--color-text-secondary);line-height:1.6;">$429.25→$389.10 (-9.3%)<br>52주 최저 $349.20 (06/25)<br>저점 이후 완만한 반등</div>
+    </div>
+  </div>
+
+  <div class="g2" style="margin-bottom:12px;">
+    <div>
+      <div style="font-size:13px;font-weight:600;margin-bottom:7px;">이동평균선 현황 (07/27 기준)</div>
+      <div class="ir"><span class="il">5일선 ($388.09)</span><span class="badge b-green">가격 근소 상회</span></div>
+      <div class="ir"><span class="il">20일선 ($387.70)</span><span class="badge b-green">가격 근소 상회</span></div>
+      <div class="ir"><span class="il">60일선 ($401.09)</span><span class="badge b-red">가격 하회</span></div>
+      <div class="ir"><span class="il">120일선 ($399.15)</span><span class="badge b-red">가격 하회</span></div>
+      <div class="ir"><span class="il">배열</span><span class="badge b-amber">단기 반등 · 중장기 추세는 아직 하락</span></div>
+    </div>
+    <div>
+      <div style="font-size:13px;font-weight:600;margin-bottom:7px;">핵심 가격대</div>
+      <div class="ir"><span class="il">52주 최고</span><span style="font-weight:600;color:var(--color-navy);">$555.45 (25/07/31)</span></div>
+      <div class="ir"><span class="il">52주 최저 (최근 갱신)</span><span style="font-weight:600;color:var(--color-text-danger);">$349.20 (26/06/25)</span></div>
+      <div class="ir"><span class="il">최근 종가</span><span style="font-weight:600;color:var(--color-text-primary);">$389.10 (07/27)</span></div>
+      <div class="ir"><span class="il">LC(저점 대비) / HC(고점 대비)</span><span style="font-weight:600;">+11.4% / -29.9%</span></div>
     </div>
   </div>
 
   <div class="sig">
-    <span class="badge b-amber">(예시) 신고가 대비 조정 국면</span>
-    <span class="badge b-green">(예시) 중장기 이동평균선 상회</span>
-    <span class="badge b-blue">(예시) 52주 저점 대비 상승 유지</span>
+    <span class="badge b-red">52주 고점 대비 -29.9% 조정 지속</span>
+    <span class="badge b-amber">60·120일선 하회 · 중기 추세 아직 하락</span>
+    <span class="badge b-green">6월 저점 대비 +11.4% 반등</span>
+    <span class="badge b-blue">실적 가속과 주가 약세의 괴리 확대</span>
   </div>
 </div>
 
 <!-- 2. 기본적 분석 탭 -->
 <div class="card">
-  <div class="sec">2. 기본적 분석 — 공시 원문 <span class="src">📄 (예시) 10-K FY2025 + 10-Q 최근 분기</span></div>
+  <div class="sec">2. 기본적 분석 — 공시 원문 <span class="src">📄 10-K FY2025(회계연도 종료 25.06.30) + 10-Q FQ3 FY26(종료 26.03.31)</span></div>
 
   <div style="display:flex;gap:8px;margin-bottom:14px;">
     <button id="btnAnnual" onclick="switchTab('annual')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:7px;padding:10px 0;border-radius:var(--border-radius-md);border:1.5px solid var(--color-navy);background:var(--color-navy);color:#fff;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;">
       📄 연간(10-K) <span style="font-size:11px;opacity:.85;font-weight:400;">FY2025</span>
     </button>
     <button id="btnQuarter" onclick="switchTab('quarter')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:7px;padding:10px 0;border-radius:var(--border-radius-md);border:1.5px solid var(--color-border-tertiary);background:var(--color-background-secondary);color:var(--color-text-secondary);font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;">
-      📋 분기(10-Q) <span style="font-size:11px;opacity:.85;font-weight:400;">최근 분기</span>
+      📋 분기(10-Q) <span style="font-size:11px;opacity:.85;font-weight:400;">FQ3 FY26</span>
     </button>
   </div>
 
@@ -79,42 +100,42 @@
   <div id="tabAnnual">
     <svg id="msftAnnualChart" viewBox="0 0 680 190" width="100%" style="display:block;margin-bottom:12px;"></svg>
 
-    <div style="font-size:12px;font-weight:600;color:var(--color-text-secondary);margin-bottom:6px;letter-spacing:.03em;">📊 손익 요약 (단위: $B · FY2025, 예시)</div>
+    <div style="font-size:12px;font-weight:600;color:var(--color-text-secondary);margin-bottom:6px;letter-spacing:.03em;">📊 손익 요약 (단위: $B · FY2025, 회계연도 24.07.01~25.06.30)</div>
     <div class="g2" style="margin-bottom:12px;">
       <div>
-        <div class="ir"><span class="il">매출액</span><span class="iv up">$282.5B (▲13.2%) <span class="ev ev-4">높음</span></span></div>
-        <div class="ir"><span class="il">영업이익</span><span class="iv up">$128.8B (▲16.4%) <span class="ev ev-4">높음</span></span></div>
-        <div class="ir"><span class="il">순이익</span><span class="iv up">$102.3B (▲15.1%) <span class="ev ev-4">높음</span></span></div>
-        <div class="ir"><span class="il">기본주당순이익</span><span class="iv up">$13.68 (▲16.8%) <span class="ev ev-5">매우높음</span></span></div>
+        <div class="ir"><span class="il">매출액</span><span class="iv up">$281.72B (▲14.9%) <span class="ev ev-4">높음</span></span></div>
+        <div class="ir"><span class="il">영업이익</span><span class="iv up">$128.53B (▲17.4%) <span class="ev ev-4">높음</span></span></div>
+        <div class="ir"><span class="il">순이익</span><span class="iv up">$101.83B (▲15.5%) <span class="ev ev-4">높음</span></span></div>
+        <div class="ir"><span class="il">희석주당순이익</span><span class="iv up">$13.64 (▲15.6%) <span class="ev ev-4">높음</span></span></div>
       </div>
       <div>
-        <div class="ir"><span class="il">총자산</span><span class="iv">$560.2B <span class="ev ev-3">적정</span></span></div>
-        <div class="ir"><span class="il">총부채</span><span class="iv">$230.1B <span class="ev ev-3">적정</span></span></div>
-        <div class="ir"><span class="il">총자본</span><span class="iv">$330.1B <span class="ev ev-3">적정</span></span></div>
+        <div class="ir"><span class="il">총자산</span><span class="iv">$619.00B <span class="ev ev-3">적정</span></span></div>
+        <div class="ir"><span class="il">총부채</span><span class="iv">$275.52B <span class="ev ev-3">적정</span></span></div>
+        <div class="ir"><span class="il">총자본</span><span class="iv up">$343.48B <span class="ev ev-2">양호</span></span></div>
         <div class="ir"><span class="il">주당배당금</span><span class="iv up">DPS $3.32 (배당성향 24.3%) <span class="ev ev-2">양호</span></span></div>
       </div>
     </div>
 
-    <div style="font-size:12px;font-weight:600;color:var(--color-text-secondary);margin-bottom:8px;letter-spacing:.03em;">💾 사업부문 (예시)</div>
+    <div style="font-size:12px;font-weight:600;color:var(--color-text-secondary);margin-bottom:8px;letter-spacing:.03em;">💾 핵심 사업부문 (10-K 3대 보고 세그먼트)</div>
     <div class="g3" style="font-size:11px;margin-bottom:12px;">
       <div style="background:var(--color-background-info);border-radius:var(--border-radius-md);padding:10px;border-left:3px solid var(--color-navy);">
         <div style="color:var(--color-navy);font-weight:600;margin-bottom:5px;">Intelligent Cloud</div>
-        <div class="ir" style="font-size:11px;"><span class="il">핵심</span><span>Azure·서버</span></div>
-        <div class="ir" style="font-size:11px;"><span class="il">역할</span><span>이익 성장 핵심 동력</span></div>
+        <div class="ir" style="font-size:11px;"><span class="il">핵심</span><span>Azure·서버·엔터프라이즈</span></div>
+        <div class="ir" style="font-size:11px;"><span class="il">역할</span><span>최대 성장 동력</span></div>
       </div>
       <div style="background:var(--color-background-success);border-radius:var(--border-radius-md);padding:10px;border-left:3px solid var(--color-text-success);">
-        <div style="color:var(--color-text-success);font-weight:600;margin-bottom:5px;">Productivity & Biz</div>
-        <div class="ir" style="font-size:11px;"><span class="il">핵심</span><span>Office·LinkedIn</span></div>
+        <div style="color:var(--color-text-success);font-weight:600;margin-bottom:5px;">Productivity & Biz Processes</div>
+        <div class="ir" style="font-size:11px;"><span class="il">핵심</span><span>Office·LinkedIn·Dynamics</span></div>
         <div class="ir" style="font-size:11px;"><span class="il">역할</span><span>안정적 반복매출</span></div>
       </div>
       <div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:10px;border-left:3px solid var(--color-text-secondary);">
         <div style="color:var(--color-text-secondary);font-weight:600;margin-bottom:5px;">More Personal Computing</div>
-        <div class="ir" style="font-size:11px;"><span class="il">핵심</span><span>Windows·Xbox</span></div>
+        <div class="ir" style="font-size:11px;"><span class="il">핵심</span><span>Windows·Xbox·Surface</span></div>
         <div class="ir" style="font-size:11px;"><span class="il">역할</span><span>보완 포트폴리오</span></div>
       </div>
     </div>
 
-    <div style="font-size:12px;font-weight:600;color:var(--color-text-secondary);margin-bottom:8px;letter-spacing:.03em;">📈 EPS 3개년 추이 (예시)</div>
+    <div style="font-size:12px;font-weight:600;color:var(--color-text-secondary);margin-bottom:8px;letter-spacing:.03em;">📈 희석 EPS 3개년 추이 — 3년 연속 두 자릿수 성장</div>
     <div style="display:flex;gap:8px;margin-bottom:14px;">
       <div style="flex:1;background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:10px;text-align:center;">
         <div style="font-size:10px;color:var(--color-text-secondary);margin-bottom:4px;">FY2023</div>
@@ -129,14 +150,14 @@
       <div style="display:flex;align-items:center;font-size:18px;color:var(--color-text-success);font-weight:700;">→</div>
       <div style="flex:1;background:var(--color-background-success);border-radius:var(--border-radius-md);padding:10px;text-align:center;border:1.5px solid var(--color-text-success);">
         <div style="font-size:10px;color:var(--color-text-success);margin-bottom:4px;font-weight:600;">FY2025</div>
-        <div style="font-size:18px;font-weight:700;color:var(--color-text-success);">$13.68</div>
-        <div style="font-size:10px;color:var(--color-text-success);margin-top:4px;">▲16.8%</div>
+        <div style="font-size:18px;font-weight:700;color:var(--color-text-success);">$13.64</div>
+        <div style="font-size:10px;color:var(--color-text-success);margin-top:4px;">▲15.6%</div>
       </div>
     </div>
 
     <div class="hl">
-      <div style="font-size:13px;font-weight:600;color:var(--color-text-success);margin-bottom:4px;">💡 (예시) 10-K 핵심 요약</div>
-      <div style="font-size:12px;color:var(--color-text-success);line-height:1.7;">Azure·AI 인프라 수요 확대로 Intelligent Cloud 부문이 실적 성장을 견인하는 구조를 가정한 예시입니다. 실 데이터 연동 후 SEC EDGAR 10-K 원문 수치로 교체됩니다.</div>
+      <div style="font-size:13px;font-weight:600;color:var(--color-text-success);margin-bottom:4px;">💡 10-K 핵심 — Azure·AI 인프라 수요가 3년 연속 두 자릿수 성장 견인</div>
+      <div style="font-size:12px;color:var(--color-text-success);line-height:1.7;">FY2023→FY2025 매출은 $211.9B→$281.7B로 연평균 15% 안팎 성장했고, 영업이익률 개선이 동반되며 영업이익·순이익 성장률이 매출 성장률을 웃돌았다. 클라우드·AI向 설비투자 확대가 지속되는 만큼 향후 잉여현금흐름 추이를 함께 봐야 한다.</div>
     </div>
   </div>
 
@@ -144,133 +165,144 @@
   <div id="tabQuarter" style="display:none;">
     <svg id="msftQtrChart" viewBox="0 0 680 190" width="100%" style="display:block;margin-bottom:12px;"></svg>
 
-    <div style="font-size:12px;font-weight:600;color:var(--color-text-secondary);margin-bottom:6px;letter-spacing:.03em;">📊 최근 분기 손익 요약 (단위: $B, 예시)</div>
+    <div style="font-size:12px;font-weight:600;color:var(--color-text-secondary);margin-bottom:6px;letter-spacing:.03em;">📊 FQ3 FY26 손익 요약 (단위: $B · 26.01.01~26.03.31)</div>
     <div class="g2" style="margin-bottom:12px;">
       <div>
-        <div class="ir"><span class="il">분기 매출액</span><span class="iv">$76.4B <span class="ev ev-4">높음</span></span></div>
-        <div class="ir"><span class="il">분기 영업이익</span><span class="iv up">$35.2B <span class="ev ev-4">높음</span></span></div>
-        <div class="ir"><span class="il">세전이익</span><span class="iv up">$36.0B <span class="ev ev-4">높음</span></span></div>
-        <div class="ir"><span class="il">분기순이익</span><span class="iv up">$29.9B <span class="ev ev-4">높음</span></span></div>
+        <div class="ir"><span class="il">분기 매출액</span><span class="iv up">$82.89B (▲18.3% YoY) <span class="ev ev-4">높음</span></span></div>
+        <div class="ir"><span class="il">분기 영업이익</span><span class="iv up">$38.40B (▲20.0% YoY) <span class="ev ev-4">높음</span></span></div>
+        <div class="ir"><span class="il">분기순이익</span><span class="iv up">$31.78B (▲23.1% YoY) <span class="ev ev-5">매우높음</span></span></div>
+        <div class="ir"><span class="il">분기 EPS (희석)</span><span class="iv up">$4.27 (▲23.4% YoY) <span class="ev ev-5">매우높음</span></span></div>
       </div>
       <div>
-        <div class="ir"><span class="il">분기 EPS</span><span class="iv up">$4.02 (연환산 ~$16.08) <span class="ev ev-5">매우높음</span></span></div>
-        <div class="ir"><span class="il">총자산</span><span class="iv">$578.4B (▲3.2% QoQ) <span class="ev ev-3">적정</span></span></div>
-        <div class="ir"><span class="il">총자본</span><span class="iv">$344.6B (▲4.4% QoQ) <span class="ev ev-2">양호</span></span></div>
-        <div class="ir"><span class="il">Azure 성장률(YoY)</span><span class="iv up">+31% <span class="ev ev-5">매우높음</span></span></div>
+        <div class="ir"><span class="il">총자산</span><span class="iv up">$694.23B (▲12.2% vs FY25말) <span class="ev ev-4">높음</span></span></div>
+        <div class="ir"><span class="il">총부채</span><span class="iv">$279.86B (▲1.6% vs FY25말) <span class="ev ev-3">적정</span></span></div>
+        <div class="ir"><span class="il">총자본</span><span class="iv up">$414.37B (▲20.6% vs FY25말) <span class="ev ev-4">높음</span></span></div>
+        <div class="ir"><span class="il">분기 배당금</span><span class="iv">DPS $0.91 <span class="ev ev-3">적정</span></span></div>
       </div>
     </div>
 
     <div style="background:var(--color-background-info);border-left:3px solid var(--color-navy);border-radius:var(--border-radius-md);padding:12px 14px;margin-bottom:12px;">
-      <div style="font-size:12px;font-weight:600;color:var(--color-navy);margin-bottom:5px;">🔑 (예시) 최근 분기 EPS 연환산이 FY2025 EPS를 상회</div>
-      <div style="font-size:12px;color:var(--color-text-primary);line-height:1.7;">단순 연환산(EPS×4=$16.08) 기준으로는 FY2025($13.68) 대비 이익 가속 흐름을 가정한 예시입니다. 클라우드 설비투자(CapEx) 확대가 지속되는 만큼 실 데이터 연동 후 마진 추세를 재확인해야 합니다.</div>
+      <div style="font-size:12px;font-weight:600;color:var(--color-navy);margin-bottom:5px;">🔑 실적 가속에도 주가는 저점권 — 밸류에이션 갭 확대</div>
+      <div style="font-size:12px;color:var(--color-text-primary);line-height:1.7;">FQ3 FY26 순이익 성장률(+23.1%)이 매출 성장률(+18.3%)을 상회하며 마진이 개선되고 있음에도, 같은 기간 주가는 52주 신저가를 새로 쓰는 등 조정이 지속됐다. 대규모 AI 데이터센터 투자 부담에 대한 시장의 우려가 밸류에이션에 더 크게 반영된 것으로 해석된다.</div>
     </div>
 
     <div class="hl">
-      <div style="font-size:13px;font-weight:600;color:var(--color-text-success);margin-bottom:4px;">💡 (예시) 10-Q 핵심 요약</div>
-      <div style="font-size:12px;color:var(--color-text-success);line-height:1.7;">Azure·AI 인프라 수요 확대가 이익 성장에 기여하는 흐름을 가정한 예시 시나리오입니다. 실 데이터 연동 후 SEC EDGAR 10-Q 원문 수치로 교체됩니다.</div>
+      <div style="font-size:13px;font-weight:600;color:var(--color-text-success);margin-bottom:4px;">💡 10-Q 핵심 — 이익 성장률이 3분기 연속 매출 성장률 상회</div>
+      <div style="font-size:12px;color:var(--color-text-success);line-height:1.7;">Azure·AI 인프라 수요 확대가 실적에 지속적으로 반영되는 흐름. 다만 대규모 CapEx가 이어지는 만큼, 향후 분기에서 마진 개선 속도가 유지되는지가 밸류에이션 재평가의 핵심 변수가 될 전망이다.</div>
     </div>
   </div>
 </div>
 
 <!-- 3. 기본 투자지표 -->
 <div class="card">
-  <div class="sec">3. 기본 투자지표 (Per-Share, 예시) <span class="src">📄 10-Q 원문 연동 예정</span></div>
+  <div class="sec">3. 기본 투자지표 (Per-Share) <span class="src">📄 10-K/10-Q 원문 기준</span></div>
   <div class="g4">
-    <div class="met"><div class="ml">EPS · FY2025</div><div class="mv up">$13.68</div><div class="ms">▲16.8% (예시)</div><div style="margin-top:5px;"><span class="ev ev-5">매우높음</span></div></div>
-    <div class="met"><div class="ml">최근 분기 EPS</div><div class="mv up">$4.02</div><div class="ms">연환산 ~$16.08 (예시)</div><div style="margin-top:5px;"><span class="ev ev-5">매우높음</span></div></div>
-    <div class="met"><div class="ml">BPS · 주당순자산</div><div class="mv">약 $44.20</div><div class="ms">(예시)</div><div style="margin-top:5px;"><span class="ev ev-3">적정</span></div></div>
-    <div class="met"><div class="ml">DPS · 주당배당금</div><div class="mv up">$3.32</div><div class="ms">배당성향 24.3% (예시)</div><div style="margin-top:5px;"><span class="ev ev-2">양호</span></div></div>
+    <div class="met"><div class="ml">EPS · FY2025 (희석)</div><div class="mv up">$13.64</div><div class="ms">▲15.6%</div><div style="margin-top:5px;"><span class="ev ev-4">높음</span></div></div>
+    <div class="met"><div class="ml">최근 분기 EPS</div><div class="mv up">$4.27</div><div class="ms">▲23.4% YoY</div><div style="margin-top:5px;"><span class="ev ev-5">매우높음</span></div></div>
+    <div class="met"><div class="ml">BPS · 주당순자산</div><div class="mv">$55.78</div><div class="ms">최근 분기말 기준</div><div style="margin-top:5px;"><span class="ev ev-3">적정</span></div></div>
+    <div class="met"><div class="ml">DPS · 주당배당금 (FY2025)</div><div class="mv up">$3.32</div><div class="ms">배당성향 24.3%</div><div style="margin-top:5px;"><span class="ev ev-2">양호</span></div></div>
   </div>
 </div>
 
 <!-- 4. 상대 투자지표 -->
 <div class="card">
-  <div class="sec">4. 상대 투자지표 — 최근 종가 $498.20 기준 (예시)</div>
+  <div class="sec">4. 상대 투자지표 — 최근 종가 $389.10 기준</div>
 
-  <div style="background:var(--color-background-warning);border-radius:var(--border-radius-md);padding:10px 12px;margin-bottom:12px;border-left:3px solid var(--color-gold-dark);">
-    <div style="font-size:12px;color:var(--color-text-warning);"><strong>⚠ 참고:</strong> 아래 밸류에이션 지표는 전부 더미 수치입니다. 실 데이터 연동 후 SEC EDGAR/Yahoo Finance 기준으로 재계산됩니다.</div>
+  <div style="background:var(--color-background-success);border-radius:var(--border-radius-md);padding:10px 12px;margin-bottom:12px;border-left:3px solid var(--color-text-success);">
+    <div style="font-size:12px;color:var(--color-text-success);"><strong>💡 밸류에이션 참고:</strong> 트레일링 PER 28.5배, 최근분기 연환산 기준 Forward PER은 22.8배로 낮아진 상태. 이익 성장률(20%대)에 비해 밸류에이션 부담이 상대적으로 완화됐지만, 아직 중기 이동평균선을 하회하는 기술적 약세가 병존한다.</div>
   </div>
 
   <div class="ind-row">
     <div class="ind-nm">PER (FY2025 EPS)</div>
-    <div class="ind-note">498.20÷13.68 (예시)</div>
-    <div class="ind-val">36.42x</div>
+    <div class="ind-note">389.10÷13.64</div>
+    <div class="ind-val">28.53x</div>
     <span class="ev ev-4" style="min-width:58px;text-align:center;">4단계</span>
   </div>
   <div class="ind-row">
     <div class="ind-nm">Forward PER</div>
-    <div class="ind-note">498.20÷16.08 (연환산, 예시)</div>
-    <div class="ind-val">30.98x</div>
-    <span class="ev ev-4" style="min-width:58px;text-align:center;">4단계</span>
+    <div class="ind-note">389.10÷17.08 (최근분기 EPS×4 연환산)</div>
+    <div class="ind-val">22.78x</div>
+    <span class="ev ev-3" style="min-width:58px;text-align:center;">3단계</span>
   </div>
   <div class="ind-row">
     <div class="ind-nm">PBR</div>
-    <div class="ind-note">498.20÷44.20 (예시)</div>
-    <div class="ind-val">11.27x</div>
-    <span class="ev ev-4" style="min-width:58px;text-align:center;">4단계</span>
+    <div class="ind-note">389.10÷55.78</div>
+    <div class="ind-val">6.98x</div>
+    <span class="ev ev-3" style="min-width:58px;text-align:center;">3단계</span>
   </div>
   <div class="ind-row">
     <div class="ind-nm">배당수익률</div>
-    <div class="ind-note">3.32÷498.20 (예시)</div>
-    <div class="ind-val">0.67%</div>
+    <div class="ind-note">0.91×4÷389.10 (최근 분기 배당 연환산)</div>
+    <div class="ind-val">0.94%</div>
     <span class="ev ev-3" style="min-width:58px;text-align:center;">3단계</span>
   </div>
 </div>
 
 <!-- 5. 시계열 이벤트 -->
 <div class="card">
-  <div class="sec">5. 시계열 주요 이벤트 (예시 서식) <span class="src">📄 SEC EDGAR + 📊 Yahoo Finance 연동 예정</span></div>
+  <div class="sec">5. 시계열 주요 이벤트 <span class="src">📄 SEC EDGAR + 📊 Yahoo Finance 일봉</span></div>
 
   <div class="tl">
     <div class="tl-item">
       <div class="tl-dot dot-neg"></div>
-      <div class="tl-date">(예시) 2025년 08월</div>
-      <div class="tl-title">52주 최저 부근 형성 (예시)</div>
-      <div class="tl-body">실 데이터 연동 후 자동으로 채워질 항목입니다.</div>
-      <span class="tag tag-neg">52주 최저 (예시)</span>
+      <div class="tl-date">2025년 07월 31일</div>
+      <div class="tl-title">주가 $555.45 — 52주 최고</div>
+      <div class="tl-body">1년 구간 내 최고점. 직전 분기(FQ4 FY25) 실적 호조를 반영해 고점을 형성한 뒤 이후 장기 조정 국면으로 전환.</div>
+      <span class="tag tag-neg">52주 최고</span>
     </div>
     <div class="tl-item">
       <div class="tl-dot dot-neu"></div>
-      <div class="tl-date">(예시) 10-K 공시일</div>
-      <div class="tl-title">FY2025 실적 공시 — EPS ▲16.8% (예시)</div>
-      <div class="tl-body">실 데이터 연동 후 자동으로 채워질 항목입니다.</div>
-      <span class="tag tag-neu">연간 실적 공시 (예시)</span>
+      <div class="tl-date">2025년 07월 30일 (10-K)</div>
+      <div class="tl-title">FY2025 실적 공시 — 매출 ▲14.9%, EPS ▲15.6%</div>
+      <div class="tl-body">3년 연속 두 자릿수 성장을 공식 확인했으나, 이미 높아진 밸류에이션 기대는 이후 주가 조정으로 일부 해소됨.</div>
+      <span class="tag tag-neu">연간 실적 공시</span>
     </div>
     <div class="tl-item">
       <div class="tl-dot dot-big"></div>
-      <div class="tl-date">(예시) 10-Q 공시일</div>
-      <div class="tl-title">최근 분기보고서 — EPS $4.02 (예시)</div>
-      <div class="tl-body">실 데이터 연동 후 자동으로 채워질 항목입니다.</div>
-      <span class="tag tag-big">분기 실적 공시 (예시)</span>
+      <div class="tl-date">2026년 04월 29일 (10-Q)</div>
+      <div class="tl-title">FQ3 FY26 분기보고서 — EPS $4.27, 전년동기比 ▲23.4%</div>
+      <div class="tl-body">이익 성장률이 매출 성장률을 상회하는 마진 개선 흐름을 재확인. 다만 주가는 같은 시기 하락세를 지속.</div>
+      <span class="tag tag-big">분기 실적 공시</span>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot dot-pos"></div>
+      <div class="tl-date">2026년 06월 25일 ~ 현재</div>
+      <div class="tl-title">주가 $349.20 52주 신저가 → $389.10 · 저점 확인 후 반등</div>
+      <div class="tl-body">6월 25일 52주 신저가를 기록한 뒤 완만한 반등(+11.4%)이 진행 중이나, 여전히 60·120일 이동평균선을 하회하는 조정 국면.</div>
+      <span class="tag tag-neg">52주 최저</span><span class="tag tag-pos">저점 반등</span>
     </div>
   </div>
 </div>
 
 <!-- 6. 투자 포인트 -->
 <div class="card">
-  <div class="sec">6. 핵심 투자 포인트 (예시 서식)</div>
+  <div class="sec">6. 2026년 핵심 투자 포인트</div>
   <div class="g2">
     <div>
-      <div style="font-size:13px;font-weight:600;margin-bottom:7px;color:var(--color-text-success);">긍정 요인 (Bull, 예시)</div>
-      <div class="ir"><span class="il">Azure·AI 클라우드 고성장 (예시)</span><span class="badge b-green">실적 모멘텀</span></div>
-      <div class="ir"><span class="il">SaaS 반복매출 안정성 (예시)</span><span class="badge b-blue">이익 안정성</span></div>
-      <div class="ir"><span class="il">AI 생태계 선점 (예시)</span><span class="badge b-se">사업 경쟁력</span></div>
+      <div style="font-size:13px;font-weight:600;margin-bottom:7px;color:var(--color-text-success);">긍정 요인 (Bull)</div>
+      <div class="ir"><span class="il">최근 분기 이익 성장률 +23%대로 3분기 연속 가속</span><span class="badge b-green">실적 모멘텀</span></div>
+      <div class="ir"><span class="il">3년 연속 두 자릿수 매출·이익 성장</span><span class="badge b-green">이익 안정성</span></div>
+      <div class="ir"><span class="il">고점 대비 -30% 조정으로 밸류에이션 완화 (Fwd PER 22.8x)</span><span class="badge b-blue">밸류 매력 개선</span></div>
+      <div class="ir"><span class="il">배당수익률 0.94%·배당성향 24.3%로 지속가능</span><span class="badge b-se">배당 안정성</span></div>
+      <div class="ir"><span class="il">6월 저점 이후 완만한 반등 진행 중</span><span class="badge b-green">저점 확인 시도</span></div>
     </div>
     <div>
-      <div style="font-size:13px;font-weight:600;margin-bottom:7px;color:var(--color-text-danger);">리스크 (Bear, 예시)</div>
-      <div class="ir"><span class="il">대규모 AI 데이터센터 CapEx 부담 (예시)</span><span class="badge b-amber">비용 부담</span></div>
-      <div class="ir"><span class="il">높은 밸류에이션 (예시)</span><span class="badge b-amber">밸류 부담</span></div>
-      <div class="ir"><span class="il">클라우드 경쟁 심화 (예시)</span><span class="badge b-gray">경쟁 리스크</span></div>
+      <div style="font-size:13px;font-weight:600;margin-bottom:7px;color:var(--color-text-danger);">리스크 (Bear)</div>
+      <div class="ir"><span class="il">52주 고점 대비 여전히 -29.9%</span><span class="badge b-red">장기 조정</span></div>
+      <div class="ir"><span class="il">60·120일 이동평균선 하회 지속 — 중기 추세 미전환</span><span class="badge b-amber">기술적 약세</span></div>
+      <div class="ir"><span class="il">대규모 AI 데이터센터 CapEx 부담 우려</span><span class="badge b-gray">비용 부담</span></div>
+      <div class="ir"><span class="il">최근 52주 신저가 경신 이력 — 추세 반전 확인 필요</span><span class="badge b-gray">추세 불확실</span></div>
     </div>
   </div>
   <div class="ib">
     <div style="display:flex;gap:14px;flex-wrap:wrap;font-size:13px;">
-      <div><span style="color:var(--color-text-secondary);">시총:</span> <span style="font-weight:600;">~$3.70T (예시)</span></div>
-      <div><span style="color:var(--color-text-secondary);">최근 분기 EPS:</span> <span class="up" style="font-weight:600;">$4.02 (연환산 ~$16.08, 예시)</span></div>
-      <div><span style="color:var(--color-text-secondary);">배당수익률:</span> <span style="font-weight:600;">0.67% (예시)</span></div>
+      <div><span style="color:var(--color-text-secondary);">시총:</span> <span style="font-weight:600;">~$2.89T</span></div>
+      <div><span style="color:var(--color-text-secondary);">최근 분기 EPS:</span> <span class="up" style="font-weight:600;">$4.27 (▲23.4% YoY)</span></div>
+      <div><span style="color:var(--color-text-secondary);">BPS:</span> <span style="font-weight:600;">$55.78 (PBR 7.0x)</span></div>
+      <div><span style="color:var(--color-text-secondary);">배당수익률:</span> <span style="font-weight:600;">0.94%</span></div>
     </div>
   </div>
-  <div style="margin-top:10px;font-size:11px;color:var(--color-text-tertiary);text-align:center;">⚠ 이 페이지의 모든 수치는 프레임 시연용 더미 데이터입니다. 실 데이터는 SEC EDGAR(10-K/10-Q) + Yahoo Finance 연동 후 반영 예정 · 투자 권고가 아닙니다</div>
+  <div style="margin-top:10px;font-size:11px;color:var(--color-text-tertiary);text-align:center;">⚠ 10-K(FY2025) + 10-Q(FQ3 FY26) SEC EDGAR 원문 + Yahoo Finance 일봉(2026-07-27 종가) 기준 · 투자 권고가 아닙니다</div>
 </div>
 
 </div>
@@ -299,9 +331,9 @@ function drawAnnualChart(){
   const W=680,H=190,pL=44,pR=44,pT=16,pB=26;
   const cW=W-pL-pR,cH=H-pT-pB;
   const cats=['FY2023','FY2024','FY2025'];
-  const rev=[212.0,249.4,282.5];
-  const oi=[89.7,109.4,128.8];
-  const ni=[72.4,88.9,102.3];
+  const rev=[211.92,245.12,281.72];
+  const oi=[88.52,109.43,128.53];
+  const ni=[72.36,88.14,101.83];
   const maxV=Math.max(...rev)*1.1;
   const groupW=cW/cats.length;
   const barW=groupW*0.26;
@@ -345,9 +377,9 @@ function drawQtrChart(){
   const svg=document.getElementById('msftQtrChart');
   const W=680,H=190,pL=44,pR=20,pT=20,pB=30;
   const cW=W-pL-pR,cH=H-pT-pB;
-  const labels=['매출액','영업이익','세전이익','순이익'];
-  const vals=[76.4,35.2,36.0,29.9];
-  const cols=['#8C97A5','#0B2545','#0B2545','#A6811A'];
+  const labels=['매출액','영업이익','순이익'];
+  const vals=[82.89,38.40,31.78];
+  const cols=['#8C97A5','#0B2545','#A6811A'];
   const maxV=vals[0]*1.15;
   const groupW=cW/labels.length;
   const barW=groupW*0.5;
@@ -369,6 +401,7 @@ function drawQtrChart(){
 }
 drawAnnualChart();
 
-const data = genDummyOHLC('MSFT', 420, 252);
+const data = [{d:'2025-07-28',o:514.08,h:515.0,l:510.12,c:512.5},{d:'2025-07-29',o:515.53,h:517.62,l:511.56,c:512.57},{d:'2025-07-30',o:515.17,h:515.95,l:509.44,c:513.24},{d:'2025-07-31',o:555.23,h:555.45,l:531.90,c:533.5},{d:'2025-08-01',o:535.0,h:535.80,l:520.86,c:524.11},{d:'2025-08-04',o:528.27,h:538.25,l:528.13,c:535.64},{d:'2025-08-05',o:537.18,h:537.30,l:527.24,c:527.75},{d:'2025-08-06',o:530.90,h:531.70,l:524.03,c:524.94},{d:'2025-08-07',o:526.80,h:528.09,l:517.55,c:520.84},{d:'2025-08-08',o:522.60,h:524.66,l:519.41,c:522.04},{d:'2025-08-11',o:522.30,h:527.59,l:519.72,c:521.77},{d:'2025-08-12',o:523.75,h:530.98,l:522.70,c:529.24},{d:'2025-08-13',o:532.11,h:532.70,l:519.37,c:520.58},{d:'2025-08-14',o:522.56,h:525.95,l:520.14,c:522.48},{d:'2025-08-15',o:522.77,h:526.10,l:519.08,c:520.17},{d:'2025-08-18',o:521.59,h:522.82,l:514.02,c:517.10},{d:'2025-08-19',o:515.0,h:515.16,l:508.55,c:509.77},{d:'2025-08-20',o:509.87,h:511.0,l:504.44,c:505.72},{d:'2025-08-21',o:503.69,h:507.63,l:502.72,c:504.24},{d:'2025-08-22',o:504.25,h:510.73,l:502.41,c:507.23},{d:'2025-08-25',o:506.63,h:508.19,l:504.12,c:504.26},{d:'2025-08-26',o:504.36,h:504.98,l:498.51,c:502.04},{d:'2025-08-27',o:502.0,h:507.29,l:499.90,c:506.74},{d:'2025-08-28',o:507.09,h:511.09,l:505.5,c:509.64},{d:'2025-08-29',o:508.66,h:509.60,l:504.49,c:506.69},{d:'2025-09-02',o:500.47,h:506.0,l:496.81,c:505.12},{d:'2025-09-03',o:503.79,h:507.79,l:502.32,c:505.35},{d:'2025-09-04',o:504.30,h:508.15,l:503.15,c:507.97},{d:'2025-09-05',o:509.07,h:511.97,l:492.37,c:495.0},{d:'2025-09-08',o:498.11,h:501.20,l:495.03,c:498.20},{d:'2025-09-09',o:501.43,h:502.25,l:497.70,c:498.41},{d:'2025-09-10',o:502.98,h:503.23,l:496.72,c:500.37},{d:'2025-09-11',o:502.25,h:503.17,l:497.88,c:501.01},{d:'2025-09-12',o:506.65,h:512.55,l:503.85,c:509.90},{d:'2025-09-15',o:508.79,h:515.47,l:507.0,c:515.36},{d:'2025-09-16',o:516.88,h:517.23,l:508.60,c:509.04},{d:'2025-09-17',o:510.62,h:511.29,l:505.93,c:510.02},{d:'2025-09-18',o:511.49,h:513.07,l:507.66,c:508.45},{d:'2025-09-19',o:510.56,h:519.30,l:510.31,c:517.93},{d:'2025-09-22',o:515.59,h:517.74,l:512.54,c:514.45},{d:'2025-09-23',o:513.80,h:514.59,l:507.31,c:509.23},{d:'2025-09-24',o:510.38,h:512.48,l:506.92,c:510.15},{d:'2025-09-25',o:508.30,h:510.01,l:505.04,c:507.03},{d:'2025-09-26',o:510.06,h:513.94,l:506.62,c:511.46},{d:'2025-09-29',o:511.5,h:516.85,l:508.88,c:514.60},{d:'2025-09-30',o:513.24,h:518.16,l:509.66,c:517.95},{d:'2025-10-01',o:514.80,h:520.51,l:511.69,c:519.71},{d:'2025-10-02',o:517.64,h:521.60,l:510.68,c:515.74},{d:'2025-10-03',o:517.10,h:520.49,l:515.0,c:517.35},{d:'2025-10-06',o:518.61,h:531.03,l:518.20,c:528.57},{d:'2025-10-07',o:528.29,h:529.80,l:521.44,c:523.98},{d:'2025-10-08',o:523.28,h:526.95,l:523.09,c:524.85},{d:'2025-10-09',o:522.34,h:524.33,l:517.40,c:522.40},{d:'2025-10-10',o:519.64,h:523.58,l:509.63,c:510.96},{d:'2025-10-13',o:516.41,h:516.41,l:511.68,c:514.05},{d:'2025-10-14',o:510.23,h:515.28,l:506.0,c:513.57},{d:'2025-10-15',o:514.96,h:517.19,l:510.0,c:513.43},{d:'2025-10-16',o:512.58,h:516.85,l:508.13,c:511.61},{d:'2025-10-17',o:509.04,h:515.48,l:507.31,c:513.58},{d:'2025-10-20',o:514.61,h:518.70,l:513.43,c:516.79},{d:'2025-10-21',o:517.5,h:518.69,l:513.04,c:517.66},{d:'2025-10-22',o:521.15,h:525.23,l:517.71,c:520.54},{d:'2025-10-23',o:522.46,h:523.95,l:518.61,c:520.56},{d:'2025-10-24',o:522.79,h:525.35,l:520.71,c:523.61},{d:'2025-10-27',o:531.78,h:534.58,l:529.01,c:531.52},{d:'2025-10-28',o:550.0,h:553.72,l:540.77,c:542.07},{d:'2025-10-29',o:544.94,h:546.27,l:536.73,c:541.55},{d:'2025-10-30',o:530.48,h:534.97,l:522.12,c:525.76},{d:'2025-10-31',o:528.88,h:529.32,l:515.10,c:517.81},{d:'2025-11-03',o:519.81,h:524.96,l:514.59,c:517.03},{d:'2025-11-04',o:511.76,h:515.55,l:507.84,c:514.33},{d:'2025-11-05',o:513.30,h:514.83,l:506.58,c:507.16},{d:'2025-11-06',o:505.66,h:505.70,l:495.81,c:497.10},{d:'2025-11-07',o:496.95,h:499.38,l:493.25,c:496.82},{d:'2025-11-10',o:500.04,h:506.85,l:498.80,c:506.0},{d:'2025-11-11',o:504.80,h:509.60,l:502.35,c:508.68},{d:'2025-11-12',o:509.36,h:511.67,l:499.12,c:511.14},{d:'2025-11-13',o:510.31,h:513.5,l:501.29,c:503.29},{d:'2025-11-14',o:498.23,h:511.60,l:497.44,c:510.18},{d:'2025-11-17',o:508.45,h:512.12,l:504.91,c:507.49},{d:'2025-11-18',o:495.37,h:502.98,l:486.78,c:493.79},{d:'2025-11-19',o:490.10,h:495.19,l:482.83,c:487.12},{d:'2025-11-20',o:492.71,h:493.57,l:475.5,c:478.43},{d:'2025-11-21',o:478.5,h:478.92,l:468.27,c:472.12},{d:'2025-11-24',o:475.0,h:476.90,l:468.02,c:474.0},{d:'2025-11-25',o:474.07,h:479.15,l:464.89,c:476.99},{d:'2025-11-26',o:486.31,h:488.31,l:481.20,c:485.5},{d:'2025-11-28',o:487.60,h:492.63,l:486.65,c:492.01},{d:'2025-12-01',o:488.44,h:489.86,l:484.65,c:486.74},{d:'2025-12-02',o:486.72,h:493.5,l:486.32,c:490.0},{d:'2025-12-03',o:476.32,h:484.24,l:475.20,c:477.73},{d:'2025-12-04',o:479.76,h:481.32,l:476.49,c:480.84},{d:'2025-12-05',o:482.52,h:483.40,l:478.88,c:483.16},{d:'2025-12-08',o:484.89,h:492.30,l:484.38,c:491.02},{d:'2025-12-09',o:489.10,h:492.12,l:488.5,c:492.02},{d:'2025-12-10',o:484.03,h:484.25,l:475.08,c:478.56},{d:'2025-12-11',o:476.63,h:486.03,l:475.86,c:483.47},{d:'2025-12-12',o:479.82,h:482.45,l:476.34,c:478.53},{d:'2025-12-15',o:480.10,h:480.72,l:472.52,c:474.82},{d:'2025-12-16',o:471.91,h:477.89,l:470.88,c:476.39},{d:'2025-12-17',o:476.91,h:480.0,l:475.0,c:476.12},{d:'2025-12-18',o:478.19,h:489.60,l:477.89,c:483.98},{d:'2025-12-19',o:487.36,h:487.85,l:482.49,c:485.92},{d:'2025-12-22',o:486.12,h:488.73,l:482.69,c:484.92},{d:'2025-12-23',o:484.98,h:487.83,l:484.74,c:486.85},{d:'2025-12-24',o:485.68,h:489.16,l:484.83,c:488.02},{d:'2025-12-26',o:486.71,h:488.12,l:485.96,c:487.71},{d:'2025-12-29',o:484.86,h:488.35,l:484.18,c:487.10},{d:'2025-12-30',o:485.93,h:489.68,l:485.5,c:487.48},{d:'2025-12-31',o:487.84,h:488.14,l:483.30,c:483.62},{d:'2026-01-02',o:484.39,h:484.66,l:470.16,c:472.94},{d:'2026-01-05',o:474.06,h:476.07,l:469.5,c:472.85},{d:'2026-01-06',o:473.80,h:478.74,l:469.75,c:478.51},{d:'2026-01-07',o:479.76,h:489.70,l:477.95,c:483.47},{d:'2026-01-08',o:481.24,h:482.66,l:475.86,c:478.11},{d:'2026-01-09',o:474.06,h:479.82,l:472.20,c:479.28},{d:'2026-01-12',o:476.67,h:480.99,l:475.68,c:477.18},{d:'2026-01-13',o:474.68,h:475.78,l:465.95,c:470.67},{d:'2026-01-14',o:466.46,h:468.20,l:457.17,c:459.38},{d:'2026-01-15',o:464.12,h:464.25,l:455.90,c:456.66},{d:'2026-01-16',o:457.83,h:463.19,l:456.48,c:459.86},{d:'2026-01-20',o:451.22,h:456.80,l:449.28,c:454.52},{d:'2026-01-21',o:452.60,h:452.69,l:438.68,c:444.11},{d:'2026-01-22',o:447.62,h:452.84,l:444.70,c:451.14},{d:'2026-01-23',o:451.87,h:471.10,l:450.53,c:465.95},{d:'2026-01-26',o:465.31,h:474.25,l:462.0,c:470.28},{d:'2026-01-27',o:473.70,h:482.87,l:473.16,c:480.58},{d:'2026-01-28',o:483.21,h:483.74,l:478.0,c:481.63},{d:'2026-01-29',o:439.99,h:442.5,l:421.02,c:433.5},{d:'2026-01-30',o:439.17,h:439.60,l:426.45,c:430.29},{d:'2026-02-02',o:430.24,h:430.74,l:422.25,c:423.37},{d:'2026-02-03',o:422.01,h:422.05,l:408.56,c:411.21},{d:'2026-02-04',o:411.0,h:419.80,l:409.24,c:414.19},{d:'2026-02-05',o:407.44,h:408.30,l:392.32,c:393.67},{d:'2026-02-06',o:399.17,h:401.79,l:392.92,c:401.14},{d:'2026-02-09',o:404.85,h:414.89,l:400.87,c:413.60},{d:'2026-02-10',o:419.62,h:423.68,l:412.70,c:413.27},{d:'2026-02-11',o:416.18,h:416.46,l:401.01,c:404.37},{d:'2026-02-12',o:405.0,h:406.20,l:398.01,c:401.84},{d:'2026-02-13',o:404.45,h:405.54,l:398.05,c:401.32},{d:'2026-02-17',o:399.22,h:400.52,l:394.53,c:396.86},{d:'2026-02-18',o:398.13,h:402.56,l:396.32,c:399.60},{d:'2026-02-19',o:400.69,h:404.43,l:396.67,c:398.46},{d:'2026-02-20',o:396.11,h:400.12,l:395.16,c:397.23},{d:'2026-02-23',o:395.0,h:395.36,l:383.10,c:384.47},{d:'2026-02-24',o:384.14,h:389.36,l:381.71,c:389.0},{d:'2026-02-25',o:390.53,h:401.47,l:390.16,c:400.60},{d:'2026-02-26',o:404.71,h:407.49,l:398.74,c:401.72},{d:'2026-02-27',o:390.88,h:396.82,l:389.88,c:392.74},{d:'2026-03-02',o:392.86,h:401.19,l:390.63,c:398.55},{d:'2026-03-03',o:393.14,h:406.70,l:392.67,c:403.93},{d:'2026-03-04',o:401.27,h:411.03,l:400.31,c:405.20},{d:'2026-03-05',o:404.42,h:411.61,l:404.40,c:410.68},{d:'2026-03-06',o:409.20,h:413.05,l:408.51,c:408.96},{d:'2026-03-09',o:404.92,h:410.21,l:403.5,c:409.41},{d:'2026-03-10',o:410.03,h:410.20,l:402.93,c:405.76},{d:'2026-03-11',o:405.57,h:409.01,l:401.59,c:404.88},{d:'2026-03-12',o:404.63,h:406.12,l:401.71,c:401.86},{d:'2026-03-13',o:401.0,h:404.80,l:394.25,c:395.55},{d:'2026-03-16',o:398.07,h:400.63,l:394.79,c:399.95},{d:'2026-03-17',o:400.27,h:404.40,l:397.75,c:399.41},{d:'2026-03-18',o:397.13,h:398.0,l:391.0,c:391.79},{d:'2026-03-19',o:390.10,h:392.49,l:387.06,c:389.02},{d:'2026-03-20',o:386.79,h:387.0,l:380.12,c:381.87},{d:'2026-03-23',o:383.90,h:387.21,l:381.68,c:383.0},{d:'2026-03-24',o:382.36,h:382.47,l:371.85,c:372.74},{d:'2026-03-25',o:376.92,h:377.06,l:369.63,c:371.04},{d:'2026-03-26',o:370.82,h:374.72,l:365.19,c:365.97},{d:'2026-03-27',o:361.90,h:362.45,l:356.51,c:356.77},{d:'2026-03-30',o:361.90,h:365.36,l:356.28,c:358.96},{d:'2026-03-31',o:364.55,h:372.90,l:363.07,c:370.17},{d:'2026-04-01',o:373.49,h:373.99,l:368.20,c:369.37},{d:'2026-04-02',o:367.21,h:373.64,l:364.15,c:373.46},{d:'2026-04-06',o:373.49,h:373.73,l:369.5,c:372.88},{d:'2026-04-07',o:370.34,h:372.45,l:366.56,c:372.29},{d:'2026-04-08',o:384.98,h:385.0,l:371.41,c:374.33},{d:'2026-04-09',o:372.5,h:373.5,l:367.05,c:373.07},{d:'2026-04-10',o:372.98,h:375.64,l:370.03,c:370.87},{d:'2026-04-13',o:373.61,h:384.54,l:371.02,c:384.37},{d:'2026-04-14',o:387.92,h:394.69,l:386.52,c:393.11},{d:'2026-04-15',o:398.0,h:414.37,l:396.73,c:411.22},{d:'2026-04-16',o:419.86,h:420.82,l:412.14,c:420.26},{d:'2026-04-17',o:424.82,h:431.58,l:420.69,c:422.79},{d:'2026-04-20',o:421.15,h:423.33,l:416.30,c:418.07},{d:'2026-04-21',o:420.24,h:427.18,l:417.20,c:424.16},{d:'2026-04-22',o:426.19,h:433.70,l:423.67,c:432.92},{d:'2026-04-23',o:419.89,h:423.66,l:411.41,c:415.75},{d:'2026-04-24',o:416.97,h:424.95,l:415.80,c:424.62},{d:'2026-04-27',o:422.38,h:427.11,l:417.07,c:424.82},{d:'2026-04-28',o:424.57,h:429.92,l:421.90,c:429.25},{d:'2026-04-29',o:424.58,h:426.82,l:420.29,c:424.46},{d:'2026-04-30',o:410.81,h:414.42,l:398.01,c:407.78},{d:'2026-05-01',o:412.80,h:417.11,l:410.44,c:414.44},{d:'2026-05-04',o:411.54,h:420.78,l:410.80,c:413.62},{d:'2026-05-05',o:415.32,h:416.78,l:408.80,c:411.38},{d:'2026-05-06',o:408.0,h:418.42,l:405.11,c:413.96},{d:'2026-05-07',o:420.11,h:427.98,l:418.76,c:420.77},{d:'2026-05-08',o:417.39,h:418.63,l:414.0,c:415.12},{d:'2026-05-11',o:407.87,h:412.69,l:405.5,c:412.66},{d:'2026-05-12',o:414.48,h:415.5,l:406.64,c:407.77},{d:'2026-05-13',o:403.20,h:406.31,l:401.03,c:405.21},{d:'2026-05-14',o:404.48,h:411.84,l:400.88,c:409.43},{d:'2026-05-15',o:414.27,h:428.17,l:412.91,c:421.92},{d:'2026-05-18',o:416.62,h:425.12,l:415.61,c:423.54},{d:'2026-05-19',o:429.90,h:432.70,l:416.49,c:417.42},{d:'2026-05-20',o:414.17,h:422.10,l:411.30,c:421.06},{d:'2026-05-21',o:424.75,h:426.34,l:415.71,c:419.09},{d:'2026-05-22',o:419.54,h:424.40,l:416.33,c:418.57},{d:'2026-05-26',o:416.43,h:419.77,l:413.02,c:416.03},{d:'2026-05-27',o:411.01,h:415.94,l:409.58,c:412.67},{d:'2026-05-28',o:412.98,h:429.49,l:412.67,c:426.99},{d:'2026-05-29',o:432.55,h:450.33,l:432.36,c:450.24},{d:'2026-06-01',o:464.84,h:466.32,l:458.27,c:460.52},{d:'2026-06-02',o:446.88,h:453.5,l:440.43,c:441.31},{d:'2026-06-03',o:438.45,h:440.39,l:424.25,c:427.34},{d:'2026-06-04',o:435.81,h:436.15,l:426.41,c:428.05},{d:'2026-06-05',o:428.34,h:429.47,l:414.40,c:416.67},{d:'2026-06-08',o:414.14,h:417.16,l:408.56,c:411.74},{d:'2026-06-09',o:409.03,h:411.98,l:398.48,c:403.41},{d:'2026-06-10',o:398.55,h:405.04,l:397.16,c:397.36},{d:'2026-06-11',o:395.21,h:396.85,l:384.0,c:390.34},{d:'2026-06-12',o:391.43,h:391.74,l:382.27,c:390.74},{d:'2026-06-15',o:396.80,h:401.75,l:392.85,c:399.76},{d:'2026-06-16',o:395.79,h:396.84,l:390.69,c:393.83},{d:'2026-06-17',o:390.25,h:390.37,l:377.32,c:378.91},{d:'2026-06-18',o:377.82,h:381.37,l:373.28,c:379.40},{d:'2026-06-22',o:375.74,h:381.63,l:367.07,c:367.34},{d:'2026-06-23',o:372.38,h:377.22,l:370.67,c:373.94},{d:'2026-06-24',o:371.57,h:378.88,l:364.78,c:365.46},{d:'2026-06-25',o:362.77,h:364.23,l:349.20,c:352.83},{d:'2026-06-26',o:357.15,h:376.61,l:355.43,c:372.97},{d:'2026-06-29',o:377.5,h:380.5,l:359.90,c:368.57},{d:'2026-06-30',o:371.03,h:374.15,l:367.45,c:373.02},{d:'2026-07-01',o:380.83,h:388.83,l:374.89,c:384.28},{d:'2026-07-02',o:384.48,h:392.20,l:383.70,c:390.49},{d:'2026-07-06',o:387.04,h:389.15,l:381.22,c:386.74},{d:'2026-07-07',o:392.49,h:395.57,l:388.22,c:388.84},{d:'2026-07-08',o:384.03,h:385.31,l:381.33,c:383.34},{d:'2026-07-09',o:374.45,h:384.65,l:373.35,c:384.36},{d:'2026-07-10',o:387.80,h:391.91,l:381.5,c:385.10},{d:'2026-07-13',o:387.75,h:393.65,l:384.15,c:390.99},{d:'2026-07-14',o:382.82,h:388.19,l:378.65,c:384.93},{d:'2026-07-15',o:387.80,h:398.96,l:386.40,c:395.63},{d:'2026-07-16',o:398.31,h:405.99,l:392.05,c:401.10},{d:'2026-07-17',o:394.86,h:398.39,l:389.39,c:393.82},{d:'2026-07-20',o:391.41,h:403.18,l:389.65,c:402.29},{d:'2026-07-21',o:398.81,h:401.47,l:396.32,c:397.75},{d:'2026-07-22',o:399.58,h:401.0,l:386.96,c:390.34},{d:'2026-07-23',o:389.97,h:391.78,l:377.39,c:381.58},{d:'2026-07-24',o:387.05,h:389.03,l:380.65,c:381.70},{d:'2026-07-27',o:390.07,h:394.20,l:387.99,c:389.10}];
+
 renderCandleChart({svgId:'msftSvg', controlsId:'msftChartControls', data: data});
 </script>

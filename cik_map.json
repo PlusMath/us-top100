@@ -1,0 +1,402 @@
+[
+    {
+        "ticker":  "AAPL",
+        "cik":  320193
+    },
+    {
+        "ticker":  "ABBV",
+        "cik":  1551152
+    },
+    {
+        "ticker":  "ABT",
+        "cik":  1800
+    },
+    {
+        "ticker":  "ADBE",
+        "cik":  796343
+    },
+    {
+        "ticker":  "ADI",
+        "cik":  6281
+    },
+    {
+        "ticker":  "ADP",
+        "cik":  8670
+    },
+    {
+        "ticker":  "AMAT",
+        "cik":  6951
+    },
+    {
+        "ticker":  "AMD",
+        "cik":  2488
+    },
+    {
+        "ticker":  "AMGN",
+        "cik":  318154
+    },
+    {
+        "ticker":  "AMZN",
+        "cik":  1018724
+    },
+    {
+        "ticker":  "AVGO",
+        "cik":  1730168
+    },
+    {
+        "ticker":  "AXP",
+        "cik":  4962
+    },
+    {
+        "ticker":  "BA",
+        "cik":  12927
+    },
+    {
+        "ticker":  "BAC",
+        "cik":  70858
+    },
+    {
+        "ticker":  "BKNG",
+        "cik":  1075531
+    },
+    {
+        "ticker":  "BLK",
+        "cik":  2012383
+    },
+    {
+        "ticker":  "BRKB",
+        "cik":  1067983
+    },
+    {
+        "ticker":  "CAT",
+        "cik":  18230
+    },
+    {
+        "ticker":  "CB",
+        "cik":  896159
+    },
+    {
+        "ticker":  "CL",
+        "cik":  21665
+    },
+    {
+        "ticker":  "CMCSA",
+        "cik":  1166691
+    },
+    {
+        "ticker":  "COP",
+        "cik":  1163165
+    },
+    {
+        "ticker":  "COST",
+        "cik":  909832
+    },
+    {
+        "ticker":  "CRM",
+        "cik":  1108524
+    },
+    {
+        "ticker":  "CSCO",
+        "cik":  858877
+    },
+    {
+        "ticker":  "CVS",
+        "cik":  64803
+    },
+    {
+        "ticker":  "CVX",
+        "cik":  93410
+    },
+    {
+        "ticker":  "DE",
+        "cik":  315189
+    },
+    {
+        "ticker":  "DHR",
+        "cik":  313616
+    },
+    {
+        "ticker":  "DUK",
+        "cik":  1326160
+    },
+    {
+        "ticker":  "ELV",
+        "cik":  1156039
+    },
+    {
+        "ticker":  "EQIX",
+        "cik":  1101239
+    },
+    {
+        "ticker":  "ETN",
+        "cik":  1551182
+    },
+    {
+        "ticker":  "FISV",
+        "cik":  798354
+    },
+    {
+        "ticker":  "GE",
+        "cik":  40545
+    },
+    {
+        "ticker":  "GILD",
+        "cik":  882095
+    },
+    {
+        "ticker":  "GOOGL",
+        "cik":  1652044
+    },
+    {
+        "ticker":  "GS",
+        "cik":  886982
+    },
+    {
+        "ticker":  "HD",
+        "cik":  354950
+    },
+    {
+        "ticker":  "HON",
+        "cik":  773840
+    },
+    {
+        "ticker":  "IBM",
+        "cik":  51143
+    },
+    {
+        "ticker":  "INTC",
+        "cik":  50863
+    },
+    {
+        "ticker":  "INTU",
+        "cik":  896878
+    },
+    {
+        "ticker":  "ISRG",
+        "cik":  1035267
+    },
+    {
+        "ticker":  "JNJ",
+        "cik":  200406
+    },
+    {
+        "ticker":  "JPM",
+        "cik":  19617
+    },
+    {
+        "ticker":  "KLAC",
+        "cik":  319201
+    },
+    {
+        "ticker":  "KO",
+        "cik":  21344
+    },
+    {
+        "ticker":  "LLY",
+        "cik":  59478
+    },
+    {
+        "ticker":  "LMT",
+        "cik":  936468
+    },
+    {
+        "ticker":  "LOW",
+        "cik":  60667
+    },
+    {
+        "ticker":  "LRCX",
+        "cik":  707549
+    },
+    {
+        "ticker":  "MA",
+        "cik":  1141391
+    },
+    {
+        "ticker":  "MCD",
+        "cik":  63908
+    },
+    {
+        "ticker":  "MDLZ",
+        "cik":  1103982
+    },
+    {
+        "ticker":  "MDT",
+        "cik":  1613103
+    },
+    {
+        "ticker":  "META",
+        "cik":  1326801
+    },
+    {
+        "ticker":  "MRSH",
+        "cik":  62709
+    },
+    {
+        "ticker":  "MO",
+        "cik":  764180
+    },
+    {
+        "ticker":  "MRK",
+        "cik":  310158
+    },
+    {
+        "ticker":  "MS",
+        "cik":  895421
+    },
+    {
+        "ticker":  "MSFT",
+        "cik":  789019
+    },
+    {
+        "ticker":  "MU",
+        "cik":  723125
+    },
+    {
+        "ticker":  "NEE",
+        "cik":  753308
+    },
+    {
+        "ticker":  "NFLX",
+        "cik":  1065280
+    },
+    {
+        "ticker":  "NKE",
+        "cik":  320187
+    },
+    {
+        "ticker":  "NOC",
+        "cik":  1133421
+    },
+    {
+        "ticker":  "NOW",
+        "cik":  1373715
+    },
+    {
+        "ticker":  "NVDA",
+        "cik":  1045810
+    },
+    {
+        "ticker":  "ORCL",
+        "cik":  1341439
+    },
+    {
+        "ticker":  "PANW",
+        "cik":  1327567
+    },
+    {
+        "ticker":  "PEP",
+        "cik":  77476
+    },
+    {
+        "ticker":  "PG",
+        "cik":  80424
+    },
+    {
+        "ticker":  "PGR",
+        "cik":  80661
+    },
+    {
+        "ticker":  "PLTR",
+        "cik":  1321655
+    },
+    {
+        "ticker":  "PM",
+        "cik":  1413329
+    },
+    {
+        "ticker":  "PYPL",
+        "cik":  1633917
+    },
+    {
+        "ticker":  "QCOM",
+        "cik":  804328
+    },
+    {
+        "ticker":  "REGN",
+        "cik":  872589
+    },
+    {
+        "ticker":  "RTX",
+        "cik":  101829
+    },
+    {
+        "ticker":  "SBUX",
+        "cik":  829224
+    },
+    {
+        "ticker":  "SCHW",
+        "cik":  316709
+    },
+    {
+        "ticker":  "SHW",
+        "cik":  89800
+    },
+    {
+        "ticker":  "SO",
+        "cik":  92122
+    },
+    {
+        "ticker":  "SPGI",
+        "cik":  64040
+    },
+    {
+        "ticker":  "SYK",
+        "cik":  310764
+    },
+    {
+        "ticker":  "TJX",
+        "cik":  109198
+    },
+    {
+        "ticker":  "TMO",
+        "cik":  97745
+    },
+    {
+        "ticker":  "TMUS",
+        "cik":  1283699
+    },
+    {
+        "ticker":  "TSLA",
+        "cik":  1318605
+    },
+    {
+        "ticker":  "TXN",
+        "cik":  97476
+    },
+    {
+        "ticker":  "UBER",
+        "cik":  1543151
+    },
+    {
+        "ticker":  "UNH",
+        "cik":  731766
+    },
+    {
+        "ticker":  "UNP",
+        "cik":  100885
+    },
+    {
+        "ticker":  "V",
+        "cik":  1403161
+    },
+    {
+        "ticker":  "VRTX",
+        "cik":  875320
+    },
+    {
+        "ticker":  "VZ",
+        "cik":  732712
+    },
+    {
+        "ticker":  "WFC",
+        "cik":  72971
+    },
+    {
+        "ticker":  "WMT",
+        "cik":  104169
+    },
+    {
+        "ticker":  "XOM",
+        "cik":  34088
+    }
+]
