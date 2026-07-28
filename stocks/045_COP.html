@@ -76,7 +76,7 @@
     <svg id="cCOPAnnualChart" viewBox="0 0 680 190" width="100%" style="display:block;margin-bottom:12px;"></svg>
     <div style="font-size:12px;font-weight:600;color:var(--color-text-secondary);margin-bottom:6px;">&#128202; 손익 요약 (단위: $B &middot; 2025年)</div>
     <div class="g2" style="margin-bottom:12px;">
-      <div><div class="ir"><span class="il">매출액</span><span class="iv">$52B (<span class="up">&#9650;4.9%</span>) <span class="ev ev-3">적정</span></span></div>
+      <div><div class="ir"><span class="il">매출액</span><span class="iv">$59B (<span class="up">&#9650;7.7%</span>) <span class="ev ev-4">높음</span></span></div>
 <div class="ir"><span class="il">세전이익</span><span class="iv">$13B (<span class="dn">&#9660;7.4%</span>) <span class="ev ev-1">감소</span></span></div>
 <div class="ir"><span class="il">순이익</span><span class="iv">$8B (<span class="dn">&#9660;13.6%</span>) <span class="ev ev-1">감소</span></span></div>
 <div class="ir"><span class="il">희석주당순이익</span><span class="iv">$6.35 (<span class="dn">&#9660;18.7%</span>) <span class="ev ev-1">감소</span></span></div>
@@ -93,7 +93,7 @@
     <svg id="cCOPQtrChart" viewBox="0 0 680 190" width="100%" style="display:block;margin-bottom:12px;"></svg>
     <div style="font-size:12px;font-weight:600;color:var(--color-text-secondary);margin-bottom:6px;">&#128202; 최근 분기 손익 요약 (단위: $B)</div>
     <div class="g2" style="margin-bottom:12px;">
-      <div><div class="ir"><span class="il">분기 매출액</span><span class="iv">$14B (<span class="dn">&#9660;6.8%</span> YoY)</span></div>
+      <div><div class="ir"><span class="il">분기 매출액</span><span class="iv">$16B (<span class="dn">&#9660;4.6%</span> YoY)</span></div>
 <div class="ir"><span class="il">분기 세전이익</span><span class="iv">$3B (<span class="dn">&#9660;24.7%</span> YoY)</span></div>
 <div class="ir"><span class="il">분기순이익</span><span class="iv">$2B (<span class="dn">&#9660;23.4%</span> YoY) <span class="ev ev-1">감소</span></span></div>
 <div class="ir"><span class="il">분기 EPS (희석)</span><span class="iv">$1.78 (<span class="dn">&#9660;20.2%</span> YoY) <span class="ev ev-1">감소</span></span></div>
@@ -164,7 +164,7 @@ function drawAnnualChart(){
   const W=680,H=190,pL=44,pR=44,pT=16,pB=26;
   const cW=W-pL-pR,cH=H-pT-pB;
   const cats=['2023','2024','2025'];
-  const rev=[48.52,49.42,51.82];
+  const rev=[56.14,54.74,58.94];
   const oi=[16.29,13.67,12.66];
   const ni=[10.96,9.24,7.99];
   if(cats.length===0 || rev.length===0){ return; }
@@ -202,7 +202,7 @@ function drawQtrChart(){
   const W=680,H=190,pL=44,pR=20,pT=20,pB=30;
   const cW=W-pL-pR,cH=H-pT-pB;
   const labels=['매출액','세전이익','순이익'];
-  const vals=[13.5,3.36,2.18];
+  const vals=[15.76,3.36,2.18];
   const cols=['#8C97A5','#0B2545','#A6811A'];
   const maxV=Math.max(...vals,1)*1.15;
   const groupW=cW/labels.length;

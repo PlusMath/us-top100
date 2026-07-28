@@ -56,11 +56,11 @@ function Get-LatestInstant2($items, $formFilter) {
 }
 
 $tickers = @(
-  @{t='AAPL'; f="$scratch\aapl_facts.json"},
-  @{t='MSFT'; f="$scratch\msft_facts.json"},
-  @{t='NVDA'; f="$scratch\facts\NVDA_facts.json"},
-  @{t='GOOGL'; f="$scratch\facts\GOOGL_facts.json"},
-  @{t='AMZN'; f="$scratch\facts\AMZN_facts.json"}
+  @{t='META'; f="$scratch\facts\META_facts.json"},
+  @{t='AVGO'; f="$scratch\facts\AVGO_facts.json"},
+  @{t='TSLA'; f="$scratch\facts\TSLA_facts.json"},
+  @{t='BRKB'; f="$scratch\facts\BRKB_facts.json"},
+  @{t='JPM'; f="$scratch\facts\JPM_facts.json"}
 )
 
 $ocfNames = @('NetCashProvidedByUsedInOperatingActivities','NetCashProvidedByUsedInOperatingActivitiesContinuingOperations')
@@ -75,29 +75,27 @@ $results = @{}
 foreach ($tk in $tickers) {
   $raw = [System.IO.File]::ReadAllText($tk.f, [System.Text.Encoding]::UTF8)
   function TryConcepts($names, $unit) {
-    $cutoff = (Get-Date).AddDays(-800)
-    $stale = @()
+    $candidates = @()
     foreach ($n in $names) {
       $items = Get-ConceptUnit $raw $n $unit
       if ($items -and $items.Count -gt 0) {
         $dates = $items | Where-Object { $_.form -eq '10-K' -or $_.form -eq '10-Q' } | ForEach-Object { try { [datetime]$_.end } catch {} }
         $maxDate = if ($dates) { $dates | Sort-Object -Descending | Select-Object -First 1 } else { $null }
-        if ($maxDate -and $maxDate -ge $cutoff) { return @{items=$items;concept=$n} }
-        $stale += @{items=$items;concept=$n;maxDate=$maxDate}
+        $candidates += @{items=$items;concept=$n;maxDate=$maxDate}
       }
     }
-    if ($stale.Count -gt 0) { return ($stale | Sort-Object { $_.maxDate } -Descending | Select-Object -First 1) }
-    return $null
+    if ($candidates.Count -eq 0) { return $null }
+    return ($candidates | Sort-Object { if ($_.maxDate) { $_.maxDate } else { [datetime]::MinValue } } -Descending | Select-Object -First 1)
   }
   $ocf = TryConcepts $ocfNames 'USD'
   $capex = TryConcepts $capexNames 'USD'
   $buyback = TryConcepts $buybackNames 'USD'
   $cash = TryConcepts $cashNames 'USD'
   $debt = TryConcepts $debtNames 'USD'
-  $rev = TryConcepts $revNames 'USD'
+  $rev = TryConcepts ($revNames + @('SalesRevenueNet','InterestAndDividendIncomeOperating','Revenues')) 'USD'
   $eps = TryConcepts $epsNames 'USD/shares'
-  $oi = TryConcepts @('OperatingIncomeLoss') 'USD'
-  $ni = TryConcepts @('NetIncomeLoss') 'USD'
+  $oi = TryConcepts @('OperatingIncomeLoss','IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest','IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments') 'USD'
+  $ni = TryConcepts @('NetIncomeLoss','ProfitLoss') 'USD'
 
   Write-Host "=================== $($tk.t) ==================="
   Write-Host "-- Operating Cash Flow (5yr) [$($ocf.concept)] --"

@@ -2,7 +2,7 @@
     {
         "ticker":  "ABBV",
         "cik":  1551152,
-        "revConcept":  "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "revConcept":  "Revenues",
         "oiConcept":  "OperatingIncomeLoss",
         "oiIsPreTax":  false,
         "revAnnual":  [
@@ -43,17 +43,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  4226000000
+                             "val":  4233000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  4278000000
+                             "val":  4286000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  4863000000
+                             "val":  4873000000
                          }
                      ],
         "epsAnnual":  [
@@ -73,24 +73,24 @@
                               "val":  2.72
                           }
                       ],
-        "revQLatest":  8236000000,
-        "revQPrior":  6995000000,
-        "revQEnd":  "2018-09-30",
-        "revQStart":  "2018-07-01",
+        "revQLatest":  15002000000,
+        "revQPrior":  13343000000,
+        "revQEnd":  "2026-03-31",
+        "revQStart":  "2026-01-01",
         "oiQLatest":  3990000000,
         "oiQPrior":  3733000000,
-        "niQLatest":  695000000,
-        "niQPrior":  1286000000,
+        "niQLatest":  697000000,
+        "niQPrior":  1289000000,
         "epsQLatest":  0.39,
         "epsQPrior":  0.72,
         "assetsFY":  133960000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  null,
-        "equityFY":  -3270000000,
+        "equityFY":  -3228000000,
         "assetsLatest":  136463000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  null,
-        "equityLatest":  -6656000000,
+        "equityLatest":  -6612000000,
         "divAnnualLatest":  6.65,
         "divQLatest":  1.73,
         "sharesOut":  1766792821,
@@ -233,11 +233,11 @@
         "assetsFY":  86713000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  null,
-        "equityFY":  52130000000,
+        "equityFY":  52771000000,
         "assetsLatest":  110429000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  null,
-        "equityLatest":  52061000000,
+        "equityLatest":  52701000000,
         "divAnnualLatest":  2.4,
         "divQLatest":  0.63,
         "sharesOut":  1741812429,
@@ -1364,6 +1364,11 @@
                      ],
         "niAnnual":  [
                          {
+                             "end":  "2025-11-02",
+                             "start":  "2024-11-04",
+                             "val":  23126000000
+                         },
+                         {
                              "end":  "2024-11-03",
                              "start":  "2023-10-30",
                              "val":  5895000000
@@ -1372,11 +1377,6 @@
                              "end":  "2023-10-29",
                              "start":  "2022-10-31",
                              "val":  14082000000
-                         },
-                         {
-                             "end":  "2022-10-30",
-                             "start":  "2021-11-01",
-                             "val":  11495000000
                          }
                      ],
         "epsAnnual":  [
@@ -1402,8 +1402,8 @@
         "revQStart":  "2026-02-02",
         "oiQLatest":  10788000000,
         "oiQPrior":  5829000000,
-        "niQLatest":  715000000,
-        "niQPrior":  1196000000,
+        "niQLatest":  9310000000,
+        "niQPrior":  4965000000,
         "epsQLatest":  1.91,
         "epsQPrior":  1.03,
         "assetsFY":  171092000000,
@@ -1418,51 +1418,51 @@
         "divQLatest":  0.65,
         "sharesOut":  4757580198,
         "chart":  {
-                      "price":  383.22,
-                      "priceDate":  "2026-07-27",
-                      "dailyChgPct":  0.34,
+                      "price":  380.91,
+                      "priceDate":  "2026-07-28",
+                      "dailyChgPct":  -0.60,
                       "hi52":  495.0,
                       "hi52Date":  "26-06-03",
                       "lo52":  281.61,
                       "lo52Date":  "25-08-01",
-                      "ma5":  388.18,
-                      "ma20":  382.31,
-                      "ma60":  402.48,
-                      "ma120":  372.83,
+                      "ma5":  387.07,
+                      "ma20":  382.73,
+                      "ma60":  401.87,
+                      "ma120":  373.33,
                       "segments":  [
                                        {
-                                           "startDate":  "25.07.28",
-                                           "endDate":  "25.10.23",
-                                           "startClose":  294.30,
-                                           "endClose":  344.29,
-                                           "chgPct":  16.99,
+                                           "startDate":  "25.07.29",
+                                           "endDate":  "25.10.24",
+                                           "startClose":  297.42,
+                                           "endClose":  354.13,
+                                           "chgPct":  19.07,
                                            "segHigh":  374.23,
                                            "segLow":  281.61
                                        },
                                        {
-                                           "startDate":  "25.10.24",
-                                           "endDate":  "26.01.26",
-                                           "startClose":  354.13,
-                                           "endClose":  324.85,
-                                           "chgPct":  -8.27,
+                                           "startDate":  "25.10.27",
+                                           "endDate":  "26.01.27",
+                                           "startClose":  362.05,
+                                           "endClose":  332.79,
+                                           "chgPct":  -8.08,
                                            "segHigh":  414.61,
                                            "segLow":  314.11
                                        },
                                        {
-                                           "startDate":  "26.01.27",
-                                           "endDate":  "26.04.27",
-                                           "startClose":  332.79,
-                                           "endClose":  418.20,
-                                           "chgPct":  25.66,
+                                           "startDate":  "26.01.28",
+                                           "endDate":  "26.04.28",
+                                           "startClose":  333.24,
+                                           "endClose":  399.83,
+                                           "chgPct":  19.98,
                                            "segHigh":  429.31,
                                            "segLow":  289.96
                                        },
                                        {
-                                           "startDate":  "26.04.28",
-                                           "endDate":  "26.07.27",
-                                           "startClose":  399.83,
-                                           "endClose":  383.22,
-                                           "chgPct":  -4.15,
+                                           "startDate":  "26.04.29",
+                                           "endDate":  "26.07.28",
+                                           "startClose":  405.45,
+                                           "endClose":  380.91,
+                                           "chgPct":  -6.05,
                                            "segHigh":  495,
                                            "segLow":  356.43
                                        }
@@ -1660,17 +1660,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  2235000000
+                             "val":  2238000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  -11817000000
+                             "val":  -11829000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  -2222000000
+                             "val":  -2242000000
                          }
                      ],
         "epsAnnual":  [
@@ -1696,14 +1696,14 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  448000000,
         "oiQPrior":  461000000,
-        "niQLatest":  -4000000,
-        "niQPrior":  -37000000,
+        "niQLatest":  -7000000,
+        "niQPrior":  -31000000,
         "epsQLatest":  -0.11,
         "epsQPrior":  -0.16,
         "assetsFY":  168235000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  162778000000,
-        "equityFY":  5454000000,
+        "equityFY":  5457000000,
         "assetsLatest":  164787000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  158800000000,
@@ -2101,17 +2101,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  5553000000
+                             "val":  5942000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  6369000000
+                             "val":  6512000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  5502000000
+                             "val":  5676000000
                          }
                      ],
         "epsAnnual":  [
@@ -2137,18 +2137,18 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  2814000000,
         "oiQPrior":  1698000000,
-        "niQLatest":  2212000000,
-        "niQPrior":  1510000000,
+        "niQLatest":  2326000000,
+        "niQPrior":  1515000000,
         "epsQLatest":  14.06,
         "epsQPrior":  9.64,
         "assetsFY":  169998000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  108456000000,
-        "equityFY":  55888000000,
+        "equityFY":  56115000000,
         "assetsLatest":  170237000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  106921000000,
-        "equityLatest":  56688000000,
+        "equityLatest":  56905000000,
         "divAnnualLatest":  20.84,
         "divQLatest":  5.73,
         "sharesOut":  154926181,
@@ -2207,24 +2207,24 @@
     {
         "ticker":  "BRKB",
         "cik":  1067983,
-        "revConcept":  "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "revConcept":  "Revenues",
         "oiConcept":  "OperatingIncomeLoss",
         "oiIsPreTax":  false,
         "revAnnual":  [
                           {
                               "end":  "2025-12-31",
                               "start":  "2025-01-01",
-                              "val":  247244000000
+                              "val":  371444000000
                           },
                           {
                               "end":  "2024-12-31",
                               "start":  "2024-01-01",
-                              "val":  249714000000
+                              "val":  371433000000
                           },
                           {
                               "end":  "2023-12-31",
                               "start":  "2023-01-01",
-                              "val":  254906000000
+                              "val":  364482000000
                           }
                       ],
         "oiAnnual":  [
@@ -2248,90 +2248,90 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  66968000000
+                             "val":  67260000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  88995000000
+                             "val":  89561000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  96223000000
+                             "val":  97147000000
                          }
                      ],
         "epsAnnual":  [
 
                       ],
-        "revQLatest":  63137000000,
-        "revQPrior":  59357000000,
+        "revQLatest":  93675000000,
+        "revQPrior":  89725000000,
         "revQEnd":  "2026-03-31",
         "revQStart":  "2026-01-01",
         "oiQLatest":  5885000000,
         "oiQPrior":  4338000000,
-        "niQLatest":  10106000000,
-        "niQPrior":  4603000000,
+        "niQLatest":  10179000000,
+        "niQPrior":  4672000000,
         "epsQLatest":  1814,
         "epsQPrior":  2087,
         "assetsFY":  1222176000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  502473000000,
-        "equityFY":  717419000000,
+        "equityFY":  719703000000,
         "assetsLatest":  1252271000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  522821000000,
-        "equityLatest":  727181000000,
+        "equityLatest":  729450000000,
         "divAnnualLatest":  null,
         "divQLatest":  null,
         "sharesOut":  941481,
         "chart":  {
-                      "price":  497.18,
-                      "priceDate":  "2026-07-27",
-                      "dailyChgPct":  0.45,
+                      "price":  512.37,
+                      "priceDate":  "2026-07-28",
+                      "dailyChgPct":  3.06,
                       "hi52":  516.85,
                       "hi52Date":  "25-11-28",
                       "lo52":  455.19,
                       "lo52Date":  "25-08-04",
-                      "ma5":  492.4,
-                      "ma20":  495.6,
-                      "ma60":  486.89,
-                      "ma120":  486.63,
+                      "ma5":  496.94,
+                      "ma20":  496.42,
+                      "ma60":  487.53,
+                      "ma120":  486.78,
                       "segments":  [
                                        {
-                                           "startDate":  "25.07.28",
-                                           "endDate":  "25.10.23",
-                                           "startClose":  481.70,
-                                           "endClose":  490.16,
-                                           "chgPct":  1.76,
+                                           "startDate":  "25.07.29",
+                                           "endDate":  "25.10.24",
+                                           "startClose":  476.56,
+                                           "endClose":  492.10,
+                                           "chgPct":  3.26,
                                            "segHigh":  507.66,
                                            "segLow":  455.19
                                        },
                                        {
-                                           "startDate":  "25.10.24",
-                                           "endDate":  "26.01.26",
-                                           "startClose":  492.10,
-                                           "endClose":  483.47,
-                                           "chgPct":  -1.75,
+                                           "startDate":  "25.10.27",
+                                           "endDate":  "26.01.27",
+                                           "startClose":  488.07,
+                                           "endClose":  474.67,
+                                           "chgPct":  -2.75,
                                            "segHigh":  516.85,
                                            "segLow":  473.15
                                        },
                                        {
-                                           "startDate":  "26.01.27",
-                                           "endDate":  "26.04.27",
-                                           "startClose":  474.67,
-                                           "endClose":  472.81,
-                                           "chgPct":  -0.39,
+                                           "startDate":  "26.01.28",
+                                           "endDate":  "26.04.28",
+                                           "startClose":  473.49,
+                                           "endClose":  478.16,
+                                           "chgPct":  0.99,
                                            "segHigh":  512.13,
                                            "segLow":  464.01
                                        },
                                        {
-                                           "startDate":  "26.04.28",
-                                           "endDate":  "26.07.27",
-                                           "startClose":  478.16,
-                                           "endClose":  497.18,
-                                           "chgPct":  3.98,
-                                           "segHigh":  512.58,
+                                           "startDate":  "26.04.29",
+                                           "endDate":  "26.07.28",
+                                           "startClose":  475.38,
+                                           "endClose":  512.37,
+                                           "chgPct":  7.78,
+                                           "segHigh":  513.39,
                                            "segLow":  464.34
                                        }
                                    ]
@@ -2528,17 +2528,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  10310000000
+                             "val":  10622000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  9272000000
+                             "val":  9640000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  9028000000
+                             "val":  9015000000
                          }
                      ],
         "epsAnnual":  [
@@ -2564,18 +2564,18 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  2993000000,
         "oiQPrior":  1664000000,
-        "niQLatest":  2320000000,
-        "niQPrior":  1331000000,
+        "niQLatest":  2347000000,
+        "niQPrior":  1343000000,
         "epsQLatest":  5.88,
         "epsQPrior":  3.29,
         "assetsFY":  272327000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  192548000000,
-        "equityFY":  73757000000,
+        "equityFY":  79779000000,
         "assetsLatest":  275456000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  195544000000,
-        "equityLatest":  73788000000,
+        "equityLatest":  79912000000,
         "divAnnualLatest":  3.82,
         "divQLatest":  0.97,
         "sharesOut":  387860106,
@@ -2675,17 +2675,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  2132000000
+                             "val":  2261000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  2889000000
+                             "val":  3049000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  2300000000
+                             "val":  2455000000
                          }
                      ],
         "epsAnnual":  [
@@ -2711,18 +2711,18 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  964000000,
         "oiQPrior":  1076000000,
-        "niQLatest":  646000000,
-        "niQPrior":  690000000,
+        "niQLatest":  681000000,
+        "niQPrior":  726000000,
         "epsQLatest":  0.8,
         "epsQPrior":  0.85,
         "assetsFY":  16330000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  15965000000,
-        "equityFY":  54000000,
+        "equityFY":  365000000,
         "assetsLatest":  16610000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  16124000000,
-        "equityLatest":  145000000,
+        "equityLatest":  486000000,
         "divAnnualLatest":  2.08,
         "divQLatest":  0.53,
         "sharesOut":  800189310,
@@ -2822,17 +2822,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  19998000000
+                             "val":  19660000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  16192000000
+                             "val":  15877000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  15388000000
+                             "val":  15107000000
                          }
                      ],
         "epsAnnual":  [
@@ -2858,18 +2858,18 @@
         "revQStart":  "2026-04-01",
         "oiQLatest":  5160000000,
         "oiQPrior":  5992000000,
-        "niQLatest":  3526000000,
-        "niQPrior":  11123000000,
+        "niQLatest":  3419000000,
+        "niQPrior":  11044000000,
         "epsQLatest":  0.99,
         "epsQPrior":  2.98,
         "assetsFY":  272631000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  null,
-        "equityFY":  96903000000,
+        "equityFY":  97151000000,
         "assetsLatest":  257548000000,
         "assetsLatestEnd":  "2026-06-30",
         "liabLatest":  null,
-        "equityLatest":  89763000000,
+        "equityLatest":  89770000000,
         "divAnnualLatest":  1.32,
         "divQLatest":  0.33,
         "sharesOut":  2063073161,
@@ -2928,24 +2928,24 @@
     {
         "ticker":  "COP",
         "cik":  1163165,
-        "revConcept":  "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "revConcept":  "Revenues",
         "oiConcept":  "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
         "oiIsPreTax":  true,
         "revAnnual":  [
                           {
                               "end":  "2025-12-31",
                               "start":  "2025-01-01",
-                              "val":  51824000000
+                              "val":  58944000000
                           },
                           {
                               "end":  "2024-12-31",
                               "start":  "2024-01-01",
-                              "val":  49418000000
+                              "val":  54745000000
                           },
                           {
                               "end":  "2023-12-31",
                               "start":  "2023-01-01",
-                              "val":  48522000000
+                              "val":  56141000000
                           }
                       ],
         "oiAnnual":  [
@@ -2999,8 +2999,8 @@
                               "val":  9.06
                           }
                       ],
-        "revQLatest":  13500000000,
-        "revQPrior":  14479000000,
+        "revQLatest":  15761000000,
+        "revQPrior":  16517000000,
         "revQEnd":  "2026-03-31",
         "revQStart":  "2026-01-01",
         "oiQLatest":  3363000000,
@@ -3557,17 +3557,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  1768000000
+                             "val":  1728000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  4614000000
+                             "val":  4586000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  8344000000
+                             "val":  8368000000
                          }
                      ],
         "epsAnnual":  [
@@ -3593,18 +3593,18 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  4680000000,
         "oiQPrior":  3374000000,
-        "niQLatest":  2943000000,
-        "niQPrior":  1779000000,
+        "niQLatest":  2957000000,
+        "niQPrior":  1782000000,
         "epsQLatest":  2.3,
         "epsQPrior":  1.41,
         "assetsFY":  253538000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  178156000000,
-        "equityFY":  75214000000,
+        "equityFY":  75382000000,
         "assetsLatest":  252974000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  175337000000,
-        "equityLatest":  77456000000,
+        "equityLatest":  77637000000,
         "divAnnualLatest":  2.66,
         "divQLatest":  0.665,
         "sharesOut":  1275927307,
@@ -3663,24 +3663,24 @@
     {
         "ticker":  "CVX",
         "cik":  93410,
-        "revConcept":  "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "revConcept":  "Revenues",
         "oiConcept":  "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
         "oiIsPreTax":  true,
         "revAnnual":  [
                           {
                               "end":  "2025-12-31",
                               "start":  "2025-01-01",
-                              "val":  184432000000
+                              "val":  189031000000
                           },
                           {
                               "end":  "2024-12-31",
                               "start":  "2024-01-01",
-                              "val":  193414000000
+                              "val":  202792000000
                           },
                           {
                               "end":  "2023-12-31",
                               "start":  "2023-01-01",
-                              "val":  196913000000
+                              "val":  200949000000
                           }
                       ],
         "oiAnnual":  [
@@ -3704,17 +3704,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  12299000000
+                             "val":  12485000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  17661000000
+                             "val":  17749000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  21369000000
+                             "val":  21411000000
                          }
                      ],
         "epsAnnual":  [
@@ -3734,25 +3734,25 @@
                               "val":  11.36
                           }
                       ],
-        "revQLatest":  47556000000,
-        "revQPrior":  46101000000,
+        "revQLatest":  48607000000,
+        "revQPrior":  47610000000,
         "revQEnd":  "2026-03-31",
         "revQStart":  "2026-01-01",
         "oiQLatest":  3946000000,
         "oiQPrior":  5583000000,
-        "niQLatest":  2210000000,
-        "niQPrior":  3500000000,
+        "niQLatest":  2293000000,
+        "niQPrior":  3512000000,
         "epsQLatest":  1.11,
         "epsQPrior":  2,
         "assetsFY":  324012000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  131836000000,
-        "equityFY":  186450000000,
+        "equityFY":  192176000000,
         "assetsLatest":  329551000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  140180000000,
-        "equityLatest":  183715000000,
-        "divAnnualLatest":  6.84,
+        "equityLatest":  189371000000,
+        "divAnnualLatest":  6.04,
         "divQLatest":  1.78,
         "sharesOut":  1991597732,
         "chart":  {
@@ -3851,17 +3851,17 @@
                          {
                              "end":  "2025-11-02",
                              "start":  "2024-10-28",
-                             "val":  5027000000
+                             "val":  4998000000
                          },
                          {
                              "end":  "2024-10-27",
                              "start":  "2023-10-30",
-                             "val":  7100000000
+                             "val":  7088000000
                          },
                          {
                              "end":  "2023-10-29",
                              "start":  "2022-10-31",
-                             "val":  10166000000
+                             "val":  10155000000
                          }
                      ],
         "epsAnnual":  [
@@ -3887,19 +3887,19 @@
         "revQStart":  "2026-02-02",
         "oiQLatest":  3516000000,
         "oiQPrior":  2646000000,
-        "niQLatest":  1773000000,
-        "niQPrior":  1804000000,
+        "niQLatest":  1770000000,
+        "niQPrior":  1801000000,
         "epsQLatest":  6.55,
         "epsQPrior":  6.64,
         "assetsFY":  105996000000,
         "assetsFYEnd":  "2025-11-02",
         "liabFY":  79989000000,
-        "equityFY":  25950000000,
+        "equityFY":  25956000000,
         "assetsLatest":  107001000000,
         "assetsLatestEnd":  "2026-05-03",
         "liabLatest":  79541000000,
-        "equityLatest":  27406000000,
-        "divAnnualLatest":  6.48,
+        "equityLatest":  27413000000,
+        "divAnnualLatest":  6.33,
         "divQLatest":  1.62,
         "sharesOut":  269937425,
         "chart":  {
@@ -4041,11 +4041,11 @@
         "assetsFY":  83464000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  8444400000,
-        "equityFY":  52534000000,
+        "equityFY":  52541000000,
         "assetsLatest":  92367000000,
         "assetsLatestEnd":  "2026-06-26",
         "liabLatest":  8444400000,
-        "equityLatest":  52581000000,
+        "equityLatest":  52592000000,
         "divAnnualLatest":  null,
         "divQLatest":  null,
         "sharesOut":  702986054,
@@ -4145,17 +4145,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  4968000000
+                             "val":  5071000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  4524000000
+                             "val":  4614000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  2841000000
+                             "val":  2874000000
                          }
                      ],
         "epsAnnual":  [
@@ -4181,18 +4181,18 @@
         "revQStart":  "2017-04-01",
         "oiQLatest":  2725000000,
         "oiQPrior":  2343000000,
-        "niQLatest":  1550000000,
-        "niQPrior":  1379000000,
+        "niQLatest":  1577000000,
+        "niQPrior":  1404000000,
         "epsQLatest":  1.97,
         "epsQPrior":  1.76,
         "assetsFY":  195736000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  null,
-        "equityFY":  51842000000,
+        "equityFY":  53019000000,
         "assetsLatest":  198048000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  null,
-        "equityLatest":  54457000000,
+        "equityLatest":  56478000000,
         "divAnnualLatest":  4.22,
         "divQLatest":  1.065,
         "sharesOut":  779596217,
@@ -4292,17 +4292,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  5662000000
+                             "val":  5661000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  5980000000
+                             "val":  5971000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  5987000000
+                             "val":  5991000000
                          }
                      ],
         "epsAnnual":  [
@@ -4328,19 +4328,19 @@
         "revQStart":  "2026-04-01",
         "oiQLatest":  1763000000,
         "oiQPrior":  2425000000,
-        "niQLatest":  1463000000,
-        "niQPrior":  1743000000,
+        "niQLatest":  1454000000,
+        "niQPrior":  1744000000,
         "epsQLatest":  6.71,
         "epsQPrior":  7.72,
         "assetsFY":  121494000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  77468000000,
-        "equityFY":  43882000000,
+        "equityFY":  44026000000,
         "assetsLatest":  126438000000,
         "assetsLatestEnd":  "2026-06-30",
         "liabLatest":  81416000000,
-        "equityLatest":  44883000000,
-        "divAnnualLatest":  5.92,
+        "equityLatest":  45022000000,
+        "divAnnualLatest":  null,
         "divQLatest":  1.72,
         "sharesOut":  216869290,
         "chart":  {
@@ -4439,12 +4439,12 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  1350000000
+                             "val":  1348000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  815000000
+                             "val":  814000000
                          },
                          {
                              "end":  "2023-12-31",
@@ -4482,11 +4482,11 @@
         "assetsFY":  40141000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  25963000000,
-        "equityFY":  14156000000,
+        "equityFY":  14153000000,
         "assetsLatest":  40898000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  26578000000,
-        "equityLatest":  14298000000,
+        "equityLatest":  14295000000,
         "divAnnualLatest":  18.76,
         "divQLatest":  5.16,
         "sharesOut":  98624248,
@@ -4586,17 +4586,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  4087000000
+                             "val":  4090000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  3794000000
+                             "val":  3798000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  3218000000
+                             "val":  3223000000
                          }
                      ],
         "epsAnnual":  [
@@ -4622,18 +4622,18 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  846000000,
         "oiQPrior":  569000000,
-        "niQLatest":  866000000,
-        "niQPrior":  964000000,
+        "niQLatest":  868000000,
+        "niQPrior":  965000000,
         "epsQLatest":  2.22,
         "epsQPrior":  2.45,
         "assetsFY":  41251000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  null,
-        "equityFY":  19425000000,
+        "equityFY":  19469000000,
         "assetsLatest":  55085000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  null,
-        "equityLatest":  19721000000,
+        "equityLatest":  19765000000,
         "divAnnualLatest":  4.16,
         "divQLatest":  1.1,
         "sharesOut":  388300000,
@@ -4733,17 +4733,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  3480000000
+                             "val":  3490000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  3131000000
+                             "val":  3180000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  3068000000
+                             "val":  3129000000
                          }
                      ],
         "epsAnnual":  [
@@ -4769,18 +4769,18 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  918000000,
         "oiQPrior":  1395000000,
-        "niQLatest":  571000000,
-        "niQPrior":  851000000,
+        "niQLatest":  573000000,
+        "niQPrior":  848000000,
         "epsQLatest":  1.07,
         "epsQPrior":  1.51,
         "assetsFY":  80133000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  54324000000,
-        "equityFY":  25792000000,
+        "equityFY":  25809000000,
         "assetsLatest":  80548000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  54327000000,
-        "equityLatest":  26201000000,
+        "equityLatest":  26221000000,
         "divAnnualLatest":  null,
         "divQLatest":  null,
         "sharesOut":  533253986,
@@ -4839,24 +4839,24 @@
     {
         "ticker":  "GE",
         "cik":  40545,
-        "revConcept":  "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "revConcept":  "Revenues",
         "oiConcept":  "OperatingIncomeLoss",
         "oiIsPreTax":  false,
         "revAnnual":  [
                           {
-                              "end":  "2018-12-31",
-                              "start":  "2018-01-01",
-                              "val":  113543000000
+                              "end":  "2025-12-31",
+                              "start":  "2025-01-01",
+                              "val":  45855000000
                           },
                           {
-                              "end":  "2017-12-31",
-                              "start":  "2017-01-01",
-                              "val":  110968000000
+                              "end":  "2024-12-31",
+                              "start":  "2024-01-01",
+                              "val":  38702000000
                           },
                           {
-                              "end":  "2016-12-31",
-                              "start":  "2016-01-01",
-                              "val":  110171000000
+                              "end":  "2023-12-31",
+                              "start":  "2023-01-01",
+                              "val":  35348000000
                           }
                       ],
         "oiAnnual":  [
@@ -4880,17 +4880,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  8704000000
+                             "val":  8698000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  6556000000
+                             "val":  6566000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  9482000000
+                             "val":  9445000000
                          }
                      ],
         "epsAnnual":  [
@@ -4910,24 +4910,24 @@
                               "val":  8.36
                           }
                       ],
-        "revQLatest":  null,
-        "revQPrior":  null,
-        "revQEnd":  null,
-        "revQStart":  null,
+        "revQLatest":  13349000000,
+        "revQPrior":  11023000000,
+        "revQEnd":  "2026-06-30",
+        "revQStart":  "2026-04-01",
         "oiQLatest":  5869000000,
         "oiQPrior":  5628000000,
-        "niQLatest":  2370000000,
-        "niQPrior":  2028000000,
+        "niQLatest":  2357000000,
+        "niQPrior":  2021000000,
         "epsQLatest":  2.26,
         "epsQPrior":  1.89,
         "assetsFY":  130169000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  111271000000,
-        "equityFY":  18677000000,
+        "equityFY":  18898000000,
         "assetsLatest":  127672000000,
         "assetsLatestEnd":  "2026-06-30",
         "liabLatest":  109805000000,
-        "equityLatest":  17640000000,
+        "equityLatest":  17867000000,
         "divAnnualLatest":  1.44,
         "divQLatest":  0.47,
         "sharesOut":  1037562513,
@@ -5070,11 +5070,11 @@
         "assetsFY":  59023000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  null,
-        "equityFY":  22703000000,
+        "equityFY":  22618000000,
         "assetsLatest":  56278000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  null,
-        "equityLatest":  23515000000,
+        "equityLatest":  23431000000,
         "divAnnualLatest":  3.16,
         "divQLatest":  0.82,
         "sharesOut":  1241569874,
@@ -5133,10 +5133,15 @@
     {
         "ticker":  "GOOGL",
         "cik":  1652044,
-        "revConcept":  "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "revConcept":  "Revenues",
         "oiConcept":  "OperatingIncomeLoss",
         "oiIsPreTax":  false,
         "revAnnual":  [
+                          {
+                              "end":  "2025-12-31",
+                              "start":  "2025-01-01",
+                              "val":  402836000000
+                          },
                           {
                               "end":  "2024-12-31",
                               "start":  "2024-01-01",
@@ -5146,11 +5151,6 @@
                               "end":  "2023-12-31",
                               "start":  "2023-01-01",
                               "val":  307394000000
-                          },
-                          {
-                              "end":  "2022-12-31",
-                              "start":  "2022-01-01",
-                              "val":  282836000000
                           }
                       ],
         "oiAnnual":  [
@@ -5204,10 +5204,10 @@
                               "val":  5.8
                           }
                       ],
-        "revQLatest":  90234000000,
-        "revQPrior":  80539000000,
-        "revQEnd":  "2025-03-31",
-        "revQStart":  "2025-01-01",
+        "revQLatest":  119796000000,
+        "revQPrior":  96428000000,
+        "revQEnd":  "2026-06-30",
+        "revQStart":  "2026-04-01",
         "oiQLatest":  40770000000,
         "oiQPrior":  31271000000,
         "niQLatest":  112193000000,
@@ -5601,17 +5601,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  4729000000
+                             "val":  4772000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  5705000000
+                             "val":  5740000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  5658000000
+                             "val":  5672000000
                          }
                      ],
         "epsAnnual":  [
@@ -5637,18 +5637,18 @@
         "revQStart":  "2026-04-01",
         "oiQLatest":  2240000000,
         "oiQPrior":  2128000000,
-        "niQLatest":  5682000000,
-        "niQPrior":  1570000000,
+        "niQLatest":  5686000000,
+        "niQPrior":  1569000000,
         "epsQLatest":  17.83,
         "epsQPrior":  4.9,
         "assetsFY":  73681000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  null,
-        "equityFY":  13904000000,
+        "equityFY":  15030000000,
         "assetsLatest":  77344000000,
         "assetsLatestEnd":  "2026-06-30",
         "liabLatest":  null,
-        "equityLatest":  18537000000,
+        "equityLatest":  18857000000,
         "divAnnualLatest":  4.58,
         "divQLatest":  2.38,
         "sharesOut":  316940010,
@@ -5791,11 +5791,11 @@
         "assetsFY":  151880000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  119139000000,
-        "equityFY":  32648000000,
+        "equityFY":  32740000000,
         "assetsLatest":  152099000000,
         "assetsLatestEnd":  "2026-06-30",
         "liabLatest":  117558000000,
-        "equityLatest":  34452000000,
+        "equityLatest":  34541000000,
         "divAnnualLatest":  6.71,
         "divQLatest":  1.69,
         "sharesOut":  942134390,
@@ -5895,17 +5895,17 @@
                          {
                              "end":  "2025-12-27",
                              "start":  "2024-12-29",
-                             "val":  -267000000
+                             "val":  26000000
                          },
                          {
                              "end":  "2024-12-28",
                              "start":  "2023-12-31",
-                             "val":  -18756000000
+                             "val":  -19233000000
                          },
                          {
                              "end":  "2023-12-30",
                              "start":  "2023-01-01",
-                             "val":  1689000000
+                             "val":  1675000000
                          }
                      ],
         "epsAnnual":  [
@@ -5931,18 +5931,18 @@
         "revQStart":  "2026-03-29",
         "oiQLatest":  1796000000,
         "oiQPrior":  -3176000000,
-        "niQLatest":  -11033000000,
-        "niQPrior":  -2918000000,
+        "niQLatest":  -10848000000,
+        "niQPrior":  -3024000000,
         "epsQLatest":  -2.16,
         "epsQPrior":  -0.67,
         "assetsFY":  211429000000,
         "assetsFYEnd":  "2025-12-27",
         "liabFY":  null,
-        "equityFY":  114281000000,
+        "equityFY":  126360000000,
         "assetsLatest":  202439000000,
         "assetsLatestEnd":  "2026-06-27",
         "liabLatest":  null,
-        "equityLatest":  87542000000,
+        "equityLatest":  103143000000,
         "divAnnualLatest":  0.38,
         "divQLatest":  0.13,
         "sharesOut":  5044000000,
@@ -6001,7 +6001,7 @@
     {
         "ticker":  "INTU",
         "cik":  896878,
-        "revConcept":  "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "revConcept":  "Revenues",
         "oiConcept":  "OperatingIncomeLoss",
         "oiIsPreTax":  false,
         "revAnnual":  [
@@ -6189,17 +6189,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  2856000000
+                             "val":  2876600000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  2322600000
+                             "val":  2337500000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  1798000000
+                             "val":  1817300000
                          }
                      ],
         "epsAnnual":  [
@@ -6225,18 +6225,18 @@
         "revQStart":  "2026-04-01",
         "oiQLatest":  971900000,
         "oiQPrior":  743400000,
-        "niQLatest":  818100000,
-        "niQPrior":  658400000,
+        "niQLatest":  823200000,
+        "niQPrior":  664200000,
         "epsQLatest":  2.29,
         "epsQPrior":  1.81,
         "assetsFY":  20458700000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  2517000000,
-        "equityFY":  17824000000,
+        "equityFY":  17941700000,
         "assetsLatest":  20876600000,
         "assetsLatestEnd":  "2026-06-30",
         "liabLatest":  2578900000,
-        "equityLatest":  18168400000,
+        "equityLatest":  18297700000,
         "divAnnualLatest":  null,
         "divQLatest":  null,
         "sharesOut":  353278038,
@@ -6379,7 +6379,7 @@
         "assetsFY":  199210000000,
         "assetsFYEnd":  "2025-12-28",
         "liabFY":  117666000000,
-        "equityFY":  null,
+        "equityFY":  81544000000,
         "assetsLatest":  201061000000,
         "assetsLatestEnd":  "2026-06-28",
         "liabLatest":  116090000000,
@@ -6535,52 +6535,52 @@
         "divQLatest":  1.5,
         "sharesOut":  2679511418,
         "chart":  {
-                      "price":  356.20,
-                      "priceDate":  "2026-07-27",
-                      "dailyChgPct":  0.85,
-                      "hi52":  359.05,
-                      "hi52Date":  "26-07-27",
+                      "price":  357.31,
+                      "priceDate":  "2026-07-28",
+                      "dailyChgPct":  0.31,
+                      "hi52":  359.25,
+                      "hi52Date":  "26-07-28",
                       "lo52":  279.10,
                       "lo52Date":  "26-03-12",
-                      "ma5":  350.55,
-                      "ma20":  340.25,
-                      "ma60":  320.75,
-                      "ma120":  311.17,
+                      "ma5":  352.97,
+                      "ma20":  341.64,
+                      "ma60":  321.48,
+                      "ma120":  311.53,
                       "segments":  [
                                        {
-                                           "startDate":  "25.07.28",
-                                           "endDate":  "25.10.23",
-                                           "startClose":  298.28,
-                                           "endClose":  294.54,
-                                           "chgPct":  -1.25,
+                                           "startDate":  "25.07.29",
+                                           "endDate":  "25.10.24",
+                                           "startClose":  297.04,
+                                           "endClose":  300.44,
+                                           "chgPct":  1.14,
                                            "segHigh":  318.01,
                                            "segLow":  284.24
                                        },
                                        {
-                                           "startDate":  "25.10.24",
-                                           "endDate":  "26.01.26",
-                                           "startClose":  300.44,
-                                           "endClose":  301.04,
-                                           "chgPct":  0.20,
+                                           "startDate":  "25.10.27",
+                                           "endDate":  "26.01.27",
+                                           "startClose":  304.15,
+                                           "endClose":  300.31,
+                                           "chgPct":  -1.26,
                                            "segHigh":  337.25,
                                            "segLow":  292.81
                                        },
                                        {
-                                           "startDate":  "26.01.27",
-                                           "endDate":  "26.04.27",
-                                           "startClose":  300.31,
-                                           "endClose":  311.63,
-                                           "chgPct":  3.77,
+                                           "startDate":  "26.01.28",
+                                           "endDate":  "26.04.28",
+                                           "startClose":  300.77,
+                                           "endClose":  311.45,
+                                           "chgPct":  3.55,
                                            "segHigh":  326.4,
                                            "segLow":  279.1
                                        },
                                        {
-                                           "startDate":  "26.04.28",
-                                           "endDate":  "26.07.27",
-                                           "startClose":  311.45,
-                                           "endClose":  356.20,
-                                           "chgPct":  14.37,
-                                           "segHigh":  359.05,
+                                           "startDate":  "26.04.29",
+                                           "endDate":  "26.07.28",
+                                           "startClose":  309.25,
+                                           "endClose":  357.31,
+                                           "chgPct":  15.54,
+                                           "segHigh":  359.25,
                                            "segLow":  293.67
                                        }
                                    ]
@@ -6777,17 +6777,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  13107000000
+                             "val":  13137000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  10631000000
+                             "val":  10649000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  10714000000
+                             "val":  10703000000
                          }
                      ],
         "epsAnnual":  [
@@ -6813,18 +6813,18 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  4359000000,
         "oiQPrior":  3659000000,
-        "niQLatest":  3924000000,
-        "niQPrior":  3330000000,
+        "niQLatest":  3966000000,
+        "niQPrior":  3335000000,
         "epsQLatest":  0.91,
         "epsQPrior":  0.77,
         "assetsFY":  104816000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  null,
-        "equityFY":  32169000000,
+        "equityFY":  34275000000,
         "assetsLatest":  104217000000,
         "assetsLatestEnd":  "2026-04-03",
         "liabLatest":  null,
-        "equityLatest":  33633000000,
+        "equityLatest":  35734000000,
         "divAnnualLatest":  2.04,
         "divQLatest":  0.53,
         "sharesOut":  4302482418,
@@ -7555,11 +7555,11 @@
         "assetsFY":  54157000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  46411000000,
-        "equityFY":  7737000000,
+        "equityFY":  7746000000,
         "assetsLatest":  52449000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  45727000000,
-        "equityLatest":  6719000000,
+        "equityLatest":  6722000000,
         "divAnnualLatest":  3.15,
         "divQLatest":  0.87,
         "sharesOut":  122530193,
@@ -7806,17 +7806,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  2451000000
+                             "val":  2466000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  4611000000
+                             "val":  4623000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  4959000000
+                             "val":  4968000000
                          }
                      ],
         "epsAnnual":  [
@@ -7842,18 +7842,18 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  808000000,
         "oiQPrior":  680000000,
-        "niQLatest":  560000000,
-        "niQPrior":  402000000,
+        "niQLatest":  564000000,
+        "niQPrior":  407000000,
         "epsQLatest":  0.44,
         "epsQPrior":  0.31,
         "assetsFY":  71487000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  45596000000,
-        "equityFY":  25838000000,
+        "equityFY":  25891000000,
         "assetsLatest":  71122000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  45318000000,
-        "equityLatest":  25750000000,
+        "equityLatest":  25804000000,
         "divAnnualLatest":  1.94,
         "divQLatest":  0.5,
         "sharesOut":  1283649766,
@@ -7953,17 +7953,17 @@
                          {
                              "end":  "2026-04-24",
                              "start":  "2025-04-26",
-                             "val":  4801000000
+                             "val":  4837000000
                          },
                          {
                              "end":  "2025-04-25",
                              "start":  "2024-04-27",
-                             "val":  4662000000
+                             "val":  4691000000
                          },
                          {
                              "end":  "2024-04-26",
                              "start":  "2023-04-29",
-                             "val":  3676000000
+                             "val":  3705000000
                          }
                      ],
         "epsAnnual":  [
@@ -7989,18 +7989,18 @@
         "revQStart":  "2025-10-25",
         "oiQLatest":  1464000000,
         "oiQPrior":  1646000000,
-        "niQLatest":  1143000000,
-        "niQPrior":  1294000000,
+        "niQLatest":  1150000000,
+        "niQPrior":  1303000000,
         "epsQLatest":  0.89,
         "epsQPrior":  1.01,
         "assetsFY":  93028000000,
         "assetsFYEnd":  "2026-04-24",
         "liabFY":  42956000000,
-        "equityFY":  49463000000,
+        "equityFY":  50072000000,
         "assetsLatest":  93028000000,
         "assetsLatestEnd":  "2026-04-24",
         "liabLatest":  42956000000,
-        "equityLatest":  49463000000,
+        "equityLatest":  50072000000,
         "divAnnualLatest":  2.84,
         "divQLatest":  0.71,
         "sharesOut":  1280045190,
@@ -8152,51 +8152,51 @@
         "divQLatest":  0.525,
         "sharesOut":  null,
         "chart":  {
-                      "price":  593.87,
-                      "priceDate":  "2026-07-27",
-                      "dailyChgPct":  -0.22,
+                      "price":  593.41,
+                      "priceDate":  "2026-07-28",
+                      "dailyChgPct":  -0.08,
                       "hi52":  796.25,
                       "hi52Date":  "25-08-15",
                       "lo52":  520.26,
                       "lo52Date":  "26-03-27",
-                      "ma5":  613.23,
-                      "ma20":  623.15,
-                      "ma60":  606.25,
-                      "ma120":  621.63,
+                      "ma5":  603.15,
+                      "ma20":  624.69,
+                      "ma60":  605.94,
+                      "ma120":  620.81,
                       "segments":  [
                                        {
-                                           "startDate":  "25.07.28",
-                                           "endDate":  "25.10.23",
-                                           "startClose":  717.63,
-                                           "endClose":  734.0,
-                                           "chgPct":  2.28,
+                                           "startDate":  "25.07.29",
+                                           "endDate":  "25.10.24",
+                                           "startClose":  700.0,
+                                           "endClose":  738.36,
+                                           "chgPct":  5.48,
                                            "segHigh":  796.25,
                                            "segLow":  690.51
                                        },
                                        {
-                                           "startDate":  "25.10.24",
-                                           "endDate":  "26.01.26",
-                                           "startClose":  738.36,
-                                           "endClose":  672.36,
-                                           "chgPct":  -8.94,
+                                           "startDate":  "25.10.27",
+                                           "endDate":  "26.01.27",
+                                           "startClose":  750.82,
+                                           "endClose":  672.97,
+                                           "chgPct":  -10.37,
                                            "segHigh":  759.16,
                                            "segLow":  581.25
                                        },
                                        {
-                                           "startDate":  "26.01.27",
-                                           "endDate":  "26.04.27",
-                                           "startClose":  672.97,
-                                           "endClose":  678.62,
-                                           "chgPct":  0.84,
+                                           "startDate":  "26.01.28",
+                                           "endDate":  "26.04.28",
+                                           "startClose":  668.73,
+                                           "endClose":  671.34,
+                                           "chgPct":  0.39,
                                            "segHigh":  744,
                                            "segLow":  520.26
                                        },
                                        {
-                                           "startDate":  "26.04.28",
-                                           "endDate":  "26.07.27",
-                                           "startClose":  671.34,
-                                           "endClose":  593.87,
-                                           "chgPct":  -11.54,
+                                           "startDate":  "26.04.29",
+                                           "endDate":  "26.07.28",
+                                           "startClose":  669.12,
+                                           "endClose":  593.41,
+                                           "chgPct":  -11.31,
                                            "segHigh":  686.08,
                                            "segLow":  540.18
                                        }
@@ -8247,17 +8247,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  4160000000
+                             "val":  4234000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  4060000000
+                             "val":  4117000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  3756000000
+                             "val":  3802000000
                          }
                      ],
         "epsAnnual":  [
@@ -8283,8 +8283,8 @@
         "revQStart":  "2026-04-01",
         "oiQLatest":  1899000000,
         "oiQPrior":  1829000000,
-        "niQLatest":  1266000000,
-        "niQPrior":  1211000000,
+        "niQLatest":  1291000000,
+        "niQPrior":  1231000000,
         "epsQLatest":  2.63,
         "epsQPrior":  2.45,
         "assetsFY":  58710000000,
@@ -8437,11 +8437,11 @@
         "assetsFY":  35017000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  38469000000,
-        "equityFY":  -3502000000,
+        "equityFY":  -3452000000,
         "assetsLatest":  34584000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  37745000000,
-        "equityLatest":  -3211000000,
+        "equityLatest":  -3161000000,
         "divAnnualLatest":  4.16,
         "divQLatest":  1.06,
         "sharesOut":  1669891235,
@@ -8541,17 +8541,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  18254000000
+                             "val":  18263000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  17117000000
+                             "val":  17133000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  365000000
+                             "val":  377000000
                          }
                      ],
         "epsAnnual":  [
@@ -8577,18 +8577,18 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  -3534000000,
         "oiQPrior":  5903000000,
-        "niQLatest":  -4240000000,
-        "niQPrior":  5079000000,
+        "niQLatest":  -4243000000,
+        "niQPrior":  5085000000,
         "epsQLatest":  -1.72,
         "epsQPrior":  2.01,
         "assetsFY":  136866000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  null,
-        "equityFY":  52606000000,
+        "equityFY":  52662000000,
         "assetsLatest":  128685000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  null,
-        "equityLatest":  45878000000,
+        "equityLatest":  45931000000,
         "divAnnualLatest":  3.28,
         "divQLatest":  0.85,
         "sharesOut":  2469824415,
@@ -8688,17 +8688,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  16861000000
+                             "val":  17025000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  13390000000
+                             "val":  13529000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  9087000000
+                             "val":  9230000000
                          }
                      ],
         "epsAnnual":  [
@@ -8724,18 +8724,18 @@
         "revQStart":  "2015-04-01",
         "oiQLatest":  7011000000,
         "oiQPrior":  5544000000,
-        "niQLatest":  5567000000,
-        "niQPrior":  4315000000,
+        "niQLatest":  5638000000,
+        "niQPrior":  4371000000,
         "epsQLatest":  3.43,
         "epsQPrior":  2.6,
         "assetsFY":  1420270000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  1307618000000,
-        "equityFY":  111632000000,
+        "equityFY":  112652000000,
         "assetsLatest":  1581418000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  1466034000000,
-        "equityLatest":  114286000000,
+        "equityLatest":  115384000000,
         "divAnnualLatest":  3.85,
         "divQLatest":  1,
         "sharesOut":  1577284817,
@@ -8883,7 +8883,7 @@
         "assetsLatestEnd":  "2026-05-28",
         "liabLatest":  33388000000,
         "equityLatest":  100724000000,
-        "divAnnualLatest":  0.46,
+        "divAnnualLatest":  null,
         "divQLatest":  0.15,
         "sharesOut":  1129393151,
         "chart":  {
@@ -8982,17 +8982,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  6835000000
+                             "val":  5332000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  6946000000
+                             "val":  5698000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  7310000000
+                             "val":  6282000000
                          }
                      ],
         "epsAnnual":  [
@@ -9018,18 +9018,18 @@
         "revQStart":  "2013-07-01",
         "oiQLatest":  2208000000,
         "oiQPrior":  2256000000,
-        "niQLatest":  2182000000,
-        "niQPrior":  833000000,
+        "niQLatest":  1688000000,
+        "niQPrior":  464000000,
         "epsQLatest":  1.04,
         "epsQPrior":  0.4,
         "assetsFY":  212721000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  146242000000,
-        "equityFY":  54608000000,
+        "equityFY":  66479000000,
         "assetsLatest":  221424000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  154792000000,
-        "equityLatest":  55222000000,
+        "equityLatest":  66632000000,
         "divAnnualLatest":  2.27,
         "divQLatest":  0.6232,
         "sharesOut":  2085341456,
@@ -9823,7 +9823,7 @@
     {
         "ticker":  "ORCL",
         "cik":  1341439,
-        "revConcept":  "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "revConcept":  "Revenues",
         "oiConcept":  "OperatingIncomeLoss",
         "oiIsPreTax":  false,
         "revAnnual":  [
@@ -9864,17 +9864,17 @@
                          {
                              "end":  "2026-05-31",
                              "start":  "2025-06-01",
-                             "val":  17087000000
+                             "val":  17309000000
                          },
                          {
                              "end":  "2025-05-31",
                              "start":  "2024-06-01",
-                             "val":  12443000000
+                             "val":  12627000000
                          },
                          {
                              "end":  "2024-05-31",
                              "start":  "2023-06-01",
-                             "val":  10467000000
+                             "val":  10653000000
                          }
                      ],
         "epsAnnual":  [
@@ -9894,24 +9894,24 @@
                               "val":  3.71
                           }
                       ],
-        "revQLatest":  17190000000,
-        "revQPrior":  14130000000,
-        "revQEnd":  "2026-02-28",
-        "revQStart":  "2025-12-01",
+        "revQLatest":  9771000000,
+        "revQPrior":  9205000000,
+        "revQEnd":  "2018-02-28",
+        "revQStart":  "2017-12-01",
         "oiQLatest":  5464000000,
         "oiQPrior":  4358000000,
-        "niQLatest":  3721000000,
-        "niQPrior":  2936000000,
+        "niQLatest":  null,
+        "niQPrior":  null,
         "epsQLatest":  1.27,
         "epsQPrior":  1.02,
         "assetsFY":  261759000000,
         "assetsFYEnd":  "2026-05-31",
         "liabFY":  null,
-        "equityFY":  42508000000,
+        "equityFY":  43056000000,
         "assetsLatest":  261759000000,
         "assetsLatestEnd":  "2026-05-31",
         "liabLatest":  null,
-        "equityLatest":  42508000000,
+        "equityLatest":  43056000000,
         "divAnnualLatest":  2,
         "divQLatest":  0.5,
         "sharesOut":  2880471000,
@@ -10158,17 +10158,17 @@
                          {
                              "end":  "2025-12-27",
                              "start":  "2024-12-29",
-                             "val":  8240000000
+                             "val":  8295000000
                          },
                          {
                              "end":  "2024-12-28",
                              "start":  "2023-12-31",
-                             "val":  9578000000
+                             "val":  9626000000
                          },
                          {
                              "end":  "2023-12-30",
                              "start":  "2023-01-01",
-                             "val":  9074000000
+                             "val":  9155000000
                          }
                      ],
         "epsAnnual":  [
@@ -10194,18 +10194,18 @@
         "revQStart":  "2026-03-22",
         "oiQLatest":  4023000000,
         "oiQPrior":  1789000000,
-        "niQLatest":  2981000000,
-        "niQPrior":  1263000000,
+        "niQLatest":  3004000000,
+        "niQPrior":  1279000000,
         "epsQLatest":  2.18,
         "epsQPrior":  0.92,
         "assetsFY":  107399000000,
         "assetsFYEnd":  "2025-12-27",
         "liabFY":  86852000000,
-        "equityFY":  20406000000,
+        "equityFY":  20547000000,
         "assetsLatest":  112189000000,
         "assetsLatestEnd":  "2026-06-13",
         "liabLatest":  89919000000,
-        "equityLatest":  22098000000,
+        "equityLatest":  22270000000,
         "divAnnualLatest":  5.6225,
         "divQLatest":  1.48,
         "sharesOut":  1364891558,
@@ -10305,17 +10305,17 @@
                          {
                              "end":  "2025-06-30",
                              "start":  "2024-07-01",
-                             "val":  15974000000
+                             "val":  16065000000
                          },
                          {
                              "end":  "2024-06-30",
                              "start":  "2023-07-01",
-                             "val":  14879000000
+                             "val":  14974000000
                          },
                          {
                              "end":  "2023-06-30",
                              "start":  "2022-07-01",
-                             "val":  14653000000
+                             "val":  14738000000
                          }
                      ],
         "epsAnnual":  [
@@ -10341,8 +10341,8 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  4576000000,
         "oiQPrior":  4558000000,
-        "niQLatest":  3932000000,
-        "niQPrior":  3769000000,
+        "niQLatest":  3951000000,
+        "niQPrior":  3793000000,
         "epsQLatest":  1.63,
         "epsQPrior":  1.54,
         "assetsFY":  125231000000,
@@ -10599,17 +10599,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  1625033000
+                             "val":  1634644000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  462190000
+                             "val":  467918000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  209825000
+                             "val":  217375000
                          }
                      ],
         "epsAnnual":  [
@@ -10635,18 +10635,18 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  753998000,
         "oiQPrior":  176048000,
-        "niQLatest":  870527000,
-        "niQPrior":  214031000,
+        "niQLatest":  876402000,
+        "niQPrior":  217717000,
         "epsQLatest":  0.34,
         "epsQPrior":  0.08,
         "assetsFY":  8900392000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  1412381000,
-        "equityFY":  7387268000,
+        "equityFY":  7488011000,
         "assetsLatest":  10199183000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  1642902000,
-        "equityLatest":  8449663000,
+        "equityLatest":  8556281000,
         "divAnnualLatest":  null,
         "divQLatest":  null,
         "sharesOut":  null,
@@ -10746,17 +10746,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  11348000000
+                             "val":  11848000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  7057000000
+                             "val":  7503000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  7813000000
+                             "val":  8268000000
                          }
                      ],
         "epsAnnual":  [
@@ -10782,18 +10782,18 @@
         "revQStart":  "2026-04-01",
         "oiQLatest":  4530000000,
         "oiQPrior":  3712000000,
-        "niQLatest":  2817000000,
-        "niQPrior":  3039000000,
+        "niQLatest":  2985000000,
+        "niQPrior":  3148000000,
         "epsQLatest":  1.8,
         "epsQPrior":  1.95,
         "assetsFY":  69185000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  77213000000,
-        "equityFY":  -9994000000,
+        "equityFY":  -8028000000,
         "assetsLatest":  68271000000,
         "assetsLatestEnd":  "2026-06-30",
         "liabLatest":  74928000000,
-        "equityLatest":  -8583000000,
+        "equityLatest":  -6657000000,
         "divAnnualLatest":  5.64,
         "divQLatest":  1.47,
         "sharesOut":  1558613439,
@@ -11334,17 +11334,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  6732000000
+                             "val":  7069000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  4774000000
+                             "val":  5013000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  3195000000
+                             "val":  3380000000
                          }
                      ],
         "epsAnnual":  [
@@ -11370,18 +11370,18 @@
         "revQStart":  "2026-04-01",
         "oiQLatest":  2811000000,
         "oiQPrior":  2146000000,
-        "niQLatest":  2139000000,
-        "niQPrior":  1657000000,
+        "niQLatest":  2249000000,
+        "niQPrior":  1725000000,
         "epsQLatest":  1.57,
         "epsQPrior":  1.22,
         "assetsFY":  171079000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  103941000000,
-        "equityFY":  65245000000,
+        "equityFY":  67102000000,
         "assetsLatest":  173972000000,
         "assetsLatestEnd":  "2026-06-30",
         "liabLatest":  105828000000,
-        "equityLatest":  66377000000,
+        "equityLatest":  68116000000,
         "divAnnualLatest":  2.67,
         "divQLatest":  1.46,
         "sharesOut":  1347758144,
@@ -11481,17 +11481,17 @@
                          {
                              "end":  "2025-09-28",
                              "start":  "2024-09-30",
-                             "val":  1856400000
+                             "val":  1856700000
                          },
                          {
                              "end":  "2024-09-29",
                              "start":  "2023-10-02",
-                             "val":  3760900000
+                             "val":  3762300000
                          },
                          {
                              "end":  "2023-10-01",
                              "start":  "2022-10-03",
-                             "val":  4124500000
+                             "val":  4124700000
                          }
                      ],
         "epsAnnual":  [
@@ -11517,18 +11517,18 @@
         "revQStart":  "2025-12-29",
         "oiQLatest":  828100000,
         "oiQPrior":  601000000,
-        "niQLatest":  510900000,
-        "niQPrior":  384200000,
+        "niQLatest":  510800000,
+        "niQPrior":  384100000,
         "epsQLatest":  0.45,
         "epsQPrior":  0.34,
         "assetsFY":  32019700000,
         "assetsFYEnd":  "2025-09-28",
         "liabFY":  40108900000,
-        "equityFY":  -8096600000,
+        "equityFY":  -8089200000,
         "assetsLatest":  30557500000,
         "assetsLatestEnd":  "2026-03-29",
         "liabLatest":  39015200000,
-        "equityLatest":  -8465100000,
+        "equityLatest":  -8457700000,
         "divAnnualLatest":  2.45,
         "divQLatest":  0.62,
         "sharesOut":  1139700000,
@@ -11922,17 +11922,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  4341000000
+                             "val":  4171000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  4401000000
+                             "val":  4260000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  3976000000
+                             "val":  3849000000
                          }
                      ],
         "epsAnnual":  [
@@ -11958,18 +11958,18 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  2018000000,
         "oiQPrior":  2010000000,
-        "niQLatest":  1356000000,
-        "niQPrior":  1334000000,
+        "niQLatest":  1338000000,
+        "niQPrior":  1270000000,
         "epsQLatest":  1.2,
         "epsQPrior":  1.21,
         "assetsFY":  155720000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  116853000000,
-        "equityFY":  36016000000,
+        "equityFY":  38867000000,
         "assetsLatest":  157031000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  117119000000,
-        "equityLatest":  36016000000,
+        "equityLatest":  39912000000,
         "divAnnualLatest":  2.94,
         "divQLatest":  0.74,
         "sharesOut":  1127301098,
@@ -12069,17 +12069,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  4471000000
+                             "val":  4820000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  3852000000
+                             "val":  4167000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  2626000000
+                             "val":  2893000000
                          }
                      ],
         "epsAnnual":  [
@@ -12105,18 +12105,18 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  2002000000,
         "oiQPrior":  1578000000,
-        "niQLatest":  1395000000,
-        "niQPrior":  1090000000,
+        "niQLatest":  1504000000,
+        "niQPrior":  1171000000,
         "epsQLatest":  4.69,
         "epsQPrior":  3.54,
         "assetsFY":  61200000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  25048000000,
-        "equityFY":  31127000000,
+        "equityFY":  31235000000,
         "assetsLatest":  60792000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  24587000000,
-        "equityLatest":  31173000000,
+        "equityLatest":  31288000000,
         "divAnnualLatest":  3.84,
         "divQLatest":  0.97,
         "sharesOut":  296000000,
@@ -12510,17 +12510,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  6704000000
+                             "val":  6721000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  6335000000
+                             "val":  6338000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  5995000000
+                             "val":  5955000000
                          }
                      ],
         "epsAnnual":  [
@@ -12546,18 +12546,18 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  1863000000,
         "oiQPrior":  1716000000,
-        "niQLatest":  1651000000,
-        "niQPrior":  1507000000,
+        "niQLatest":  1656000000,
+        "niQPrior":  1511000000,
         "epsQLatest":  4.43,
         "epsQPrior":  3.98,
         "assetsFY":  110343000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  null,
-        "equityFY":  53407000000,
+        "equityFY":  53415000000,
         "assetsLatest":  113281000000,
         "assetsLatestEnd":  "2026-03-28",
         "liabLatest":  null,
-        "equityLatest":  51934000000,
+        "equityLatest":  51940000000,
         "divAnnualLatest":  1.72,
         "divQLatest":  0.47,
         "sharesOut":  371621465,
@@ -12763,7 +12763,7 @@
     {
         "ticker":  "TSLA",
         "cik":  1318605,
-        "revConcept":  "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "revConcept":  "Revenues",
         "oiConcept":  "OperatingIncomeLoss",
         "oiIsPreTax":  false,
         "revAnnual":  [
@@ -12804,17 +12804,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  3794000000
+                             "val":  3855000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  7091000000
+                             "val":  7153000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  14997000000
+                             "val":  14974000000
                          }
                      ],
         "epsAnnual":  [
@@ -12840,69 +12840,69 @@
         "revQStart":  "2026-04-01",
         "oiQLatest":  398000000,
         "oiQPrior":  923000000,
-        "niQLatest":  1114000000,
-        "niQPrior":  1172000000,
+        "niQLatest":  1128000000,
+        "niQPrior":  1190000000,
         "epsQLatest":  0.32,
         "epsQPrior":  0.33,
         "assetsFY":  137806000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  54941000000,
-        "equityFY":  82137000000,
+        "equityFY":  82807000000,
         "assetsLatest":  148524000000,
         "assetsLatestEnd":  "2026-06-30",
         "liabLatest":  61005000000,
-        "equityLatest":  86858000000,
+        "equityLatest":  87465000000,
         "divAnnualLatest":  null,
         "divQLatest":  null,
         "sharesOut":  3949547394,
         "chart":  {
-                      "price":  309.22,
-                      "priceDate":  "2026-07-27",
-                      "dailyChgPct":  -1.22,
+                      "price":  307.44,
+                      "priceDate":  "2026-07-28",
+                      "dailyChgPct":  -0.58,
                       "hi52":  498.83,
                       "hi52Date":  "25-12-22",
                       "lo52":  297.82,
                       "lo52Date":  "25-08-01",
-                      "ma5":  338.98,
-                      "ma20":  385.2,
-                      "ma60":  401.81,
-                      "ma120":  395.81,
+                      "ma5":  324.68,
+                      "ma20":  379.98,
+                      "ma60":  400.58,
+                      "ma120":  394.86,
                       "segments":  [
                                        {
-                                           "startDate":  "25.07.28",
-                                           "endDate":  "25.10.23",
-                                           "startClose":  325.59,
-                                           "endClose":  448.98,
-                                           "chgPct":  37.90,
+                                           "startDate":  "25.07.29",
+                                           "endDate":  "25.10.24",
+                                           "startClose":  321.20,
+                                           "endClose":  433.72,
+                                           "chgPct":  35.03,
                                            "segHigh":  470.75,
                                            "segLow":  297.82
                                        },
                                        {
-                                           "startDate":  "25.10.24",
-                                           "endDate":  "26.01.26",
-                                           "startClose":  433.72,
-                                           "endClose":  435.20,
-                                           "chgPct":  0.34,
+                                           "startDate":  "25.10.27",
+                                           "endDate":  "26.01.27",
+                                           "startClose":  452.42,
+                                           "endClose":  430.90,
+                                           "chgPct":  -4.76,
                                            "segHigh":  498.83,
                                            "segLow":  382.78
                                        },
                                        {
-                                           "startDate":  "26.01.27",
-                                           "endDate":  "26.04.27",
-                                           "startClose":  430.90,
-                                           "endClose":  378.67,
-                                           "chgPct":  -12.12,
+                                           "startDate":  "26.01.28",
+                                           "endDate":  "26.04.28",
+                                           "startClose":  431.46,
+                                           "endClose":  376.02,
+                                           "chgPct":  -12.85,
                                            "segHigh":  440.23,
                                            "segLow":  337.24
                                        },
                                        {
-                                           "startDate":  "26.04.28",
-                                           "endDate":  "26.07.27",
-                                           "startClose":  376.02,
-                                           "endClose":  309.22,
-                                           "chgPct":  -17.77,
+                                           "startDate":  "26.04.29",
+                                           "endDate":  "26.07.28",
+                                           "startClose":  372.80,
+                                           "endClose":  307.44,
+                                           "chgPct":  -17.53,
                                            "segHigh":  453.4,
-                                           "segLow":  304.28
+                                           "segLow":  300.69
                                        }
                                    ]
                   }
@@ -13098,17 +13098,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  10053000000
+                             "val":  10093000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  9856000000
+                             "val":  9845000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  1887000000
+                             "val":  2156000000
                          }
                      ],
         "epsAnnual":  [
@@ -13134,18 +13134,18 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  1923000000,
         "oiQPrior":  1228000000,
-        "niQLatest":  263000000,
-        "niQPrior":  1776000000,
+        "niQLatest":  282000000,
+        "niQPrior":  1774000000,
         "epsQLatest":  0.13,
         "epsQPrior":  0.83,
         "assetsFY":  61802000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  33719000000,
-        "equityFY":  27041000000,
+        "equityFY":  27918000000,
         "assetsLatest":  59885000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  34073000000,
-        "equityLatest":  24751000000,
+        "equityLatest":  25641000000,
         "divAnnualLatest":  0,
         "divQLatest":  null,
         "sharesOut":  2035599013,
@@ -13245,17 +13245,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  12056000000
+                             "val":  12807000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  14405000000
+                             "val":  15242000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  22381000000
+                             "val":  23144000000
                          }
                      ],
         "epsAnnual":  [
@@ -13281,8 +13281,8 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  8990000000,
         "oiQPrior":  9119000000,
-        "niQLatest":  6280000000,
-        "niQPrior":  6292000000,
+        "niQLatest":  6481000000,
+        "niQPrior":  6474000000,
         "epsQLatest":  6.9,
         "epsQPrior":  6.85,
         "assetsFY":  309581000000,
@@ -13819,17 +13819,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  17174000000
+                             "val":  17608000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  17506000000
+                             "val":  17949000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  11614000000
+                             "val":  12095000000
                          }
                      ],
         "epsAnnual":  [
@@ -13855,8 +13855,8 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  8242000000,
         "oiQPrior":  7978000000,
-        "niQLatest":  5045000000,
-        "niQPrior":  4879000000,
+        "niQLatest":  5146000000,
+        "niQPrior":  4983000000,
         "epsQLatest":  1.2,
         "epsQPrior":  1.15,
         "assetsFY":  404258000000,
@@ -14009,11 +14009,11 @@
         "assetsFY":  2148631000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  1965593000000,
-        "equityFY":  181117000000,
+        "equityFY":  183038000000,
         "assetsLatest":  2205752000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  2025439000000,
-        "equityLatest":  178396000000,
+        "equityLatest":  180313000000,
         "divAnnualLatest":  1.7,
         "divQLatest":  0.45,
         "sharesOut":  3060189494,
@@ -14072,24 +14072,24 @@
     {
         "ticker":  "WMT",
         "cik":  104169,
-        "revConcept":  "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "revConcept":  "Revenues",
         "oiConcept":  "OperatingIncomeLoss",
         "oiIsPreTax":  false,
         "revAnnual":  [
                           {
                               "end":  "2026-01-31",
                               "start":  "2025-02-01",
-                              "val":  706413000000
+                              "val":  713163000000
                           },
                           {
                               "end":  "2025-01-31",
                               "start":  "2024-02-01",
-                              "val":  674538000000
+                              "val":  680985000000
                           },
                           {
                               "end":  "2024-01-31",
                               "start":  "2023-02-01",
-                              "val":  642637000000
+                              "val":  648125000000
                           }
                       ],
         "oiAnnual":  [
@@ -14113,17 +14113,17 @@
                          {
                              "end":  "2026-01-31",
                              "start":  "2025-02-01",
-                             "val":  21893000000
+                             "val":  22270000000
                          },
                          {
                              "end":  "2025-01-31",
                              "start":  "2024-02-01",
-                             "val":  19436000000
+                             "val":  20157000000
                          },
                          {
                              "end":  "2024-01-31",
                              "start":  "2023-02-01",
-                             "val":  15511000000
+                             "val":  16270000000
                          }
                      ],
         "epsAnnual":  [
@@ -14143,24 +14143,24 @@
                               "val":  1.91
                           }
                       ],
-        "revQLatest":  175684000000,
-        "revQPrior":  163981000000,
+        "revQLatest":  177751000000,
+        "revQPrior":  165609000000,
         "revQEnd":  "2026-04-30",
         "revQStart":  "2026-02-01",
         "oiQLatest":  7493000000,
         "oiQPrior":  7135000000,
-        "niQLatest":  5330000000,
-        "niQPrior":  4487000000,
+        "niQLatest":  5490000000,
+        "niQPrior":  4639000000,
         "epsQLatest":  0.67,
         "epsQPrior":  0.56,
         "assetsFY":  284668000000,
         "assetsFYEnd":  "2026-01-31",
         "liabFY":  null,
-        "equityFY":  99617000000,
+        "equityFY":  105887000000,
         "assetsLatest":  289607000000,
         "assetsLatestEnd":  "2026-04-30",
         "liabLatest":  null,
-        "equityLatest":  94330000000,
+        "equityLatest":  100682000000,
         "divAnnualLatest":  0.94,
         "divQLatest":  0.99,
         "sharesOut":  7958079155,
@@ -14260,17 +14260,17 @@
                          {
                              "end":  "2025-12-31",
                              "start":  "2025-01-01",
-                             "val":  28844000000
+                             "val":  29764000000
                          },
                          {
                              "end":  "2024-12-31",
                              "start":  "2024-01-01",
-                             "val":  33680000000
+                             "val":  35063000000
                          },
                          {
                              "end":  "2023-12-31",
                              "start":  "2023-01-01",
-                             "val":  36010000000
+                             "val":  37354000000
                          }
                      ],
         "epsAnnual":  [
@@ -14296,18 +14296,18 @@
         "revQStart":  "2026-01-01",
         "oiQLatest":  6967000000,
         "oiQPrior":  11600000000,
-        "niQLatest":  4183000000,
-        "niQPrior":  7713000000,
+        "niQLatest":  4472000000,
+        "niQPrior":  8033000000,
         "epsQLatest":  1,
         "epsQPrior":  1.76,
         "assetsFY":  448980000000,
         "assetsFYEnd":  "2025-12-31",
         "liabFY":  182354000000,
-        "equityFY":  259386000000,
+        "equityFY":  266626000000,
         "assetsLatest":  464410000000,
         "assetsLatestEnd":  "2026-03-31",
         "liabLatest":  203414000000,
-        "equityLatest":  254381000000,
+        "equityLatest":  260996000000,
         "divAnnualLatest":  4,
         "divQLatest":  1.03,
         "sharesOut":  4144947162,

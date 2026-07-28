@@ -100,24 +100,22 @@ function Get-MaxRecentEndDate($items) {
 }
 
 function Pick-ConceptItems([string]$rawText, [string[]]$names, [string]$unit) {
-  # Prefer the first concept in priority order whose data is actually current
-  # (some companies stop tagging an older concept and switch to a newer one,
-  # leaving stale historical facts behind under the old tag).
-  $cutoff = (Get-Date).AddDays(-800)
-  $staleCandidates = @()
+  # Some companies stop tagging an older concept and switch to a newer one,
+  # leaving stale historical facts behind under the old tag (e.g. AVGO's
+  # NetIncomeLoss stops in FY2024 while ProfitLoss continues into FY2025).
+  # Evaluate every candidate concept and keep whichever has the globally
+  # freshest data, rather than stopping at the first one that merely clears
+  # an absolute staleness cutoff.
+  $candidates = @()
   foreach ($n in $names) {
     $items = Get-ConceptUnit $rawText $n $unit
     if ($items -and $items.Count -gt 0) {
       $maxDate = Get-MaxRecentEndDate $items
-      if ($maxDate -and $maxDate -ge $cutoff) { return @{ items = $items; concept = $n } }
-      $staleCandidates += @{ items = $items; concept = $n; maxDate = $maxDate }
+      $candidates += @{ items = $items; concept = $n; maxDate = $maxDate }
     }
   }
-  # Fall back to the freshest stale candidate rather than nothing.
-  if ($staleCandidates.Count -gt 0) {
-    return ($staleCandidates | Sort-Object { $_.maxDate } -Descending | Select-Object -First 1)
-  }
-  return $null
+  if ($candidates.Count -eq 0) { return $null }
+  return ($candidates | Sort-Object { if ($_.maxDate) { $_.maxDate } else { [datetime]::MinValue } } -Descending | Select-Object -First 1)
 }
 
 function Analyze-Chart($chartData) {

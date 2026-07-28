@@ -16,7 +16,7 @@
 <p class="sub">최근 종가 $211.5 (2026-07-27, 전일대비 +0.95%) &middot; 52주 최고 $254.35 (26-01-27) &middot; 52주 최저 $176.77 (25-11-21) &middot; 시총 약 $166.73B</p>
 
 <div style="background:var(--color-background-info);border-left:3px solid var(--color-navy);border-radius:var(--border-radius-md);padding:10px 14px;margin-bottom:14px;">
-  <div style="font-size:12px;color:var(--color-navy);line-height:1.6;"><strong>&#128273; 투자 요약:</strong> 최근 회계연도 순이익이 전년比 +118.9% 증가하며 이익 성장세. 최근 분기 순이익은 전년동기比 +89.2%로 가속.</div>
+  <div style="font-size:12px;color:var(--color-navy);line-height:1.6;"><strong>&#128273; 투자 요약:</strong> 최근 회계연도 순이익이 전년比 +118.9% 증가하며 이익 성장세. 최근 분기 순이익은 전년동기比 +77.4%로 가속.</div>
 </div>
 
 <div class="g4">
@@ -96,7 +96,7 @@
     <div class="g2" style="margin-bottom:12px;">
       <div><div class="ir"><span class="il">분기 매출액</span><span class="iv">$22B (<span class="up">&#9650;14%</span> YoY)</span></div>
 <div class="ir"><span class="il">분기 영업이익</span><span class="iv">$448M (<span class="dn">&#9660;2.8%</span> YoY)</span></div>
-<div class="ir"><span class="il">분기순이익</span><span class="iv">$-4M (<span class="up">&#9650;89.2%</span> YoY) <span class="ev ev-5">매우높음</span></span></div>
+<div class="ir"><span class="il">분기순이익</span><span class="iv">$-7M (<span class="up">&#9650;77.4%</span> YoY) <span class="ev ev-5">매우높음</span></span></div>
 <div class="ir"><span class="il">분기 EPS (희석)</span><span class="iv">$-0.11 (<span class="up">&#9650;31.2%</span> YoY) <span class="ev ev-5">매우높음</span></span></div>
 </div>
       <div><div class="ir"><span class="il">총자산</span><span class="iv">$165B</span></div>
@@ -121,7 +121,7 @@
 <div class="tl-item"><div class="tl-dot dot-neg"></div><div class="tl-date">25-11-21</div><div class="tl-title">주가 $176.77 — 52주 최저</div><span class="tag tag-neg">52주 최저</span></div>
 <div class="tl-item"><div class="tl-dot dot-neu"></div><div class="tl-date">2025.12.31</div><div class="tl-title">2025年 연간 실적 회계연도 종료 — 순이익 +118.9%</div><span class="tag tag-neu">연간 실적</span></div>
 <div class="tl-item"><div class="tl-dot dot-pos"></div><div class="tl-date">26-01-27</div><div class="tl-title">주가 $254.35 — 52주 최고</div><span class="tag tag-pos">52주 최고</span></div>
-<div class="tl-item"><div class="tl-dot dot-big"></div><div class="tl-date">2026.03.31</div><div class="tl-title">최근 분기 실적 — 순이익 +89.2% YoY</div><span class="tag tag-big">분기 실적</span></div>
+<div class="tl-item"><div class="tl-dot dot-big"></div><div class="tl-date">2026.03.31</div><div class="tl-title">최근 분기 실적 — 순이익 +77.4% YoY</div><span class="tag tag-big">분기 실적</span></div>
   </div>
 </div>
 
@@ -131,7 +131,7 @@
     <div>
       <div style="font-size:13px;font-weight:600;margin-bottom:7px;color:var(--color-text-success);">긍정 요인 (Bull)</div>
       <div class="ir"><span class="il">최근 회계연도 순이익 +118.9% 성장</span><span class="badge b-green">실적 모멘텀</span></div>
-<div class="ir"><span class="il">최근 분기 순이익 전년동기比 +89.2%</span><span class="badge b-green">이익 가속</span></div>
+<div class="ir"><span class="il">최근 분기 순이익 전년동기比 +77.4%</span><span class="badge b-green">이익 가속</span></div>
 <div class="ir"><span class="il">최근 회계연도 매출 +34.5% 성장</span><span class="badge b-green">매출 성장</span></div>
     </div>
     <div>
@@ -167,7 +167,7 @@ function drawAnnualChart(){
   const cats=['2023','2024','2025'];
   const rev=[77.79,66.52,89.46];
   const oi=[-0.77,-10.71,4.28];
-  const ni=[-2.22,-11.82,2.24];
+  const ni=[-2.24,-11.83,2.24];
   if(cats.length===0 || rev.length===0){ return; }
   const maxV=Math.max(...rev,...oi,...ni)*1.15;
   const groupW=cW/cats.length;
@@ -203,7 +203,7 @@ function drawQtrChart(){
   const W=680,H=190,pL=44,pR=20,pT=20,pB=30;
   const cW=W-pL-pR,cH=H-pT-pB;
   const labels=['매출액','영업이익','순이익'];
-  const vals=[22.22,0.45,0];
+  const vals=[22.22,0.45,-0.01];
   const cols=['#8C97A5','#0B2545','#A6811A'];
   const maxV=Math.max(...vals,1)*1.15;
   const groupW=cW/labels.length;
