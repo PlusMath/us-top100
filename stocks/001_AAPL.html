@@ -1,0 +1,374 @@
+<link rel="stylesheet" href="../css/global.css">
+<script src="../js/chart-common.js"></script>
+
+<div style="padding:1rem 0;" class="box">
+
+<div class="dummy-banner">⚠ 더미(예시) 데이터 페이지입니다 — 아래 수치·차트는 전부 가상의 예시이며 Apple의 실제 실적이 아닙니다. 실 데이터는 SEC EDGAR / Yahoo Finance 연동 후 교체됩니다.</div>
+
+<!-- 헤더 -->
+<div style="margin-bottom:4px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+  <h2>Apple Inc. (AAPL)</h2>
+  <span class="badge b-se">NASDAQ · 빅테크·하드웨어</span>
+  <span class="badge b-gray">아이폰·서비스 매출 견조 (예시)</span>
+  <span class="src">📄 <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AAPL&type=10-K&dateb=&owner=include&count=40" target="_blank" rel="noopener">SEC EDGAR 10-K/10-Q 원문</a> + 📊 <a href="https://finance.yahoo.com/quote/AAPL" target="_blank" rel="noopener">Yahoo Finance 시세</a></span>
+</div>
+<p class="sub">(예시) 최근 종가 $227.50 (2026-07-27, 전일대비 +1.20%) · 52주 최고 $261.30 (26/06/10) · 52주 최저 $164.80 (25/08/05) · 시총 약 $3.42T (예시)</p>
+
+<!-- 핵심 지표 배너 -->
+<div style="background:var(--color-background-info);border-left:3px solid var(--color-navy);border-radius:var(--border-radius-md);padding:10px 14px;margin-bottom:14px;">
+  <div style="font-size:12px;color:var(--color-navy);line-height:1.6;"><strong>🔑 (예시) Apple 투자 포인트 요약:</strong> 서비스 부문 매출 비중 확대와 자사주 매입이 EPS 성장을 견인하는 구조. <strong>FY2025 EPS $6.98 → 최근 분기 연환산 EPS $7.44</strong>로 완만한 이익 개선 흐름을 가정한 예시 시나리오입니다. 실제 수치는 SEC EDGAR 10-K/10-Q 연동 후 반영됩니다.</div>
+</div>
+
+<div class="g4">
+  <div class="met"><div class="ml">최근 종가 (07/27)</div><div class="mv">$227.50</div><div class="ms up">+1.20% · 고점 대비 -12.9%</div></div>
+  <div class="met"><div class="ml">FY2025 영업이익</div><div class="mv up">$128.4B</div><div class="ms">전년比 +9.1% (예시)</div></div>
+  <div class="met"><div class="ml">FY2025 순이익</div><div class="mv up">$104.6B</div><div class="ms">전년比 +8.3% (예시)</div></div>
+  <div class="met"><div class="ml">최근 분기 EPS</div><div class="mv up">$1.86</div><div class="ms">연환산 ~$7.44 (예시)</div></div>
+</div>
+
+<!-- 1. 기술적 분석 -->
+<div class="card">
+  <div class="sec">1. 기술적 분석 — 일봉 기준 (더미 데이터, 무작위 생성)</div>
+  <div style="font-size:11px;color:var(--color-text-secondary);margin-bottom:8px;">
+    아래 캔들차트는 실 시세가 아닌 프레임 시연용 무작위(random walk) 더미 데이터입니다. 실 데이터 연동 시 Yahoo Finance 일봉으로 교체됩니다.
+  </div>
+  <div id="aaplChartControls" class="kc-controls"></div>
+  <svg id="aaplSvg" viewBox="0 0 720 240" width="100%" style="display:block;margin-bottom:12px;background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:4px;"></svg>
+
+  <div style="font-size:13px;font-weight:600;margin-bottom:8px;">📊 구간별 분석 (예시 서식) <span class="src">📊 Yahoo Finance 일봉 연동 예정</span></div>
+  <div class="g4" style="font-size:11px;margin-bottom:12px;">
+    <div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:9px 11px;">
+      <div style="color:var(--color-text-secondary);font-weight:600;margin-bottom:3px;">구간 1 — 저점권 형성 (예시)</div>
+      <div style="color:var(--color-text-secondary);line-height:1.6;">실 데이터 연동 후<br>자동 채움 예정</div>
+    </div>
+    <div style="background:var(--color-background-info);border-radius:var(--border-radius-md);padding:9px 11px;">
+      <div style="color:var(--color-navy);font-weight:600;margin-bottom:3px;">구간 2 — 반등 (예시)</div>
+      <div style="color:var(--color-navy);line-height:1.6;">실 데이터 연동 후<br>자동 채움 예정</div>
+    </div>
+    <div style="background:var(--color-background-success);border-radius:var(--border-radius-md);padding:9px 11px;">
+      <div style="color:var(--color-text-success);font-weight:600;margin-bottom:3px;">구간 3 — 상승 지속 (예시)</div>
+      <div style="color:var(--color-text-success);line-height:1.6;">실 데이터 연동 후<br>자동 채움 예정</div>
+    </div>
+    <div style="background:var(--color-background-danger);border-radius:var(--border-radius-md);padding:9px 11px;">
+      <div style="color:var(--color-text-danger);font-weight:600;margin-bottom:3px;">구간 4 — 조정 (예시)</div>
+      <div style="color:var(--color-text-danger);line-height:1.6;">실 데이터 연동 후<br>자동 채움 예정</div>
+    </div>
+  </div>
+
+  <div class="sig">
+    <span class="badge b-amber">(예시) 신고가 대비 조정 국면</span>
+    <span class="badge b-green">(예시) 중장기 이동평균선 상회</span>
+    <span class="badge b-blue">(예시) 52주 저점 대비 상승 유지</span>
+  </div>
+</div>
+
+<!-- 2. 기본적 분석 탭 -->
+<div class="card">
+  <div class="sec">2. 기본적 분석 — 공시 원문 <span class="src">📄 (예시) 10-K FY2025 + 10-Q 최근 분기</span></div>
+
+  <div style="display:flex;gap:8px;margin-bottom:14px;">
+    <button id="btnAnnual" onclick="switchTab('annual')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:7px;padding:10px 0;border-radius:var(--border-radius-md);border:1.5px solid var(--color-navy);background:var(--color-navy);color:#fff;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;">
+      📄 연간(10-K) <span style="font-size:11px;opacity:.85;font-weight:400;">FY2025</span>
+    </button>
+    <button id="btnQuarter" onclick="switchTab('quarter')" style="flex:1;display:flex;align-items:center;justify-content:center;gap:7px;padding:10px 0;border-radius:var(--border-radius-md);border:1.5px solid var(--color-border-tertiary);background:var(--color-background-secondary);color:var(--color-text-secondary);font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;">
+      📋 분기(10-Q) <span style="font-size:11px;opacity:.85;font-weight:400;">최근 분기</span>
+    </button>
+  </div>
+
+  <!-- ══ 연간(10-K) 탭 ══ -->
+  <div id="tabAnnual">
+    <svg id="aaplAnnualChart" viewBox="0 0 680 190" width="100%" style="display:block;margin-bottom:12px;"></svg>
+
+    <div style="font-size:12px;font-weight:600;color:var(--color-text-secondary);margin-bottom:6px;letter-spacing:.03em;">📊 손익 요약 (단위: $B · FY2025, 예시)</div>
+    <div class="g2" style="margin-bottom:12px;">
+      <div>
+        <div class="ir"><span class="il">매출액</span><span class="iv up">$415.2B (▲6.8%) <span class="ev ev-3">적정</span></span></div>
+        <div class="ir"><span class="il">영업이익</span><span class="iv up">$128.4B (▲9.1%) <span class="ev ev-4">높음</span></span></div>
+        <div class="ir"><span class="il">순이익</span><span class="iv up">$104.6B (▲8.3%) <span class="ev ev-4">높음</span></span></div>
+        <div class="ir"><span class="il">기본주당순이익</span><span class="iv up">$6.98 (▲11.2%) <span class="ev ev-4">높음</span></span></div>
+      </div>
+      <div>
+        <div class="ir"><span class="il">총자산</span><span class="iv">$375.3B <span class="ev ev-3">적정</span></span></div>
+        <div class="ir"><span class="il">총부채</span><span class="iv">$290.1B <span class="ev ev-3">적정</span></span></div>
+        <div class="ir"><span class="il">총자본</span><span class="iv">$85.2B <span class="ev ev-3">적정</span></span></div>
+        <div class="ir"><span class="il">주당배당금</span><span class="iv up">DPS $1.02 (배당성향 14.6%) <span class="ev ev-2">양호</span></span></div>
+      </div>
+    </div>
+
+    <div style="font-size:12px;font-weight:600;color:var(--color-text-secondary);margin-bottom:8px;letter-spacing:.03em;">💾 사업부문 (예시)</div>
+    <div class="g3" style="font-size:11px;margin-bottom:12px;">
+      <div style="background:var(--color-background-info);border-radius:var(--border-radius-md);padding:10px;border-left:3px solid var(--color-navy);">
+        <div style="color:var(--color-navy);font-weight:600;margin-bottom:5px;">iPhone</div>
+        <div class="ir" style="font-size:11px;"><span class="il">매출 비중</span><span>~50% (예시)</span></div>
+        <div class="ir" style="font-size:11px;"><span class="il">역할</span><span>핵심 하드웨어 매출</span></div>
+      </div>
+      <div style="background:var(--color-background-success);border-radius:var(--border-radius-md);padding:10px;border-left:3px solid var(--color-text-success);">
+        <div style="color:var(--color-text-success);font-weight:600;margin-bottom:5px;">Services</div>
+        <div class="ir" style="font-size:11px;"><span class="il">매출 비중</span><span>~25% (예시)</span></div>
+        <div class="ir" style="font-size:11px;"><span class="il">역할</span><span>고마진 반복매출</span></div>
+      </div>
+      <div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:10px;border-left:3px solid var(--color-text-secondary);">
+        <div style="color:var(--color-text-secondary);font-weight:600;margin-bottom:5px;">Mac·iPad·Wearables</div>
+        <div class="ir" style="font-size:11px;"><span class="il">매출 비중</span><span>~25% (예시)</span></div>
+        <div class="ir" style="font-size:11px;"><span class="il">역할</span><span>보완 포트폴리오</span></div>
+      </div>
+    </div>
+
+    <div style="font-size:12px;font-weight:600;color:var(--color-text-secondary);margin-bottom:8px;letter-spacing:.03em;">📈 EPS 3개년 추이 (예시)</div>
+    <div style="display:flex;gap:8px;margin-bottom:14px;">
+      <div style="flex:1;background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:10px;text-align:center;">
+        <div style="font-size:10px;color:var(--color-text-secondary);margin-bottom:4px;">FY2023</div>
+        <div style="font-size:18px;font-weight:700;color:var(--color-text-primary);">$6.13</div>
+      </div>
+      <div style="display:flex;align-items:center;font-size:18px;color:var(--color-text-success);font-weight:700;">→</div>
+      <div style="flex:1;background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:10px;text-align:center;">
+        <div style="font-size:10px;color:var(--color-text-secondary);margin-bottom:4px;">FY2024</div>
+        <div style="font-size:18px;font-weight:700;color:var(--color-text-success);">$6.29</div>
+        <div style="font-size:10px;color:var(--color-text-tertiary);margin-top:4px;">▲2.6%</div>
+      </div>
+      <div style="display:flex;align-items:center;font-size:18px;color:var(--color-text-success);font-weight:700;">→</div>
+      <div style="flex:1;background:var(--color-background-success);border-radius:var(--border-radius-md);padding:10px;text-align:center;border:1.5px solid var(--color-text-success);">
+        <div style="font-size:10px;color:var(--color-text-success);margin-bottom:4px;font-weight:600;">FY2025</div>
+        <div style="font-size:18px;font-weight:700;color:var(--color-text-success);">$6.98</div>
+        <div style="font-size:10px;color:var(--color-text-success);margin-top:4px;">▲11.2%</div>
+      </div>
+    </div>
+
+    <div class="hl">
+      <div style="font-size:13px;font-weight:600;color:var(--color-text-success);margin-bottom:4px;">💡 (예시) 10-K 핵심 요약</div>
+      <div style="font-size:12px;color:var(--color-text-success);line-height:1.7;">서비스 부문 성장과 자사주 매입이 맞물려 EPS 성장률(▲11.2%)이 순이익 성장률(▲8.3%)을 상회하는 구조를 가정한 예시입니다. 실 데이터 연동 후 SEC EDGAR 10-K 원문 수치로 교체됩니다.</div>
+    </div>
+  </div>
+
+  <!-- ══ 분기(10-Q) 탭 ══ -->
+  <div id="tabQuarter" style="display:none;">
+    <svg id="aaplQtrChart" viewBox="0 0 680 190" width="100%" style="display:block;margin-bottom:12px;"></svg>
+
+    <div style="font-size:12px;font-weight:600;color:var(--color-text-secondary);margin-bottom:6px;letter-spacing:.03em;">📊 최근 분기 손익 요약 (단위: $B, 예시)</div>
+    <div class="g2" style="margin-bottom:12px;">
+      <div>
+        <div class="ir"><span class="il">분기 매출액</span><span class="iv">$102.4B <span class="ev ev-4">높음</span></span></div>
+        <div class="ir"><span class="il">분기 영업이익</span><span class="iv up">$32.1B <span class="ev ev-4">높음</span></span></div>
+        <div class="ir"><span class="il">세전이익</span><span class="iv up">$33.5B <span class="ev ev-4">높음</span></span></div>
+        <div class="ir"><span class="il">분기순이익</span><span class="iv up">$27.8B <span class="ev ev-4">높음</span></span></div>
+      </div>
+      <div>
+        <div class="ir"><span class="il">분기 EPS</span><span class="iv up">$1.86 (연환산 ~$7.44) <span class="ev ev-4">높음</span></span></div>
+        <div class="ir"><span class="il">총자산</span><span class="iv">$388.6B (▲3.5% QoQ) <span class="ev ev-3">적정</span></span></div>
+        <div class="ir"><span class="il">총자본</span><span class="iv">$88.9B (▲4.3% QoQ) <span class="ev ev-2">양호</span></span></div>
+        <div class="ir"><span class="il">자사주매입(분기)</span><span class="iv">$22.0B <span class="ev ev-3">적정</span></span></div>
+      </div>
+    </div>
+
+    <div style="background:var(--color-background-info);border-left:3px solid var(--color-navy);border-radius:var(--border-radius-md);padding:12px 14px;margin-bottom:12px;">
+      <div style="font-size:12px;font-weight:600;color:var(--color-navy);margin-bottom:5px;">🔑 (예시) 최근 분기 EPS 연환산이 FY2025 EPS를 소폭 상회</div>
+      <div style="font-size:12px;color:var(--color-text-primary);line-height:1.7;">단순 연환산(EPS×4=$7.44) 기준으로는 FY2025($6.98) 대비 완만한 개선 흐름을 가정한 예시입니다. 계절성이 큰 사업 구조상 분기별 편차가 있으므로 실 데이터 연동 후 추세를 재확인해야 합니다.</div>
+    </div>
+
+    <div class="hl">
+      <div style="font-size:13px;font-weight:600;color:var(--color-text-success);margin-bottom:4px;">💡 (예시) 10-Q 핵심 요약</div>
+      <div style="font-size:12px;color:var(--color-text-success);line-height:1.7;">서비스 매출 비중 확대와 지속적인 자사주 매입이 EPS 성장에 기여하는 흐름을 가정한 예시 시나리오입니다. 실 데이터 연동 후 SEC EDGAR 10-Q 원문 수치로 교체됩니다.</div>
+    </div>
+  </div>
+</div>
+
+<!-- 3. 기본 투자지표 -->
+<div class="card">
+  <div class="sec">3. 기본 투자지표 (Per-Share, 예시) <span class="src">📄 10-Q 원문 연동 예정</span></div>
+  <div class="g4">
+    <div class="met"><div class="ml">EPS · FY2025</div><div class="mv up">$6.98</div><div class="ms">▲11.2% (예시)</div><div style="margin-top:5px;"><span class="ev ev-4">높음</span></div></div>
+    <div class="met"><div class="ml">최근 분기 EPS</div><div class="mv up">$1.86</div><div class="ms">연환산 ~$7.44 (예시)</div><div style="margin-top:5px;"><span class="ev ev-4">높음</span></div></div>
+    <div class="met"><div class="ml">BPS · 주당순자산</div><div class="mv">약 $5.65</div><div class="ms">자사주매입 영향 (예시)</div><div style="margin-top:5px;"><span class="ev ev-3">적정</span></div></div>
+    <div class="met"><div class="ml">DPS · 주당배당금</div><div class="mv up">$1.02</div><div class="ms">배당성향 14.6% (예시)</div><div style="margin-top:5px;"><span class="ev ev-2">양호</span></div></div>
+  </div>
+</div>
+
+<!-- 4. 상대 투자지표 -->
+<div class="card">
+  <div class="sec">4. 상대 투자지표 — 최근 종가 $227.50 기준 (예시)</div>
+
+  <div style="background:var(--color-background-warning);border-radius:var(--border-radius-md);padding:10px 12px;margin-bottom:12px;border-left:3px solid var(--color-gold-dark);">
+    <div style="font-size:12px;color:var(--color-text-warning);"><strong>⚠ 참고:</strong> 아래 밸류에이션 지표는 전부 더미 수치입니다. 실 데이터 연동 후 SEC EDGAR/Yahoo Finance 기준으로 재계산됩니다.</div>
+  </div>
+
+  <div class="ind-row">
+    <div class="ind-nm">PER (FY2025 EPS)</div>
+    <div class="ind-note">227.50÷6.98 (예시)</div>
+    <div class="ind-val">32.59x</div>
+    <span class="ev ev-4" style="min-width:58px;text-align:center;">4단계</span>
+  </div>
+  <div class="ind-row">
+    <div class="ind-nm">Forward PER</div>
+    <div class="ind-note">227.50÷7.44 (연환산, 예시)</div>
+    <div class="ind-val">30.58x</div>
+    <span class="ev ev-4" style="min-width:58px;text-align:center;">4단계</span>
+  </div>
+  <div class="ind-row">
+    <div class="ind-nm">PBR</div>
+    <div class="ind-note">227.50÷5.65 (예시, 자사주매입으로 BPS 낮음)</div>
+    <div class="ind-val">40.27x</div>
+    <span class="ev ev-5" style="min-width:58px;text-align:center;">5단계</span>
+  </div>
+  <div class="ind-row">
+    <div class="ind-nm">배당수익률</div>
+    <div class="ind-note">1.02÷227.50 (예시)</div>
+    <div class="ind-val">0.45%</div>
+    <span class="ev ev-3" style="min-width:58px;text-align:center;">3단계</span>
+  </div>
+</div>
+
+<!-- 5. 시계열 이벤트 -->
+<div class="card">
+  <div class="sec">5. 시계열 주요 이벤트 (예시 서식) <span class="src">📄 SEC EDGAR + 📊 Yahoo Finance 연동 예정</span></div>
+
+  <div class="tl">
+    <div class="tl-item">
+      <div class="tl-dot dot-neg"></div>
+      <div class="tl-date">(예시) 2025년 08월</div>
+      <div class="tl-title">52주 최저 부근 형성 (예시)</div>
+      <div class="tl-body">실 데이터 연동 후 자동으로 채워질 항목입니다.</div>
+      <span class="tag tag-neg">52주 최저 (예시)</span>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot dot-neu"></div>
+      <div class="tl-date">(예시) 10-K 공시일</div>
+      <div class="tl-title">FY2025 실적 공시 — EPS ▲11.2% (예시)</div>
+      <div class="tl-body">실 데이터 연동 후 자동으로 채워질 항목입니다.</div>
+      <span class="tag tag-neu">연간 실적 공시 (예시)</span>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot dot-big"></div>
+      <div class="tl-date">(예시) 10-Q 공시일</div>
+      <div class="tl-title">최근 분기보고서 — EPS $1.86 (예시)</div>
+      <div class="tl-body">실 데이터 연동 후 자동으로 채워질 항목입니다.</div>
+      <span class="tag tag-big">분기 실적 공시 (예시)</span>
+    </div>
+  </div>
+</div>
+
+<!-- 6. 투자 포인트 -->
+<div class="card">
+  <div class="sec">6. 핵심 투자 포인트 (예시 서식)</div>
+  <div class="g2">
+    <div>
+      <div style="font-size:13px;font-weight:600;margin-bottom:7px;color:var(--color-text-success);">긍정 요인 (Bull, 예시)</div>
+      <div class="ir"><span class="il">서비스 매출 비중 확대 (예시)</span><span class="badge b-green">실적 모멘텀</span></div>
+      <div class="ir"><span class="il">지속적 자사주 매입 (예시)</span><span class="badge b-blue">EPS 부양</span></div>
+      <div class="ir"><span class="il">강력한 브랜드·생태계 (예시)</span><span class="badge b-se">사업 경쟁력</span></div>
+    </div>
+    <div>
+      <div style="font-size:13px;font-weight:600;margin-bottom:7px;color:var(--color-text-danger);">리스크 (Bear, 예시)</div>
+      <div class="ir"><span class="il">높은 PER·PBR 밸류 부담 (예시)</span><span class="badge b-amber">밸류 부담</span></div>
+      <div class="ir"><span class="il">iPhone 매출 성장 둔화 우려 (예시)</span><span class="badge b-gray">성장 둔화</span></div>
+      <div class="ir"><span class="il">중국 등 지역 리스크 (예시)</span><span class="badge b-gray">지정학 리스크</span></div>
+    </div>
+  </div>
+  <div class="ib">
+    <div style="display:flex;gap:14px;flex-wrap:wrap;font-size:13px;">
+      <div><span style="color:var(--color-text-secondary);">시총:</span> <span style="font-weight:600;">~$3.42T (예시)</span></div>
+      <div><span style="color:var(--color-text-secondary);">최근 분기 EPS:</span> <span class="up" style="font-weight:600;">$1.86 (연환산 ~$7.44, 예시)</span></div>
+      <div><span style="color:var(--color-text-secondary);">배당수익률:</span> <span style="font-weight:600;">0.45% (예시)</span></div>
+    </div>
+  </div>
+  <div style="margin-top:10px;font-size:11px;color:var(--color-text-tertiary);text-align:center;">⚠ 이 페이지의 모든 수치는 프레임 시연용 더미 데이터입니다. 실 데이터는 SEC EDGAR(10-K/10-Q) + Yahoo Finance 연동 후 반영 예정 · 투자 권고가 아닙니다</div>
+</div>
+
+</div>
+
+<script>
+function switchTab(tab) {
+  const isA=tab==='annual';
+  document.getElementById('tabAnnual').style.display=isA?'':'none';
+  document.getElementById('tabQuarter').style.display=isA?'none':'';
+  const aS='flex:1;display:flex;align-items:center;justify-content:center;gap:7px;padding:10px 0;border-radius:3px;font-size:13px;cursor:pointer;transition:all .15s;background:#0B2545;border:1.5px solid #0B2545;color:#fff;font-weight:600;';
+  const iS='flex:1;display:flex;align-items:center;justify-content:center;gap:7px;padding:10px 0;border-radius:3px;font-size:13px;cursor:pointer;transition:all .15s;background:var(--color-background-secondary);border:1.5px solid var(--color-border-tertiary);color:var(--color-text-secondary);font-weight:500;';
+  document.getElementById('btnAnnual').style.cssText=isA?aS:iS;
+  document.getElementById('btnQuarter').style.cssText=isA?iS:aS;
+  if(!isA && !window._qDrawn){ window._qDrawn=true; drawQtrChart(); }
+}
+
+function cssVar(name){ return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+function svgEl(tag,attrs){
+  const e=document.createElementNS('http://www.w3.org/2000/svg',tag);
+  for(const k in attrs) e.setAttribute(k,attrs[k]);
+  return e;
+}
+
+function drawAnnualChart(){
+  const svg=document.getElementById('aaplAnnualChart');
+  const W=680,H=190,pL=44,pR=44,pT=16,pB=26;
+  const cW=W-pL-pR,cH=H-pT-pB;
+  const cats=['FY2023','FY2024','FY2025'];
+  const rev=[383.3,398.6,415.2];
+  const oi=[114.3,117.7,128.4];
+  const ni=[96.5,96.6,104.6];
+  const maxV=Math.max(...rev)*1.1;
+  const groupW=cW/cats.length;
+  const barW=groupW*0.26;
+  function py(v){ return pT+cH*(1-v/maxV); }
+  [0,0.25,0.5,0.75,1].forEach(f=>{
+    const y=py(maxV*f);
+    svg.appendChild(svgEl('line',{x1:pL,x2:W-pR,y1:y,y2:y,stroke:cssVar('--color-border-tertiary'),'stroke-width':1}));
+  });
+  const revCol='#8C97A5', oiCol='#0B2545', niCol='#A6811A';
+  const pts=[];
+  cats.forEach((cat,i)=>{
+    const gx=pL+i*groupW+groupW/2;
+    const rx=gx-barW-2, ox=gx+2;
+    const rTop=py(rev[i]), oTop=py(oi[i]);
+    svg.appendChild(svgEl('rect',{x:rx,y:rTop,width:barW,height:py(0)-rTop,fill:revCol,rx:2,opacity:0.55}));
+    svg.appendChild(svgEl('rect',{x:ox,y:oTop,width:barW,height:py(0)-oTop,fill:oiCol,rx:2}));
+    const t1=svgEl('text',{x:rx+barW/2,y:rTop-4,'text-anchor':'middle','font-size':9,fill:revCol});
+    t1.textContent='$'+rev[i].toFixed(0)+'B'; svg.appendChild(t1);
+    const t2=svgEl('text',{x:ox+barW/2,y:oTop-4,'text-anchor':'middle','font-size':9,fill:oiCol,'font-weight':600});
+    t2.textContent='$'+oi[i].toFixed(0)+'B'; svg.appendChild(t2);
+    const t3=svgEl('text',{x:gx,y:H-6,'text-anchor':'middle','font-size':10,fill:cssVar('--color-text-secondary')});
+    t3.textContent=cat; svg.appendChild(t3);
+    pts.push([gx, py(ni[i])]);
+  });
+  svg.appendChild(svgEl('polyline',{points:pts.map(p=>p.join(',')).join(' '),fill:'none',stroke:niCol,'stroke-width':2.5}));
+  pts.forEach((p,i)=>{
+    svg.appendChild(svgEl('circle',{cx:p[0],cy:p[1],r:4,fill:niCol}));
+    const t=svgEl('text',{x:p[0],y:p[1]-9,'text-anchor':'middle','font-size':9,fill:niCol,'font-weight':600});
+    t.textContent='$'+ni[i].toFixed(0)+'B'; svg.appendChild(t);
+  });
+  const legend=[[revCol,'매출액'],[oiCol,'영업이익'],[niCol,'순이익']];
+  legend.forEach((l,i)=>{
+    const lx=pL+i*90;
+    svg.appendChild(svgEl('rect',{x:lx,y:2,width:9,height:9,fill:l[0],rx:2}));
+    const t=svgEl('text',{x:lx+12,y:10,'font-size':9,fill:cssVar('--color-text-secondary')});
+    t.textContent=l[1]; svg.appendChild(t);
+  });
+}
+
+function drawQtrChart(){
+  const svg=document.getElementById('aaplQtrChart');
+  const W=680,H=190,pL=44,pR=20,pT=20,pB=30;
+  const cW=W-pL-pR,cH=H-pT-pB;
+  const labels=['매출액','영업이익','세전이익','순이익'];
+  const vals=[102.4,32.1,33.5,27.8];
+  const cols=['#8C97A5','#0B2545','#0B2545','#A6811A'];
+  const maxV=vals[0]*1.15;
+  const groupW=cW/labels.length;
+  const barW=groupW*0.5;
+  function py(v){ return pT+cH*(1-v/maxV); }
+  [0,25,50,75,100].forEach(v=>{
+    const val=v/100*maxV;
+    const y=py(val);
+    svg.appendChild(svgEl('line',{x1:pL,x2:W-pR,y1:y,y2:y,stroke:cssVar('--color-border-tertiary'),'stroke-width':1}));
+  });
+  labels.forEach((lab,i)=>{
+    const gx=pL+i*groupW+groupW/2;
+    const top=py(vals[i]);
+    svg.appendChild(svgEl('rect',{x:gx-barW/2,y:top,width:barW,height:py(0)-top,fill:cols[i],rx:3}));
+    const t1=svgEl('text',{x:gx,y:top-6,'text-anchor':'middle','font-size':10,fill:cssVar('--color-text-primary'),'font-weight':600});
+    t1.textContent='$'+vals[i].toFixed(1)+'B'; svg.appendChild(t1);
+    const t2=svgEl('text',{x:gx,y:H-8,'text-anchor':'middle','font-size':9,fill:cssVar('--color-text-secondary')});
+    t2.textContent=lab; svg.appendChild(t2);
+  });
+}
+drawAnnualChart();
+
+const data = genDummyOHLC('AAPL', 190, 252);
+renderCandleChart({svgId:'aaplSvg', controlsId:'aaplChartControls', data: data});
+</script>

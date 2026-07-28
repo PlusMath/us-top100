@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="../css/global.css">
+<script src="../js/chart-common.js"></script>
+
+<div style="padding:1rem 0;" class="box">
+
+<div class="dummy-banner">⚠ 더미(예시) 데이터 페이지입니다 — 아래 수치·차트는 전부 가상의 예시이며 Intuit Inc.의 실제 실적이 아닙니다. 실 데이터는 SEC EDGAR / Yahoo Finance 연동 후 교체됩니다.</div>
+
+<div style="margin-bottom:4px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+  <h2>Intuit Inc. (INTU)</h2>
+  <span class="badge b-se">US · 소프트웨어·클라우드</span>
+  <span class="src">📄 <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=INTU&type=10-K&dateb=&owner=include&count=40" target="_blank" rel="noopener">SEC EDGAR 10-K/10-Q 원문</a> + 📊 <a href="https://finance.yahoo.com/quote/INTU" target="_blank" rel="noopener">Yahoo Finance 시세</a></span>
+</div>
+<p class="sub">(예시) 최근 종가 $231 · 52주 최고 $272.58 · 52주 최저 $166.32 · 더미 순위 40위</p>
+
+<div class="g4">
+  <div class="met"><div class="ml">최근 종가</div><div class="mv">$231</div><div class="ms">(예시)</div></div>
+  <div class="met"><div class="ml">매출액 (연간, 예시)</div><div class="mv">$219B</div><div class="ms">(예시)</div></div>
+  <div class="met"><div class="ml">영업이익 (연간, 예시)</div><div class="mv up">$54.8B</div><div class="ms">(예시)</div></div>
+  <div class="met"><div class="ml">EPS (연간, 예시)</div><div class="mv up">$10.5</div><div class="ms">(예시)</div></div>
+</div>
+
+<div class="card">
+  <div class="sec">기술적 분석 — 일봉 (더미 데이터, 무작위 생성)</div>
+  <div id="cINTUControls" class="kc-controls"></div>
+  <svg id="cINTUSvg" viewBox="0 0 720 240" width="100%" style="display:block;background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:4px;"></svg>
+</div>
+
+<div class="card">
+  <div class="sec">상세 재무 분석 (준비 중)</div>
+  <div class="ib">이 종목의 상세 재무제표·밸류에이션·투자 포인트 분석은 SEC EDGAR(10-K/10-Q) 및 Yahoo Finance 실 데이터 연동 후 <strong>AAPL(001)·MSFT(002)</strong> 페이지와 동일한 상세 템플릿으로 확장될 예정입니다.</div>
+  <div style="margin-top:10px;font-size:11px;color:var(--color-text-tertiary);text-align:center;">⚠ 이 페이지의 모든 수치는 프레임 시연용 더미 데이터입니다 · 투자 권고가 아닙니다</div>
+</div>
+
+</div>
+
+<script>
+const data = genDummyOHLC('INTU', 210, 252);
+renderCandleChart({svgId:'cINTUSvg', controlsId:'cINTUControls', data: data});
+</script>
