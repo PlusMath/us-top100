@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>주식을말하다의 US Top 100 분석</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 
   <style>
     * {
@@ -12,7 +15,7 @@
 
     body {
       margin: 0;
-      font-family: Arial, 'Noto Sans KR', sans-serif;
+      font-family: 'Source Sans 3', 'Noto Sans KR', sans-serif;
       background-color: #F4F1EA;
       color: #16202B;
     }
@@ -36,7 +39,7 @@
 
     header h1 {
       margin: 0;
-      font-family: Georgia, 'Times New Roman', 'Noto Serif KR', serif;
+      font-family: 'Merriweather', 'Noto Serif KR', serif;
       font-size: 34px;
       font-weight: 700;
       letter-spacing: 0.01em;
@@ -70,7 +73,7 @@
 
     .section-title {
       margin: 0 0 16px;
-      font-family: Georgia, 'Times New Roman', 'Noto Serif KR', serif;
+      font-family: 'Merriweather', 'Noto Serif KR', serif;
       font-size: 25px;
       font-weight: 700;
       text-align: center;
@@ -165,7 +168,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-family: Georgia, 'Times New Roman', serif;
+      font-family: 'Merriweather', serif;
       font-size: 24px;
       font-weight: 700;
       color: rgba(244, 241, 234, 0.95);
@@ -190,7 +193,7 @@
 
     .stock-name {
       margin: 0;
-      font-family: Georgia, 'Times New Roman', 'Noto Serif KR', serif;
+      font-family: 'Merriweather', 'Noto Serif KR', serif;
       font-size: 17px;
       font-weight: 700;
       color: #0B2545;
@@ -220,7 +223,7 @@
 
     .industry-title {
       margin: 0;
-      font-family: Georgia, 'Times New Roman', 'Noto Serif KR', serif;
+      font-family: 'Merriweather', 'Noto Serif KR', serif;
       font-size: 21px;
       font-weight: 700;
       color: #0B2545;
@@ -272,20 +275,20 @@
 
 <body>
   <header>
-    <p class="eyebrow">Est. 2026 · Equity Research (Demo)</p>
+    <p class="eyebrow">Est. 2026 · Equity Research</p>
     <h1>주식을말하다의 US Top 100 분석 홈페이지</h1>
     <p>미국 Top 100 기업 분석 페이지 (SEC EDGAR + Yahoo Finance 실 데이터)</p>
   </header>
 
   <main class="page-wrap">
     <div class="top-dummy-banner">
-      ✅ 이 사이트는 <a href="https://github.com/PlusMath/kospi10000" target="_blank" rel="noopener" style="color:inherit;">kospi10000</a> 사이트 구조를 참고해 만들었으며, 전 종목의 가격·재무 수치는 SEC EDGAR(10-K/10-Q XBRL) + Yahoo Finance 실 데이터입니다. 순위는 실시간 시가총액 기준이 아닌 예시 목록이며, AAPL·MSFT를 제외한 서술(강세/약세 코멘트 등)은 실 수치 기반 규칙으로 자동 생성됩니다.
+      ✅ 이 사이트는 <a href="https://github.com/PlusMath/kospi10000" target="_blank" rel="noopener" style="color:inherit;">kospi10000</a> 사이트 구조를 참고해 만들었으며, 전 종목의 가격·재무 수치는 SEC EDGAR(10-K/10-Q XBRL) + Yahoo Finance 실 데이터입니다. AAPL·MSFT·NVDA·GOOGL·AMZN·META·AVGO·TSLA·BRKB·JPM 10개 종목은 사람이 직접 분석한 상세 서술을 포함하고, 나머지 종목은 동일한 실 수치를 규칙 기반 서술로 자동 정리했습니다.
     </div>
 
     <h2 class="section-title" id="mainTitle">US Top 100</h2>
 
     <p class="data-note">
-      기준: 순위는 예시 목록(실시간 시가총액 순위 아님)이며, 종목별 가격·재무 데이터는 SEC EDGAR 10-K/10-Q + Yahoo Finance 실 데이터입니다. AAPL·MSFT는 사람이 직접 분석한 상세 서술이 포함된 완전판이고, 나머지 종목은 동일한 실 데이터를 규칙 기반 서술로 자동 정리한 경량판입니다.
+      기준: 종목별 가격·재무 데이터는 SEC EDGAR 10-K/10-Q + Yahoo Finance 실 데이터입니다. 상위 10개 종목은 사람이 직접 분석한 상세 서술을 포함하고, 나머지 종목은 동일한 실 데이터를 규칙 기반 서술로 자동 정리했습니다.
     </p>
 
     <div class="view-toggle" aria-label="보기 방식 선택">
@@ -436,7 +439,7 @@
         <a href="${stock.page}">
           <div class="stock-logo" style="background-color:${tickerColor(stock.ticker)};">${stock.ticker}</div>
           <div class="stock-info">
-            <div class="stock-rank">US ${stock.rank}위 (예시 순위)</div>
+            <div class="stock-rank">US ${stock.rank}위</div>
             <h3 class="stock-name">${stock.name}</h3>
             <div class="stock-code">티커: ${stock.ticker}</div>
             <div class="stock-industry">업종: ${stock.industry}</div>
