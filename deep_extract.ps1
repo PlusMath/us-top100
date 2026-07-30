@@ -56,11 +56,11 @@ function Get-LatestInstant2($items, $formFilter) {
 }
 
 $tickers = @(
-  @{t='META'; f="$scratch\facts\META_facts.json"},
-  @{t='AVGO'; f="$scratch\facts\AVGO_facts.json"},
-  @{t='TSLA'; f="$scratch\facts\TSLA_facts.json"},
-  @{t='BRKB'; f="$scratch\facts\BRKB_facts.json"},
-  @{t='JPM'; f="$scratch\facts\JPM_facts.json"}
+  @{t='LLY'; f="$scratch\facts\LLY_facts.json"},
+  @{t='V'; f="$scratch\facts\V_facts.json"},
+  @{t='UNH'; f="$scratch\facts\UNH_facts.json"},
+  @{t='XOM'; f="$scratch\facts\XOM_facts.json"},
+  @{t='WMT'; f="$scratch\facts\WMT_facts.json"}
 )
 
 $ocfNames = @('NetCashProvidedByUsedInOperatingActivities','NetCashProvidedByUsedInOperatingActivitiesContinuingOperations')

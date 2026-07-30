@@ -103,7 +103,7 @@ $skippedList = @()
 foreach ($s in $stocks) {
   $t = $s.t
   # Hand-crafted flagship pages — never overwrite these with the generic template.
-  $flagshipTickers = @('AAPL','MSFT','NVDA','GOOGL','AMZN','META','AVGO','TSLA','BRKB','JPM')
+  $flagshipTickers = @('AAPL','MSFT','NVDA','GOOGL','AMZN','META','AVGO','TSLA','BRKB','JPM','LLY','V','UNH','XOM','WMT')
   if ($flagshipTickers -contains $t) { continue }
   $m = $metricsByTicker[$t]
   $chartPath = "$scratch\charts\$t`_chart.json"
